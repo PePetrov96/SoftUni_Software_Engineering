@@ -21,11 +21,6 @@ Modify the above program, so it will print "Failed!" if the grade is lower than 
 Every time John tries to pay his bills he sees on the cash desk the sign: "I will be back in 30 minutes". One day John was sick of waiting and decided he needs a program, which prints the time after 30 minutes. That way he won’t have to wait at the desk and come at the appropriate time. He gave the assignment to you, 
 so you have to do it.
 
-**Constraints**
-
-- The hours will be between 0 and 23.
-- The minutes will be between 0 and 59.
-
 
 
 ## Task 5. Month Printer
@@ -48,11 +43,6 @@ A theatre is doing a ticket sale, but they need a program to calculate the price
 <table style="border-collapse:collapse;border-spacing:0" class="tg"><thead><tr><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Day</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">&lt;= age &lt;=&nbsp;&nbsp;&nbsp;18</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">18 &lt; age&nbsp;&nbsp;&nbsp;&lt;= 64</th><th style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">64 &lt; age&nbsp;&nbsp;&nbsp;&lt;= 122</th></tr></thead><tbody><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Weekday</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">12$</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">18$</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">12$</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Weekend</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">15$</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">20$</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">15$</td></tr><tr><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">Holiday</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">5$</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">12$</td><td style="border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;text-align:center;vertical-align:middle;word-break:normal">10$</td></tr></tbody></table>
 
 
-**Constraints**
-- The age will be in the interval [-1000…1000].
-- The type of day will always be valid.
-
-
 
 ## Task 8. Divisible by 3
 
@@ -65,28 +55,16 @@ Write a program, which prints all the numbers from 1 to 100, which are divisible
 Write a program that prints the next n odd numbers (starting from 1) and on the last row prints the sum of them.
 
 
-**Constraints**
-- n will be in the interval [1…100]
-
-
 
 ## Task 10. Multiplication Table
 
 You will receive an integer as input from the console. Print the 10 times table for this integer. See the examples below for more information.
 
 
-**Constraints**
-- The integer will be in the interval [1…100]
-
-
 
 ## Task 11. Multiplication Table 2.0
 
 Rewrite your program so it can receive the multiplier from the console. Print the table from the given multiplier to 10. If the given multiplier is more than 10 - print only one row with the integer, the given multiplier, and the product. See the examples below for more information.
-
-
-**Constraints**
-- The integer will be in the interval [1…100]
 
 
 
