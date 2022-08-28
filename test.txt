@@ -1,2 +1,6 @@
 Creating with Bash
+<<<<<<< .mine
 Creating with Tortoise
+=======
+
+>>>>>>> .theirs
