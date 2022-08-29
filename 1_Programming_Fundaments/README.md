@@ -85,7 +85,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </tbody>
   <thead>
     <tr>
-      <th colspan="10" style="text-align:center;"><br>More Exercises</th>
+      <th colspan="10" style="text-align:center;">More Exercise</th>
     </tr>
   </thead>
   <tbody>
@@ -105,10 +105,9 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
 </table>
 <br/>
 
-
 ---
 
-## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab">02. Data Types and Variables</a>
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables">02. Data Types and Variables</a>
 
 <table>
   <thead>
