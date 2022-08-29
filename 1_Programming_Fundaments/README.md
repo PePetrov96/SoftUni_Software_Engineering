@@ -156,31 +156,31 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXX">Integer Operations</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_1_Integer_Operations.java">Integer Operations</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">Sum Digits</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_2_Sum_Digits.java">Sum Digits</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXX">Elevator</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_3_Elevator.java">Elevator</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXX">Sum of Chars</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_4_Sum_of_Chars.java">Sum of Chars</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Print Part Of ASCII Table</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_5_Print_Part_Of_ASCII_Table.java">Print Part Of ASCII Table</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a <td><a       <td><a href="XXX">Triples of Latin Letters</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_6_Triples_of_Latin_Letters.java">Triples of Latin Letters</a></td>
       <td><b>07.</b></td>
-      <td><a <td><a       <td><a href="XXX">Water Overflow</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_7_Water_Overflow.java">Water Overflow</a></td>
       <td><b>08.</b></td>
-      <td><a <td><a       <td><a href="XXX">Beer Kegs</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_8_Beer_Kegs.java">Beer Kegs</a></td>
       <td><b>09.</b></td>
-      <td><a <td><a       <td><a href="XXX">Spice Must Flow</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_9_Spice_Must_Flow.java">Spice Must Flow</a></td>
       <td><b>10.</b></td>
-      <td><a <td><a       <td><a href="XXX">Poke Mon</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_10_Poke_Mon.java">Poke Mon</a></td>
     </tr>
     <tr>
       <td><b>10.</b></td>
-      <td><a <td><a       <td><a href="XXX">Snowballs</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_11_Snowballs.java">Snowballs</a></td>
       <td colspan="6"></td>
     </tr>
   </tbody>
@@ -192,19 +192,19 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXX">Data Type Finder</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/3_More%20Exercise/Task_1_Data_Type_Finder.java">Data Type Finder</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">From Left to The Right</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/3_More%20Exercise/Task_2_From_Left_to_the_Right.java">From Left to The Right</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXX">Floating Equality</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/3_More%20Exercise/Task_3_Floating_Equality.java">Floating Equality</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXX">Refactoring: Prime Checker</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/3_More%20Exercise/Task_4_Refactoring_Prime_Checker.java">Refactoring: Prime Checker</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Decrypting Message</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/3_More%20Exercise/Task_5_Decrypting_Messages.java">Decrypting Message</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a <td><a       <td><a href="XXX">Balanced Brackets</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/3_More%20Exercise/Task_6_Balanced_Brackets.java">Balanced Brackets</a></td>
       <td colspan="6"></td>
     </tr>
   </tbody>
@@ -212,3 +212,78 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
 <br/>
 
 ---
+
+## <a href="XXX">03. Arrays</a>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Lab</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+    </tr>
+    <tr>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+    </tr>
+    <tr>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+    </tr>
+  </tbody>
+    <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">More Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+    </tr>
+    <tr>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Task</a></td>
+    </tr>
+  </tbody>
+</table>
+<br/>
