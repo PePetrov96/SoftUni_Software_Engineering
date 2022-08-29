@@ -50,10 +50,9 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </tbody>
   <thead>
     <tr>
-      <th colspan="10" style="text-align:center;"><br>Exercise</th>
+      <th colspan="10" style="text-align:center;">Exercise</th>
     </tr>
   </thead>
-  <tbody>
   <tbody>
     <tr>
       <td><b>01.</b></td>
@@ -120,33 +119,93 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_1_Convert_Meters_to_Kilometers.java">Convert Meters to Kilometers</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_2_Pounds_to_Dollars.java">Pounds to Dollars</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_3_Exact_Sum_of_Real_Numbers.java">Exact Sum of Real Numbers</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_4_Town_Info.java">Town Info</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_5_Concat_Names.java">Concat Names</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_6_Chars_to_String.java">Chars to String</a></td>
       <td><b>07.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_7_Reversed_Chars.java">Reversed Chars</a></td>
       <td><b>08.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_8_Lower_or_Upper.java">Lower or Upper</a></td>
       <td><b>09.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_9_Centuries_to_Minutes.java">Centuries to Minutes</a></td>
       <td><b>10.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_10_Special_Numbers.java">Special Numbers</a></td>
     </tr>
     <tr>
       <td><b>11.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_11_Refactor_Volume_of_Pyramid.java">Refactor Volume of Pyramid</a></td>
       <td><b>12.</b></td>
-      <td><a <td><a href="https://github.com/PePetrov96">Task</a></td>
+      <td><a <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/1_Lab/Task_12_Refactor_Special_Numbers.java">Refactor Special Numbers</a></td>
+      <td colspan="6"></td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="XXX">Integer Operations</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">Sum Digits</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="XXX">Elevator</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="XXX">Sum of Chars</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Print Part Of ASCII Table</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a <td><a       <td><a href="XXX">Triples of Latin Letters</a></td>
+      <td><b>07.</b></td>
+      <td><a <td><a       <td><a href="XXX">Water Overflow</a></td>
+      <td><b>08.</b></td>
+      <td><a <td><a       <td><a href="XXX">Beer Kegs</a></td>
+      <td><b>09.</b></td>
+      <td><a <td><a       <td><a href="XXX">Spice Must Flow</a></td>
+      <td><b>10.</b></td>
+      <td><a <td><a       <td><a href="XXX">Poke Mon</a></td>
+    </tr>
+    <tr>
+      <td><b>10.</b></td>
+      <td><a <td><a       <td><a href="XXX">Snowballs</a></td>
+      <td colspan="6"></td>
+    </tr>
+  </tbody>
+    <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">More Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="XXX">Data Type Finder</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXX">From Left to The Right</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="XXX">Floating Equality</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="XXX">Refactoring: Prime Checker</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXX">Decrypting Message</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a <td><a       <td><a href="XXX">Balanced Brackets</a></td>
       <td colspan="6"></td>
     </tr>
   </tbody>
