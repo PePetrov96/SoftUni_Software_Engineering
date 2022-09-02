@@ -223,20 +223,22 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/1_Lab/Task_1_Day_of_Week.java">Day of Week</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/1_Lab/Task_2_Print_Numbers_in_Reverse_Order.java">Pring Numbers in Reverse Order</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/1_Lab/Task_3_Sum_Even_Numbers.java">Sum Even Numbers</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/1_Lab/Task_4_Reverse_Array_of_Strings.java">Reverse Array of Strings</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/1_Lab/Task_5_Even_and_Odd_Subtraction.java">Even and Odd Subtraction</a></td>
     </tr>
     <tr>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/1_Lab/Task_6_Equal_Arrays.java">Equal Arrays</a></td>
+	  <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/1_Lab/Task_7_Condense_Array_to_Number.java">Condense Array to Number</a></td>
     </tr>
   </tbody>
   <thead>
@@ -246,20 +248,28 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_1_Train.java">Train</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_2_Common_Elements.java">Common Elements</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_3_Zig_Zag_Arrays.java">Zig Zag Arrays</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_4_Array_Rotation.java">Array Rotation</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_5_Top_Integers.java">Top Integers</a></td>
     </tr>
     <tr>
-      <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><b>06.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_6_Equal_Sums.java">Equal Sums</a></td>
+      <td><b>07.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_7_Max_Sequence_of_Equal_Elements.java">Max Sequence of Equal Elements</a></td>
+      <td><b>08.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_8_Magic_Sum.java">Magic Sum</a></td>
+      <td><b>09.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_9_Array_Modifier.java">Array Modifier</a></td>
+      <td><b>10.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/2_Exercise/Task_10_Treasure_Hunt.java">Treasure Hunt</a></td>
     </tr>
   </tbody>
     <thead>
@@ -270,19 +280,19 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_1_Encrypt_Sort_and_Print_Array.java">Encrypt Sort and Print Array</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_2_Pascal_Triangle.java">Pascal Triangle</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_3_Recursive_Fibonacci.java">Recursive Fibonacci</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_4_Longest_Increasing_Subsequence.java">Longest Increasing Subsequence</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_5_Kamino_Factory.java">Kamino Factory</a></td>
     </tr>
     <tr>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_6_LadyBugs.java">LadyBugs</a></td>
     </tr>
   </tbody>
 </table>
