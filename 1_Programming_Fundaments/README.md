@@ -213,7 +213,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
 
 ---
 
-## <a href="XXX">03. Arrays</a>
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/1_Programming_Fundaments/Homework/3_Arrays">03. Arrays</a>
 
 <table>
   <thead>
@@ -293,6 +293,103 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
     <tr>
       <td><b>05.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_6_LadyBugs.java">LadyBugs</a></td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+
+---
+
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/1_Programming_Fundaments/Homework/4_Methods">04. Methods</a>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Lab</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_1_Sign_of_Integer.java">Sign of Integer</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_2_Grades.java">Grades</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_3_Printing_Triangle.java">Printing Triangle</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_4_Calculations.java">Calculations</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_5_Orders.java">Orders</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_6_Calculate_Rectangle_Area.java">Calculate Rectangle Area</a></td>
+      <td><b>07.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_7_Repeat_String.java">Repeat String</a></td>
+      <td><b>08.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_8_Math_Power.java">Math Power</a></td>
+      <td><b>09.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_9_Greater_of_Two_Values.java">Greater of Two Values</a></td>
+      <td><b>10.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_10_Multiply_Evens_by_Odds.java">Multiply Evens by Odds</a></td>
+    </tr>
+	    <tr>
+      <td><b>11.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/1_Lab/Task_11_Math_operations.java">Math Operations</a></td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task1</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task2</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task3</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task4</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task5</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task6</a></td>
+      <td><b>07.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task7</a></td>
+      <td><b>08.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task8</a></td>
+      <td><b>09.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task9</a></td>
+      <td><b>10.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/2_Exercise/Task.java">Task10</a></td>
+    </tr>
+  </tbody>
+    <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">More Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task.java">Task</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task.java">Task</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task.java">Task</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task.java">Task</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task.java">Task</a></td>
+    </tr>
+    <tr>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task.java">Task</a></td>
     </tr>
   </tbody>
 </table>
