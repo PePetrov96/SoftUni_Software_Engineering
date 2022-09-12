@@ -55,8 +55,6 @@ Write a program that mixes up two lists by some rules. You will receive two line
 
 ## Task 5. Drum Set
 
-Gabsy is Orgolt's Final Revenge charming drummer. She has a drum set but the different drums have different origins – some she bought, some are gifts, so they are all of different quality. Every day she practices on each of them, so she does damage and reduces the drum's quality. Sometimes a drum breaks, so she needs to buy a new one. Help her keep her drum set organized.
-
 You will receive Gabsy's savings, the money she can spend on new drums. Next, you receive a sequence of integers which represent the initial quality of each drum in Gabsy's drum set.
 
 Until you receive the command **"Hit it again, Gabsy!"**, you will be receiving integer: the hit power Gabsy applies on each drum while practicing. When the power is applied you should decrease the value of the drum's quality with the current power.
