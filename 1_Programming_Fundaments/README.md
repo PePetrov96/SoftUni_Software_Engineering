@@ -179,7 +179,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_10_Poke_Mon.java">Poke Mon</a></td>
     </tr>
     <tr>
-      <td><b>10.</b></td>
+      <td><b>11.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/2_Data%20Types%20and%20Variables/2_Exercise/Task_11_Snowballs.java">Snowballs</a></td>
       <td colspan="6"></td>
     </tr>

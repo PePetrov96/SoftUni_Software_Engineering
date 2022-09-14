@@ -1,68 +1,70 @@
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 public class Task_10_Treasure_Hunt {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String[] loot = scan.nextLine().split("\\|");
-        String input = scan.nextLine();
+        Scanner scanner = new Scanner(System.in);
 
-        while (!input.equals("Yohoho!")) {
-            String []commandLine = input.split(" ");
-            String commands = commandLine[0];
-            switch (commands) {
+        List<String> initialLoot = Arrays.stream(scanner.nextLine().split("\\|")).collect(Collectors.toList());
+
+        String line = scanner.nextLine();
+
+        while (!"Yohoho!".equals(line)) {
+            List<String> treasure = Arrays.stream(line.split("\\s+")).collect(Collectors.toList());
+            String command = treasure.get(0);
+
+            switch (command) {
                 case "Loot":
-                    String addResource = "";
-                    for (int i = 1; i < commandLine.length; i++) {
-                        boolean isUnique = true;
-                        for (String s : loot) {
-                            if (commandLine[i].equals(s)) {
-                                isUnique = false;
-                            }
-                        }
-                        if (isUnique) {
-                            addResource += commandLine[i] + " ";
+                    for (int i = 1; i < treasure.size(); i++) {
+                        if (!initialLoot.contains(treasure.get(i))) {
+                            initialLoot.add(0, treasure.get(i));
                         }
                     }
-                    String[] add = addResource.split(" ");
-                    loot = Stream.concat(Arrays.stream(add), Arrays.stream(loot)).toArray(String[] :: new);
+
                     break;
                 case "Drop":
-                    int Index = Integer.parseInt(commandLine[1]);
-                    if (Index >= 0 && Index < loot.length) {
-                        for (int i = Index; i < loot.length; i++) {
-                            loot[i] = loot[i + 1];
-                        }
-                        loot[loot.length - 1] = loot[Index];
+                    int index = Integer.parseInt(treasure.get(1));
+
+                    if (index >= 0 && index < initialLoot.size()) {
+                        String item = initialLoot.get(index);
+                        initialLoot.remove(index);
+                        initialLoot.add(item);
                     }
+
                     break;
                 case "Steal":
-                    String[] removeResource = new String[loot.length - 1];
-                    String removing = "";
-                    int remove = Integer.parseInt(commandLine[1]);
-                    if (loot.length < remove) {
-                        remove = loot.length;
+                    int count = Integer.parseInt(treasure.get(1));
+
+                    if (count > initialLoot.size()) {
+                        count = initialLoot.size();
                     }
-                    for (int i = loot.length - 1; i > loot.length - remove; i--) {
-                        removing = loot[i] + " " + removing;
-                    }
-                    System.out.println(String.format(removing).replaceAll("[\\[|\\]]", ""));
-                    loot = removeResource;
+
+                    List<String> subList = initialLoot.subList(initialLoot.size() - count, initialLoot.size());
+
+                    System.out.println(String.join(", ", subList));
+
+                    initialLoot = initialLoot.subList(0, initialLoot.size() - count);
+
                     break;
             }
-            input = scan.nextLine();
+
+            line = scanner.nextLine();
         }
-        double sum = 0;
-        for (String s : loot) {
-            double size = s.length();
-            sum += size;
-        }
-        sum /= loot.length;
-        if (loot.equals(null)) {
-            System.out.println("Failed treasure hunt.");
+
+        if (!initialLoot.isEmpty()) {
+            int sumLengthItem = 0;
+
+            for (String currentItem : initialLoot) {
+                sumLengthItem += currentItem.length();
+            }
+
+            double averageGain = sumLengthItem * 1.0 / initialLoot.size();
+
+            System.out.printf("Average treasure gain: %.2f pirate credits.%n", averageGain);
         } else {
-            System.out.printf("\nAverage treasure gain: %.2f pirate credits.", sum);
+            System.out.println("Failed treasure hunt.");
         }
     }
 }
