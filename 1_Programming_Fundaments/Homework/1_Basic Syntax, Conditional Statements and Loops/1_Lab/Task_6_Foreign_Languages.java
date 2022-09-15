@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Task_6_Foreign_Languages {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String country = scan.nextLine();
-        switch (country) {
+        switch (scan.nextLine()) {
             case "England":
             case "USA":
                 System.out.println("English");
