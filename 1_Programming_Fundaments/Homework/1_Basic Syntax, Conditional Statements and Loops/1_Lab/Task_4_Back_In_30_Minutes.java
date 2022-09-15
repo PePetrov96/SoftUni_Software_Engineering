@@ -6,7 +6,7 @@ public class Task_4_Back_In_30_Minutes {
         int totalMinutes = (scan.nextInt() * 60) + scan.nextInt() + 30;
 
         if ((totalMinutes / 60) == 24) {
-            System.out.printf("%d:%02d", 0, (totalMinutes % 60));
+            System.out.printf("0:%02d", (totalMinutes % 60));
         } else {
             System.out.printf("%d:%02d", (totalMinutes / 60), (totalMinutes % 60));
         }
