@@ -291,7 +291,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_5_Kamino_Factory.java">Kamino Factory</a></td>
     </tr>
     <tr>
-      <td><b>05.</b></td>
+      <td><b>06.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_6_LadyBugs.java">LadyBugs</a></td>
     </tr>
   </tbody>
@@ -388,7 +388,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task_5_Multiplication_Sign.java">Multiplication Sign</a></td>
     </tr>
     <tr>
-      <td><b>05.</b></td>
+      <td><b>06.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task_6_Array_Manipulator.java">Array Manipulator</a></td>
     </tr>
   </tbody>
@@ -621,7 +621,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
       <td><a <td><a       <td><a href="XXXX">Task</a></td>
     </tr>
     <tr>
-      <td><b>05.</b></td>
+      <td><b>06.</b></td>
       <td><a <td><a       <td><a href="XXXX">Task</a></td>
     </tr>
   </tbody>
