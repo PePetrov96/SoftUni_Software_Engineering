@@ -514,27 +514,19 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/1_Lab/Task_1_Randomize_Words.java">Randomize Words</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/1_Lab/Task_2_Sum_Big_Numbers.java">Sum Big Numbers</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/1_Lab/Task_3_Big_Factorial.java">Big Factorial</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/1_Lab/Task_4_Song.java">Song</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/1_Lab/Task_5_Students.java">Students</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>07.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>08.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>09.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>10.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/1_Lab/Task_6_Students_2.java">Students 2.0</a></td>
     </tr>
   </tbody>
     <thead>
@@ -545,19 +537,13 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/3_More%20Exercise/Task_1_Company_Roster.java">Company Roster</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/3_More%20Exercise/Task_2_Raw_Data.java">Raw Data</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/3_More%20Exercise/Task_3_Car_Salesman.java">Car Salesman</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-    </tr>
-    <tr>
-      <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/3_More%20Exercise/Task_4_Teamwork_Projects.java">Teamwork Projects</a></td>
     </tr>
   </tbody>
 </table>
@@ -565,7 +551,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
 
 ---
 
-## <a href="">00. Name</a>
+## <a href="">07. Associative Arrays, Lambda and Stream API</a>
 
 <table>
   <thead>
@@ -576,31 +562,13 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="Count Real Numbers">Task</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="Word Synonyms">Task</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="Odd Occurrences">Task</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-    </tr>
-    <tr>
-      <td><b>06.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>07.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>08.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>09.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>10.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-    </tr>
-	    <tr>
-      <td><b>11.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="Word Filter">Task</a></td>
     </tr>
   </tbody>
   <thead>
