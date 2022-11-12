@@ -562,13 +562,163 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="Count Real Numbers">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/1_Lab/Task_1_Count_Real_Numbers.java">Count Real Numbers</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="Word Synonyms">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/1_Lab/Task_2_Word_Synonyms.java">Word Synonyms</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="Odd Occurrences">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/1_Lab/Task_3_Odd_Occurrences.java">Odd Occurrences</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="Word Filter">Task</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/1_Lab/Task_4_Word_Filter.java">Word Filter</a></td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_1_Count_Chars_in_a_String.java">Count Chars in a String</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_2_A_Miner_Task.java">A Miner Task</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_3_Orders.java">Orders</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_4_SoftUni_Parking.java">SoftUni Parking</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_5_Courses.java">Courses</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_6_Student_Academy.java">Student Academy</a></td>
+      <td><b>07.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_7_Legendary_Farming.java">Legendary Farming</a></td>
+      <td><b>08.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_8_Company_Users.java">Company Users</a></td>
+      <td><b>09.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_9_ForceBook.java">ForceBook</a></td>
+      <td><b>10.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/2_Exercise/Task_10_SoftUni_Exam_Results.java">SoftUni Exam Results</a></td>
+    </tr>
+  </tbody>
+    <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">More Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/3_More%20Exercise/Task_1_Ranking.java">Ranking</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/3_More%20Exercise/Task_2_Judge.java">Judge</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/3_More%20Exercise/Task_3_MOBA_Challenger.java">MOBA Challenger</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/3_More%20Exercise/Task_4_Snowwhite.java">Snowwhite</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/3_More%20Exercise/Task_5_Dragon_Army.java">Dragon Army</a></td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+
+---
+
+## <a href="">08. Text Processing</a>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Lab</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_1_Reverse_Strings.java">Reverse Strings</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_2_Repeat_Strings.java">Repeat Strings</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_3_Substring.java">Substring</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_4_Text_Filter.java">Text Filter</a></td>
+	  <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_5_Digits_Letters_and_Other.java">Digits Letters and Other</a></td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_1_Valid_Usernames.java">Valid Usernames</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_2_Character_Multiplier.java">Character Multiplier</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_3_Extract_File.java">Extract File</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_4_Caesar_Cipher.java">Caesar Cipher</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_5_Multiply_Big_Number.java">Multiply Big Number</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_6_Replace_Repeating_Chars.java">Replace Repeating Chars</a></td>
+      <td><b>07.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_7_String_Explosion.java">TasString Explosionk</a></td>
+      <td><b>08.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_8_Letters_Change_Numbers.java">Letters Change Numbers</a></td>
+    </tr>
+  </tbody>
+    <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">More Exercise</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_1_Extract_Person_Information.java">Extract_Person_Information</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_2_ASCII_Sumator.java">ASCII Sumator</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_3_Treasure_Finder.java">Treasure Finder</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_4_Morse_Code_Translator.java">Morse Code Translator</a></td>
+      <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_5_HTML.java">HTML</a></td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+
+---
+
+## <a href="">09. Regular Expressions</a>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Lab</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
+      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><b>02.</b></td>
+      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><b>03.</b></td>
+      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><b>04.</b></td>
+      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+	  <td><b>05.</b></td>
+      <td><a <td><a       <td><a href="XXXX">Task</a></td>
     </tr>
   </tbody>
   <thead>
@@ -598,8 +748,6 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
       <td><a <td><a       <td><a href="XXXX">Task</a></td>
       <td><b>09.</b></td>
       <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>10.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
     </tr>
   </tbody>
     <thead>
@@ -618,10 +766,6 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
       <td><b>04.</b></td>
       <td><a <td><a       <td><a href="XXXX">Task</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-    </tr>
-    <tr>
-      <td><b>06.</b></td>
       <td><a <td><a       <td><a href="XXXX">Task</a></td>
     </tr>
   </tbody>
