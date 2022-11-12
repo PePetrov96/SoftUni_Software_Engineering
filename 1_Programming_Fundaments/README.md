@@ -710,15 +710,11 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Match Full Name</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Match Phone Number</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Match Dates</a></td>
     </tr>
   </tbody>
   <thead>
@@ -729,25 +725,19 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Furniture</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Race</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">SoftUni Bar Income</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Star Enigma</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Nether Realms</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>07.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>08.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>09.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Extract Emails</a></td>
     </tr>
   </tbody>
     <thead>
@@ -758,15 +748,13 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Winning Ticket</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Rage Quit</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Post Office</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
-      <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Task</a></td>
+      <td><a <td><a       <td><a href="XXXX">Santa's Secret Helper</a></td>
     </tr>
   </tbody>
 </table>
