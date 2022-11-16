@@ -710,11 +710,11 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Match Full Name</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/1_Lab/Task_1_Match_Full_Name.java">Match Full Name</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Match Phone Number</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/1_Lab/Task_2_Match_Phone_Number.java">Match Phone Number</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Match Dates</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/1_Lab/Task_3_Match_Dates.java">Match Dates</a></td>
     </tr>
   </tbody>
   <thead>
@@ -725,19 +725,19 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Furniture</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/2_Exercise/Task_1_Furniture.java">Furniture</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Race</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/2_Exercise/Task_2_Race.java">Race</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">SoftUni Bar Income</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/2_Exercise/Task_3_SoftUni_Bar_Income.java">SoftUni Bar Income</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Star Enigma</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/2_Exercise/Task_4_Star_Enigma.java">Star Enigma</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Nether Realms</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/2_Exercise/Task_5_Nether_Realms.java">Nether Realms</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Extract Emails</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/2_Exercise/Task_6_Extract_Emails.java">Extract Emails</a></td>
     </tr>
   </tbody>
     <thead>
