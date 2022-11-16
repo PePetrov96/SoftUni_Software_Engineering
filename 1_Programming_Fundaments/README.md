@@ -279,7 +279,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>02.</b></td>
+      <td><b>01.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_1_Encrypt_Sort_and_Print_Array.java">Encrypt Sort and Print Array</a></td>
       <td><b>02.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/3_Arrays/3_More%20Exercise/Task_2_Pascal_Triangle.java">Pascal Triangle</a></td>
@@ -376,7 +376,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>02.</b></td>
+      <td><b>01.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task_1_Data_Types.java">Data Types</a></td>
       <td><b>02.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/4_Methods/3_More%20Exercise/Task_2_Center_Point.java">Center Point</a></td>
@@ -463,7 +463,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>02.</b></td>
+      <td><b>01.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/5_Lists/3_More%20Exercise/Task_1_Messaging.java">Messaging</a></td>
       <td><b>02.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/5_Lists/3_More%20Exercise/Task_2_Car_Race.java">Car Race</a></td>
@@ -536,7 +536,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>02.</b></td>
+      <td><b>01.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/3_More%20Exercise/Task_1_Company_Roster.java">Company Roster</a></td>
       <td><b>02.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/6_Objects%20and%20Classes/3_More%20Exercise/Task_2_Raw_Data.java">Raw Data</a></td>
@@ -609,7 +609,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>02.</b></td>
+      <td><b>01.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/3_More%20Exercise/Task_1_Ranking.java">Ranking</a></td>
       <td><b>02.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/7_Associative%20Arrays%2C%20Lambda%20and%20Stream%20API/3_More%20Exercise/Task_2_Judge.java">Judge</a></td>
@@ -682,7 +682,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>02.</b></td>
+      <td><b>01.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_1_Extract_Person_Information.java">Extract_Person_Information</a></td>
       <td><b>02.</b></td>
       <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_2_ASCII_Sumator.java">ASCII Sumator</a></td>
@@ -747,7 +747,7 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>02.</b></td>
+      <td><b>01.</b></td>
       <td><a <td><a       <td><a href="XXXX">Winning Ticket</a></td>
       <td><b>02.</b></td>
       <td><a <td><a       <td><a href="XXXX">Rage Quit</a></td>
