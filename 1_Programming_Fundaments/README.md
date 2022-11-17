@@ -748,13 +748,13 @@ Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Winning Ticket</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/3_More%20Exercise/Task_1_Winning_Ticket.java">Winning Ticket</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Rage Quit</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/3_More%20Exercise/Task_2_Rage_Quit.java">Rage Quit</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Post Office</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/3_More%20Exercise/Task_3_Post_Office.java">Post Office</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="XXXX">Santa's Secret Helper</a></td>
+      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/9_Regular%20Expressions/3_More%20Exercise/Task_4_Santas_Secret_Helper.java">Santa's Secret Helper</a></td>
     </tr>
   </tbody>
 </table>
