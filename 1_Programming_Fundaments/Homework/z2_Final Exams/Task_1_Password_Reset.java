@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task_1_Password_Reset {
+public class mine {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String password = scan.nextLine();
@@ -9,16 +9,9 @@ public class Task_1_Password_Reset {
         while (!"Done".equals(input = scan.nextLine())) {
             String[] tokens = input.split("\\s+");
             switch (tokens[0]) {
-                case "TakeOdd":
-                    password = TakeOdd(password);
-                    System.out.println(password);
-                    break;
-                case "Cut":
-                    password = Cut(password, tokens[1], tokens[2]);
-                    break;
-                case "Substitute":
-                    password = Substitute(password, tokens[1], tokens[2]);
-                    break;
+                case "TakeOdd": password = TakeOdd(password); break;
+                case "Cut": password = Cut(password, tokens[1], tokens[2]); break;
+                case "Substitute": password = Substitute(password, tokens[1], tokens[2]); break;
             }
         }
         System.out.println("Your password is: " + password);
@@ -30,6 +23,7 @@ public class Task_1_Password_Reset {
                 result.append(text.charAt(i));
             }
         }
+        System.out.println(result);
         return result.toString();
     }
     private static String Cut (String password, String indexStr, String lengthStr) {
@@ -43,10 +37,9 @@ public class Task_1_Password_Reset {
         if (password.contains(substring)) {
             password = password.replaceAll(substring, substitute);
             System.out.println(password);
-            return password;
         } else {
             System.out.println("Nothing to replace!");
-            return password;
         }
+        return password;
     }
 }
