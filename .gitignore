@@ -7,6 +7,9 @@
 # BlueJ files
 *.ctxt
 
+# Portable Network Graphics
+*.png
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
