@@ -6,39 +6,37 @@ import java.util.regex.Pattern;
 public class Task_2_Emoji_Detector {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
         printResult(scan.nextLine());
     }
-    private static void printResult (String text) {
-        Map<String, Integer> emojis = new LinkedHashMap<>();
-        updateEntry(text, emojis);
-        BigInteger threshold = getThreshold(text);
+    private static void printResult (String input) {
+        Map<String, Integer> emojis = emojis(input);
+        BigInteger threshold = coolThreshold(input);
+
         System.out.println("Cool threshold: " + threshold);
         System.out.println(emojis.keySet().size() + " emojis found in the text. The cool ones are:");
-        emojis.forEach((key1, value) -> {
+
+        emojis.forEach((key, value) -> {
             if (threshold.compareTo(BigInteger.valueOf(value)) < 0) {
-                System.out.println(key1);
+                System.out.println(key);
             }
         });
     }
-    private static void updateEntry (String text, Map<String, Integer> emojis) {
-        Pattern words = Pattern.compile("(:{2}|[*]{2})[A-Z][a-z]{2,}\\1");
-        Pattern ascii = Pattern.compile("[A-Z][a-z]{2,}");
-        Matcher m = words.matcher(text);
+    private static Map<String, Integer> emojis (String input) {
+        Map<String, Integer> result = new LinkedHashMap<>();
+            Pattern p = Pattern.compile("(:{2}|\\*{2})(?<emoji>[A-Z][a-z]{2,})\\1");
+        Matcher m = p.matcher(input);
 
-        while (m.find()){
+        while (m.find()) {
             int sum = 0;
-            Matcher ma = ascii.matcher(m.group());
-            while (ma.find()) {
-                for (int i = 0; i < ma.group().length(); i++) {
-                    sum += ma.group().charAt(i);
-                }
+            for (int i = 0; i < m.group("emoji").length(); i++) {
+                sum += m.group("emoji").charAt(i);
             }
-            emojis.put(m.group(), sum);
+            result.put(m.group(), sum);
         }
-    }
 
-    private static BigInteger getThreshold (String text) {
+        return result;
+    }
+    private static BigInteger coolThreshold (String text) {
         BigInteger result = new BigInteger("1");
         Pattern p = Pattern.compile("[0-9]");
         Matcher m = p.matcher(text);

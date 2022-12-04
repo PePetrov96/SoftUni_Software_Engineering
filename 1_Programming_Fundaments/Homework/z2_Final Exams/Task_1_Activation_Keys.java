@@ -7,30 +7,31 @@ public class Task_1_Activation_Keys {
         String input;
 
         while (!"Generate".equals(input = scan.nextLine())) {
-            String[] tokens = input.split(">>>");
-
-            switch (tokens[0]) {
+            String[] command = input.split(">>>");
+            switch (command[0]) {
+                case "Slice":
+                    activationKey = activationKey.substring(0, Integer.parseInt(command[1]))
+                            .concat(activationKey.substring(Integer.parseInt(command[2])));
+                    System.out.println(activationKey);
+                    break;
+                case "Flip":
+                    if (command[1].equals("Upper")) {
+                        activationKey = activationKey.substring(0,Integer.parseInt(command[2]))
+                                .concat(activationKey.substring(Integer.parseInt(command[2]),Integer.parseInt(command[3])).toUpperCase())
+                                .concat(activationKey.substring(Integer.parseInt(command[3])));
+                    } else {
+                        activationKey = activationKey.substring(0,Integer.parseInt(command[2]))
+                                .concat(activationKey.substring(Integer.parseInt(command[2]),Integer.parseInt(command[3])).toLowerCase())
+                                .concat(activationKey.substring(Integer.parseInt(command[3])));
+                    }
+                    System.out.println(activationKey);
+                    break;
                 case "Contains":
-                    if (activationKey.contains(tokens[1])) {
-                        System.out.println(activationKey + " contains " + tokens[1]);
+                    if (activationKey.contains(command[1])) {
+                        System.out.println(activationKey + " contains " + command[1]);
                     } else {
                         System.out.println("Substring not found!");
                     }
-                    break;
-                case "Flip":
-                    int start = Integer.parseInt(tokens[2]);
-                    int end = Integer.parseInt(tokens[3]);
-                    if (tokens[1].equals("Upper")) {
-                        activationKey = activationKey.substring(0, start) + activationKey.substring(start, end).toUpperCase() + activationKey.substring(end);
-                    } else if (tokens[1].equals("Lower")) {
-                        activationKey = activationKey.substring(0, start) + activationKey.substring(start, end).toLowerCase() + activationKey.substring(end);
-                    }
-                    System.out.println(activationKey);
-                    break;
-                case "Slice":
-                    activationKey = activationKey.substring(0, Integer.parseInt(tokens[1])) +
-                            activationKey.substring(Integer.parseInt(tokens[2]));
-                    System.out.println(activationKey);
                     break;
             }
         }

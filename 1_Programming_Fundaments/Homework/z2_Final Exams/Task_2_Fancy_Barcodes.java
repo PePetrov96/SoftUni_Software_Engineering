@@ -8,34 +8,32 @@ public class Task_2_Fancy_Barcodes {
         int n = Integer.parseInt(scan.nextLine());
 
         for (int i = 0; i < n; i++) {
-            String input = scan.nextLine();
-
-            if (isValid(input)) {
-                returnProduct(input);
-            } else {
-                System.out.println("Invalid barcode");
-            }
+            result(scan.nextLine());
         }
     }
-    public static boolean isValid (String input) {
-        Pattern p = Pattern.compile("^@#+([A-Z][a-zA-Z0-9]{4,}[A-Z])@#+$");
+    private static void result (String input) {
+        Pattern p = Pattern.compile("(^@#{1,})(?<product>[A-Z][a-zA-Z0-9]{4,}[A-Z])(@#{1,})$");
         Matcher m = p.matcher(input);
-        return m.matches();
-    }
-    public static void returnProduct (String input) {
-        StringBuilder result = new StringBuilder();
 
-        Pattern p = Pattern.compile("\\d+");
-        Matcher m = p.matcher(input);
+        if (m.matches()) {
+            productCode(m.group("product"));
+        } else {
+            System.out.println("Invalid barcode");
+        }
+    }
+    private static void productCode (String product) {
+        StringBuilder result = new StringBuilder();
+        Pattern p = Pattern.compile("[0-9]");
+        Matcher m = p.matcher(product);
 
         while (m.find()) {
             result.append(m.group());
         }
 
         if (result.toString().isEmpty()) {
-            result.append("00");
+            System.out.println("Product group: 00");
+        } else {
+            System.out.println("Product group: " + result);
         }
-
-        System.out.println("Product group: " + result);
     }
 }

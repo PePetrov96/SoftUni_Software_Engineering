@@ -1,29 +1,27 @@
 import java.util.Scanner;
-import java.util.regex.Pattern;
 
 public class Task_1_The_Imitation_Game {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String encryptedMessage = scan.nextLine();
-
+        String codedMessage = scan.nextLine();
         String input;
 
         while (!"Decode".equals(input = scan.nextLine())) {
-            String[] tokens = input.split("\\|");
-            switch (tokens[0]) {
+            String[] token = input.split("\\|");
+            switch (token[0]) {
                 case "Move":
-                    int n = Integer.parseInt(tokens[1]);
-                    encryptedMessage = encryptedMessage.substring(n).concat(encryptedMessage.substring(0, n));
+                    codedMessage = codedMessage.substring(Integer.parseInt(token[1]))
+                            .concat(codedMessage.substring(0, Integer.parseInt(token[1])));
                     break;
                 case "Insert":
-                    int index = Integer.parseInt(tokens[1]);
-                    encryptedMessage = encryptedMessage.substring(0,index).concat(tokens[2]).concat(encryptedMessage.substring(index));
+                    codedMessage = codedMessage.substring(0, Integer.parseInt(token[1]))
+                            .concat(token[2]).concat(codedMessage.substring(Integer.parseInt(token[1])));
                     break;
                 case "ChangeAll":
-                    encryptedMessage = encryptedMessage.replaceAll(Pattern.quote(tokens[1]), tokens[2]);
+                    codedMessage = codedMessage.replace(token[1], token[2]);
                     break;
             }
         }
-        System.out.println("The decrypted message is: " + encryptedMessage);
+        System.out.println("The decrypted message is: " + codedMessage);
     }
 }

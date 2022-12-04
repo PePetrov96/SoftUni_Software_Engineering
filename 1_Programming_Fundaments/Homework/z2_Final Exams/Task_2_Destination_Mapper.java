@@ -8,19 +8,18 @@ public class Task_2_Destination_Mapper {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
+        List<String> destinations = new ArrayList<>();
+        int score = 0;
 
-        Pattern p = Pattern.compile("([=|/])(?<location>[A-Z][A-Za-z]{2,})\\1");
+        Pattern p = Pattern.compile("([=/])(?<place>[A-Z][a-zA-Z]{2,})\\1");
         Matcher m = p.matcher(input);
 
-        List<String> locations = new ArrayList<>();
-        int sum = 0;
-
         while (m.find()) {
-            locations.add(m.group("location"));
-            sum += m.group("location").length();
+            destinations.add(m.group("place"));
+            score += m.group("place").length();
         }
 
-        System.out.println("Destinations: " + locations.toString().replaceAll("[\\[\\]]", ""));
-        System.out.println("Travel Points: " + sum);
+        System.out.println("Destinations: " + destinations.toString().replaceAll("[\\[\\]]", ""));
+        System.out.println("Travel Points: " + score);
     }
 }
