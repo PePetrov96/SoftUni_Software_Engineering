@@ -1,7 +1,7 @@
 # Programming Fundamentals with Java
 Judge Contest can be found here: <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/145/Java-Fundamentals">Java Fundamentals</a>
 
-Certificate can be found here: <a href="">Java Fundamentals Certificate</a>
+Certificate can be found here: <a href="https://softuni.bg/certificates/details/148520/dda11e35">Java Fundamentals Certificate</a>
 
 <br/>
 
