@@ -109,33 +109,33 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Fill the Matrix</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_1_Fill_the_Matrix.java">Fill the Matrix</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Matrix of Palindromes</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_2_Matrix_of_Palindromes.java">Matrix of Palindromes</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Diagonal Difference</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_3_Diagonal_Difference.java">Diagonal Difference</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Maximal Sum</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_4_Maximal_Sum.java">Maximal Sum</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Matrix shuffling</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_5_Matrix_shuffling.java">Matrix shuffling</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">String Matrix Rotation</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_6_String_Matrix_Rotation.java">String Matrix Rotation</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Crossfire</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_7_Crossfire.java">Crossfire</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">The Heigan Dance</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_8_The_Heigan_Dance.java">The Heigan Dance</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">Parking System</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_9_Parking_System.java">Parking System</a></td>
       <td><b>10.</b></td>
-      <td><a href="XXXX">Radioactive Mutant Vampire Bunnies</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_10_Radioactive_Mutant_Vampire_Bunnies.java">Radioactive Mutant Vampire Bunnies</a></td>
     </tr>
     <tr>
       <td><b>11.</b></td>
-      <td><a href="XXXX">Reverse Matrix Diagonals</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_11_Reverse_Matrix_Diagonals.java">Reverse Matrix Diagonals</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXX">The Matrix</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/2_Multidimensional%20Array/2_Exercise/Task_12_The_Matrix.java">The Matrix</a></td>
     </tr>
   </tbody>
 </table>
@@ -153,39 +153,25 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_1_Parking_Lot.java">Parking Lot</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_2_SoftUni_Party.java">SoftUni Party</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_3_Voina_Number_game.java">Voina - Number game</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_4_Count_Real_Numbers.java">Count Real Numbers</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_5_Average_Students_Grades.java">Average Students Grades</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_6_Product_Shop.java">Product Shop</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_7_Cities_by_Continent_and_Country.java">Cities by Continent and Country</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_8_Academy_Graduation.java">Academy Graduation</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/1_Lab/Task_9_Largest_3_Numbers.java">Largest 3 Numbers</a></td>
     </tr>
   </tbody>
   <thead>
