@@ -182,35 +182,35 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Unique Usernames</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_1_Unique_Usernames.java">Unique Usernames</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Sets of Elements</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_2_Sets_of_Elements.java">Sets of Elements</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Periodic Table</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_3_Periodic_Table.java">Periodic Table</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Count Symbols</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_4_Count_Symbols.java">Count Symbols</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Phonebook</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_5_Phonebook.java">Phonebook</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Fix Emails</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_6_Fix_Emails.java">Fix Emails</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Hands Of Cards</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_7_Hands_Of_Cards.java">Hands Of Cards</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">User Logs</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_8_User_Logs.java">User Logs</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">Population Counter</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_9_Population_Counter.java">Population Counter</a></td>
       <td><b>10.</b></td>
-      <td><a href="XXXX">Logs Aggregator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_10_Logs_Aggregator.java">Logs Aggregator</a></td>
     </tr>
     <tr>
       <td><b>11.</b></td>
-      <td><a href="XXXX">Legendary Farming</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_11_Legendary_Farming.java">Legendary Farming</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXX">Сръбско Unleashed</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_12_Srabsko_Unleashed.java">Сръбско Unleashed</a></td>
 	  <td><b>13.</b></td>
-      <td><a href="XXXX">Dragon Army</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced/2_Exercise/Task_13_Dragon_Army.java">Dragon Army</a></td>
     </tr>
   </tbody>
 </table>
@@ -228,23 +228,23 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Read File</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_1_Read_File.java">Read File</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Write to File</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_2_Write_to_File.java">Write to File</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Copy Bytes</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_3_Copy_Bytes.java">Copy Bytes</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Extract Integers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_4_Extract_Integers.java">Extract Integers</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Write Every Third Line</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_5_Write_Every_Third_Line.java">Write Every Third Line</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Sort Lines</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_6_Sort_Lines.java">Sort Lines</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">List Files</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_7_List_Files.java">List Files</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">Nested Folders</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/1_Lab/Task_8_Nested_Folders.java">Nested Folders</a></td>
     </tr>
   </tbody>
   <thead>
@@ -255,23 +255,23 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Sum Lines</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_1_Sum_Lines.java">Sum Lines</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Sum Bytes</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_2_Sum_Bytes.java">Sum Bytes</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">ALL CAPITALS!</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_3_ALL_CAPITALS.java">ALL CAPITALS!</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Count Character Types</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_4_Count_Character_Types.java">Count Character Types</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Line Numbers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_5_Line_Numbers.java">Line Numbers</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Word Count</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_6_Word_Count.java">Word Count</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Merge Two Files</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_7_Merge_Two_Files.java">Merge Two Files</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">Get Folder Size</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories/2_Exercise/Task_8_Get_Folder_Size.java">Get Folder Size</a></td>
     </tr>
   </tbody>
 </table>
