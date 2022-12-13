@@ -182,39 +182,35 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Unique Usernames</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Sets of Elements</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Periodic Table</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Count Symbols</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Phonebook</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Fix Emails</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Hands Of Cards</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">User Logs</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Population Counter</a></td>
       <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Logs Aggregator</a></td>
     </tr>
     <tr>
       <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Legendary Farming</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Сръбско Unleashed</a></td>
+	  <td><b>13.</b></td>
+      <td><a href="XXXX">Dragon Army</a></td>
     </tr>
   </tbody>
 </table>
@@ -232,39 +228,23 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Read File</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Write to File</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Copy Bytes</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Extract Integers</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Write Every Third Line</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Sort Lines</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">List Files</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Nested Folders</a></td>
     </tr>
   </tbody>
   <thead>
@@ -275,39 +255,23 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Sum Lines</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Sum Bytes</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">ALL CAPITALS!</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Count Character Types</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Line Numbers</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Word Count</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Merge Two Files</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Get Folder Size</a></td>
     </tr>
   </tbody>
 </table>
