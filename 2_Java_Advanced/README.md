@@ -289,19 +289,19 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Sort Even Numbers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/1_Lab/Task_1_Sort_Even_Numbers.java">Sort Even Numbers</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Sum Numbers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/1_Lab/Task_2_Sum_Numbers.java">Sum Numbers</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Count Uppercase Words</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/1_Lab/Task_3_Count_Uppercase_Words.java">Count Uppercase Words</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Add VAT</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/1_Lab/Task_4_Add_VAT.java">Add VAT</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Filter by Age</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/1_Lab/Task_5_Filter_by_Age.java">Filter by Age</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Find Evens or Odds</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/1_Lab/Task_6_Find_Evens_or_Odds.java">Find Evens or Odds</a></td>
     </tr>
   </tbody>
   <thead>
@@ -312,31 +312,31 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Consumer Print</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_1_Consumer_Print.java">Consumer Print</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Knights of Honor</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_2_Knights_of_Honor.java">Knights of Honor</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Custom Min Function</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_3_Custom_Min_Function.java">Custom Min Function</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Applied Arithmetics</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_4_Applied_Arithmetics.java">Applied Arithmetics</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Reverse And Exclude</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_5_Reverse_And_Exclude.java">Reverse And Exclude</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Predicate For Names</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_6_Predicate_For_Names.java">Predicate For Names</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Find The Smallest Element</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_7_Find_The_Smallest_Element.java">Find The Smallest Element</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">Custom Comparator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_8_Custom_Comparator.java">Custom Comparator</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">List Of Predicates</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_9_List_Of_Predicates.java">List Of Predicates</a></td>
       <td><b>10.</b></td>
-      <td><a href="XXXX">Predicate Party!</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_10_Predicate_Party.java">Predicate Party!</a></td>
     </tr>
     <tr>
       <td><b>11.</b></td>
-      <td><a href="XXXX">The Party Reservation Filter Module</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_11_The_Party_Reservation_Filter_Module.java">The Party Reservation Filter Module</a></td>
       <td><b>12.</b></td>
     </tr>
   </tbody>
@@ -355,39 +355,11 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="Car Info">TaskName</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="Constructors">TaskName</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Bank Account</a></td>
     </tr>
   </tbody>
   <thead>
@@ -398,39 +370,25 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Opinion Poll</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Company Roster</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Speed Racing</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Raw Data</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Car Salesman</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Pokemon Trainer</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Google</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Family Tree</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Cat Lady</a></td>
     </tr>
   </tbody>
 </table>
