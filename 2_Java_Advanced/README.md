@@ -337,7 +337,6 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
     <tr>
       <td><b>11.</b></td>
       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/5_Functional%20Programming/2_Exercise/Task_11_The_Party_Reservation_Filter_Module.java">The Party Reservation Filter Module</a></td>
-      <td><b>12.</b></td>
     </tr>
   </tbody>
 </table>
