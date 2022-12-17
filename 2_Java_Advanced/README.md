@@ -354,11 +354,11 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="Car Info">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/1_Lab/Task_1_Car_Info">Car Info</a></td>
       <td><b>02.</b></td>
-      <td><a href="Constructors">TaskName</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/1_Lab/Task_2_Car_Constructors">Constructors</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Bank Account</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/1_Lab/Task_3_Bank_Account">Bank Account</a></td>
     </tr>
   </tbody>
   <thead>
@@ -369,25 +369,25 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Opinion Poll</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_1_Opinion_Poll">Opinion Poll</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Company Roster</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_2_Company_Roster">Company Roster</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Speed Racing</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_3_Speed_Racing">Speed Racing</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Raw Data</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_4_Raw_Data">Raw Data</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Car Salesman</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_5_Car_Salesman">Car Salesman</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Pokemon Trainer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_6_Pokemon_Trainer">Pokemon Trainer</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Google</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_7_Google">Google</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">Family Tree</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_8_Family_Tree">Family Tree</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">Cat Lady</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes/2_Exercise/Task_9_Cat_Lady">Cat Lady</a></td>
     </tr>
   </tbody>
 </table>
@@ -405,39 +405,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Jar of T</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Array Creator</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Scale</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">List Utilities</a></td>
     </tr>
   </tbody>
   <thead>
@@ -448,39 +422,31 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Box</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Box of Integer</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Swap Method String</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Swap Method Integer</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Count Method String</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Generic Count Method Double</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Custom List</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Custom List Sorter</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Custom List Iterator</a></td>
       <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Tuple</a></td>
     </tr>
     <tr>
       <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Threeuple</a></td>
     </tr>
   </tbody>
 </table>
@@ -498,39 +464,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Book</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Library</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">ComparableBook</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">BookComparator</a></td>
     </tr>
   </tbody>
   <thead>
@@ -541,39 +481,25 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">ListyIterator</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Collection</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Stack Iterator</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Froggy</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Comparing Objects</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Strategy Pattern</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Equality Logic</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Pet Clinics</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Linked List Traversal</a></td>
     </tr>
   </tbody>
 </table>
@@ -591,39 +517,21 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Recursive Array Sum</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Recursive Factorial</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Sum of Coins</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Set Cover</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Merge Sort</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Quicksort</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>08.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>09.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>10.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-    </tr>
-    <tr>
-      <td><b>11.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>12.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>13.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>14.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
-      <td><b>15.</b></td>
-      <td><a href="XXXX">TaskName</a></td>
+      <td><a href="XXXX">Binary Search</a></td>
     </tr>
   </tbody>
 </table>
