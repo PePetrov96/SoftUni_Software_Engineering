@@ -405,13 +405,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Jar of T</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/1_Lab/Task_1_Jar_of_T">Jar of T</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Generic Array Creator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/1_Lab/Task_2_Generic_Array_Creator">Generic Array Creator</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Generic Scale</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/1_Lab/Task_3_Generic_Scale">Generic Scale</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">List Utilities</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/1_Lab/Task_4_List_Utilities">List Utilities</a></td>
     </tr>
   </tbody>
   <thead>
@@ -422,31 +422,31 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Generic Box</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_1_Generic_Box">Generic Box</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Generic Box of Integer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_2_Generic_Box_of_Integer">Generic Box of Integer</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Generic Swap Method String</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_3_Generic_Swap_Method_String">Generic Swap Method String</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Generic Swap Method Integer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_4_Generic_Swap_Method_Integer">Generic Swap Method Integer</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Generic Count Method String</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_5_Generic_Count_Method_String">Generic Count Method String</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Generic Count Method Double</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_6_Generic_Count_Method_Double">Generic Count Method Double</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Custom List</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_7_Custom_List">Custom List</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">Custom List Sorter</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_8_Custom_List_Sorter">Custom List Sorter</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">Custom List Iterator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_9_Custom_List_Iterator">Custom List Iterator</a></td>
       <td><b>10.</b></td>
-      <td><a href="XXXX">Tuple</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_10_Tuple">Tuple</a></td>
     </tr>
     <tr>
       <td><b>11.</b></td>
-      <td><a href="XXXX">Threeuple</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics/2_Exercise/Task_11_Threeuple">Threeuple</a></td>
     </tr>
   </tbody>
 </table>
