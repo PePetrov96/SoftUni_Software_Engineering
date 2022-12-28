@@ -464,13 +464,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Book</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/1_Lab/Task_1_Book">Book</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Library</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/1_Lab/Task_2_Library">Library</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">ComparableBook</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/1_Lab/Task_3_ComparableBook">ComparableBook</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">BookComparator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/1_Lab/Task_4_BookComparator">BookComparator</a></td>
     </tr>
   </tbody>
   <thead>
@@ -481,25 +481,25 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">ListyIterator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_1_ListyIterator">ListyIterator</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Collection</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_2_Collection">Collection</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Stack Iterator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_3_Stack_Iterator">Stack Iterator</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Froggy</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_4_Froggy">Froggy</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Comparing Objects</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_5_Comparing_Objects">Comparing Objects</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Strategy Pattern</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_6_Strategy_Pattern">Strategy Pattern</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Equality Logic</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_7_Equality_Logic">Equality Logic</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXX">Pet Clinics</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_8_Pet_Clinics">Pet Clinics</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXX">Linked List Traversal</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators/2_Exercise/Task_9_Linked_List_Traversal">Linked List Traversal</a></td>
     </tr>
   </tbody>
 </table>
@@ -517,21 +517,21 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Recursive Array Sum</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab/Task_1_Recursive_Array_Sum.java">Recursive Array Sum</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Recursive Factorial</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab/Task_2_Recursive_Factorial.java">Recursive Factorial</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Sum of Coins</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab/Task_3_Sum_of_Coins.java">Sum of Coins</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Set Cover</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab/Task_4_Set_Cover.java">Set Cover</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Merge Sort</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab/Task_5_Merge_Sort.java">Merge Sort</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Quicksort</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab/Task_6_Quicksort.java">Quicksort</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXX">Binary Search</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab/Task_7_Binary_Search.java">Binary Search</a></td>
     </tr>
   </tbody>
 </table>
