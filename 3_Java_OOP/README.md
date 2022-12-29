@@ -34,13 +34,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Card Suit</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/2_Exercise/Task_1_Card_Suit">Card Suit</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Card Rank</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/2_Exercise/Task_2_Card_Rank">Card Rank</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Cards With Power</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/2_Exercise/Task_3_Cards_With_Power">Cards With Power</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Traffic Lights</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/2_Exercise/Task_4_Traffic_Lights">Traffic Lights</a></td>
       <td><b>05.</b></td>
       <td><a href="XXXX">Jedi Galaxy</a></td>
     </tr>
