@@ -17,13 +17,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Rhombus of Stars</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/1_Lab/Task_1_Rhombus_of_Stars">Rhombus of Stars</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Point in Rectangle</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/1_Lab/Task_2_Point_in_Rectangle">Point in Rectangle</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Student System</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/1_Lab/Task_3_Student_System">Student System</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Hotel Reservation</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/1_Lab/Task_4_Hotel_Reservation">Hotel Reservation</a></td>
     </tr>
   </tbody>
   <thead>
