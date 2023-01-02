@@ -64,13 +64,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Sort By Name And Age</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/1_Lab/Task_1_Sort_By_Name_And_Age">Sort By Name And Age</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">SalaryIncrease</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/1_Lab/Task_2_SalaryIncrease">SalaryIncrease</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Validation Data</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/1_Lab/Task_3_Validation_Data">Validation Data</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">First And Reserve Team</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/1_Lab/Task_4_First_And_Reserve_Team">First And Reserve Team</a></td>
     </tr>
   </tbody>
   <thead>
