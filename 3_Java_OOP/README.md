@@ -81,15 +81,15 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Class Box Data Validation</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/2_Exercise/Task_1_Class_Box_Data_Validation">Class Box Data Validation</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Animal Farm</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/2_Exercise/Task_2_Animal_Farm">Animal Farm</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Shopping Spree</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/2_Exercise/Task_3_Shopping_Spree">Shopping Spree</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Pizza Calories</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/2_Exercise/Task_4_Pizza_Calories">Pizza Calories</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Football Team Generator</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation/2_Exercise/Task_5_Football_Team_Generator">Football Team Generator</a></td>
     </tr>
   </tbody>
 </table>
