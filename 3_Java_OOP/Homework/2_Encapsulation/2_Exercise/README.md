@@ -12,7 +12,7 @@ A box’s side should not be zero or a negative number. Add data validation for 
 
 You should be familiar with encapsulation already. For this problem, you’ll need to create a class called Chicken. Chicken should contain several fields, a constructor, and several methods. Your task is to encapsulate or hide anything that is not intended to be viewed or modified from outside the class.
 
-###Step 1. Encapsulate Fields
+#### Step 1. Encapsulate Fields
 
 Fields should be private. Leaving fields open for modification from outside the class is potentially dangerous. Make all fields in the Chicken class private.
 
@@ -22,17 +22,17 @@ Chicken lives for 15 years. Chicken has a name for sure, at least 1 symbol long.
 - Next 6 years it produces 1 egg per day [6 - 11].
 - And after that, it produces 0.75 eggs per day.
 
-###Step 2. Ensure Classes Have a Correct State
+#### Step 2. Ensure Classes Have a Correct State
 
 Having getters and setters is useless if you don’t use them. The Chicken constructor modifies the fields directly which is wrong when there are suitable setters available. Modify the constructor to fix this issue.
 
-###Step 3. Validate Data Properly
+#### Step 3. Validate Data Properly
 
 Validate the chicken’s name (it cannot be null, empty, or whitespace). In case of an invalid name, print the exception message "Name cannot be empty."
 
 Validate the age properly, minimum and maximum age are provided, make use of them. In case of invalid age, print the exception message "Age should be between 0 and 15."
 
-###Step 4. Hide Internal Logic
+#### Step 4. Hide Internal Logic
 
 If a method is intended to be used only by descendant classes or internally to perform some action, there is no point in keeping them public. The calculateProductPerDay() method is used by the productPerDay() public method. This means the method can safely be hidden inside the Chicken class by declaring it private.
 
@@ -62,7 +62,7 @@ For example, the white dough has a modifier of 1.5, a chewy dough has a modifier
 
 For example, meat has a modifier of 1.2, which means that meat weighing 50 grams will have (2 * 50) * 1.2 = 120.00 total calories.
 
-####Data Validation must be in the order of the Input Data.
+#### Data Validation must be in the order of the Input Data.
 Data Validation must be in the order of the Input Data.
 - If an invalid flour type or an invalid baking technique is given an exception is thrown with the message "Invalid type of dough.".
 - If dough weight is outside of the range [1..200] throw an exception with the message "Dough weight should be in the range [1..200]."
@@ -80,7 +80,7 @@ If the creation of the pizza was successfully printed on a single line the name 
 
 
 
-##Task 5. **Football Team Generator
+## Task 5. **Football Team Generator
 
 A football team has a variable number of players, a name, and a rating.
 
@@ -90,7 +90,7 @@ A team should expose a name, a rating (calculated by the average skill level of 
 
 Your task is to model the team and the players following the proper principles of Encapsulation. Expose only the fields that need to be visible and validate data appropriately.
 
-####Data Validation
+#### Data Validation
 - A name cannot be null, empty, or white space. If not, print: "A name should not be empty."
 - Stats should be in the range [0..100]. If not, print: "{Stat name} should be between 0 and 100."
 - If you receive a command to remove a missing player, print: "Player {Player name} is not in {Team name} team."
