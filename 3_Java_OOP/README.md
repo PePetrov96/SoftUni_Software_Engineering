@@ -42,11 +42,11 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
       <td><b>04.</b></td>
       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/2_Exercise/Task_4_Traffic_Lights">Traffic Lights</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Jedi Galaxy</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/2_Exercise/Task_5_Jedi_Galaxy">Jedi Galaxy</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Greedy Times</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction/2_Exercise/Task_6_Greedy%20Times">Greedy Times</a></td>
     </tr>
   </tbody>
 </table>
