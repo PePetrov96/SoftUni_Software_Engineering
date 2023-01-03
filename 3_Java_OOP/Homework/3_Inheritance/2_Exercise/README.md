@@ -16,13 +16,13 @@ NOTE: You need a public class Main.
 
 Create a package zoo. It needs to contain the following classes:
 
-|		|			|-> Lizzard
-|		|-> Reptile 
-|		|			|-> Snake
-|Animal			
-|		|			|-> Gorilla
-|		|-> Mammal  
-|		|			|-> Bear
+					-> Lizzard
+		-> Reptile 
+					-> Snake
+Animal			
+					-> Gorilla
+		-> Mammal  
+					-> Bear
 
 Follow the diagram and create all of the classes. Each of them, except the Animal class, should inherit from another class. The Animal class should have a field name – String and Getter for a name.
 
@@ -39,11 +39,11 @@ NOTE: You need a public class Main. Create a package hero.
 
 Your task is to create the following game hierarchy:
 
-|		|-> Elf     |-> MuseElf
-|  						
-|Hero	|-> Wizard  |-> DarkWizard  |-> SoulMaster
-|				
-|		|-> Knight  |-> DarkKnight  |-> BladeKnight
+		-> Elf     -> MuseElf
+  						
+Hero	-> Wizard  -> DarkWizard  -> SoulMaster
+				
+		-> Knight  -> DarkKnight  -> BladeKnight
 		
 Create a class Hero. It should contain the following members:
 - A public constructor, which accepts:
@@ -61,13 +61,13 @@ Create a class Hero. It should contain the following members:
 
 NOTE: You need a public class Main. Create the following hierarchy with the following classes:
 
-|		|				|-> RaceMotorcycle
-|		|-> Motorcycle 
-|		|				|-> CrossMotorcycle
-|Vehicle				
-|		|				|-> FamilyCar
-|		|-> Car  
-|		|				|-> SportCar
+						-> RaceMotorcycle
+		-> Motorcycle 
+						-> CrossMotorcycle
+Vehicle
+						-> FamilyCar
+		-> Car  
+						-> SportCar
 
 Create a base class Vehicle. It should contain the following members:
 - DEFAULT_FUEL_CONSUMPTION – final static double (constant)
