@@ -19,7 +19,7 @@ Create a package zoo. It needs to contain the following classes:
 		|			|-> Lizzard
 		|-> Reptile 
 		|			|-> Snake
-Animal  				
+Animal  |				
 		|			|-> Gorilla
 		|-> Mammal  
 		|			|-> Bear
@@ -40,9 +40,9 @@ NOTE: You need a public class Main. Create a package hero.
 Your task is to create the following game hierarchy:
 
 		|-> Elf     |-> MuseElf
-  						
+  		|				
 Hero	|-> Wizard  |-> DarkWizard  |-> SoulMaster
-				
+		|		
 		|-> Knight  |-> DarkKnight  |-> BladeKnight
 		
 Create a class Hero. It should contain the following members:
@@ -64,7 +64,7 @@ NOTE: You need a public class Main. Create the following hierarchy with the foll
 		|				|-> RaceMotorcycle
 		|-> Motorcycle 
 		|				|-> CrossMotorcycle
-Vehicle  				
+Vehicle |				
 		|				|-> FamilyCar
 		|-> Car  
 		|				|-> SportCar
