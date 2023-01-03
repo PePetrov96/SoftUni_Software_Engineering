@@ -107,15 +107,15 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Single Inheritance</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/1_Lab/Task_1_Single_Inheritance">Single Inheritance</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Multiple Inheritance</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/1_Lab/Task_2_Multiple_Inheritance">Multiple Inheritance</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Hierarchical Inheritance</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/1_Lab/Task_3_Hierarchical_Inheritance">Hierarchical Inheritance</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Random Array List</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/1_Lab/Task_4_Random_Array_List">Random Array List</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Stack Of Strings</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/1_Lab/Task_5_Stack_Of_Strings">Stack Of Strings</a></td>
     </tr>
   </tbody>
   <thead>
