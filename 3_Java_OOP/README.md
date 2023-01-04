@@ -126,19 +126,19 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Person</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/2_Exercise/Task_1_Person">Person</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Zoo</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/2_Exercise/Task_2_Zoo">Zoo</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Players and Monsters</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/2_Exercise/Task_3_Players_and_Monsters">Players and Monsters</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Need For Speed</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/2_Exercise/Task_4_Need_For_Speed">Need For Speed</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Restaurant</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/2_Exercise/Task_5_Restaurant">Restaurant</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Animals</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance/2_Exercise/Task_6_Animals">Animals</a></td>
     </tr>
   </tbody>
 </table>
@@ -156,19 +156,19 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Car Shop</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/1_Lab/Task_1_Car_Shop">Car Shop</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Car Shop Extended</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/1_Lab/Task_2_Car_Shop_Extended">Car Shop Extended</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Say Hello</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/1_Lab/Task_3_Say_Hello">Say Hello</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Say Hello Extended</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/1_Lab/Task_4_Say_Hello_Extended">Say Hello Extended</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Border Control</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/1_Lab/Task_5_Border_Control">Border Control</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Ferrari</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/1_Lab/Task_6_Ferrari">Ferrari</a></td>
     </tr>
   </tbody>
   <thead>
