@@ -179,19 +179,19 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Define an Interface Person</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/2_Exercise/Task_1_Define_an_Interface_Person">Define an Interface Person</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Multiple Implementation</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/2_Exercise/Task_2_Multiple_Implementation">Multiple Implementation</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Birthday Celebrations</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/2_Exercise/Task_3_Birthday_Celebrations">Birthday Celebrations</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Food Shortage</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/2_Exercise/Task_4_Food_Shortage">Food Shortage</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Тelephony</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/2_Exercise/Task_5_Telephony">Тelephony</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Military Elite</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction/2_Exercise/Task_6_Military_Elite">Military Elite</a></td>
       <td><b>07.</b></td>
       <td><a href="XXXX">Collection Hierarchy</a></td>
     </tr>
@@ -211,11 +211,11 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Math Operation</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/1_Lab/Task_1_Math_Operation">Math Operation</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Shapes</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/1_Lab/Task_2_Shapes">Shapes</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Animals</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/1_Lab/Task_3_Animals">Animals</a></td>
     </tr>
   </tbody>
   <thead>
@@ -226,13 +226,13 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Vehicles</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_1_Vehicles">Vehicles</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Vehicles Extension</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_2_Vehicles_Extension">Vehicles Extension</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Wild Farm</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_3_Wild_Farm">Wild Farm</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Word</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_4_Word">Word</a></td>
       <td><b>05.</b></td>
       <td><a href="XXXX">Calculator</a></td>
     </tr>
@@ -252,11 +252,11 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Reflection</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/1_Lab/Task_1_Reflection">Reflection</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Getters and Setters</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/1_Lab/Task_2_Getters_and_Setters">Getters and Setters</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">High Quality Mistakes</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/1_Lab/Task_3_High_Quality_Mistakes">High Quality Mistakes</a></td>
     </tr>
   </tbody>
   <thead>
@@ -267,15 +267,15 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Harvesting Fields</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/2_Exercise/Task_1_Harvesting_Fields">Harvesting Fields</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Black Box Integer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/2_Exercise/Task_2_Black_Box_Integer">Black Box Integer</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">BarracksWars - A New Factory</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/2_Exercise/Task_3_BarracksWars_A_New_Factory">BarracksWars - A New Factory</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">BarracksWars - The Commands Strike Back</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/2_Exercise/Task_4_BarracksWars_The_Commands_Strike_Back">BarracksWars - The Commands Strike Back</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">BarracksWars - Return of the Dependencies</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection/2_Exercise/Task_5_BarracksWars_Return_of_the_Dependencies">BarracksWars - Return of the Dependencies</a></td>
     </tr>
   </tbody>
 </table>
@@ -293,11 +293,11 @@ Certificate can be found here: <a href="">Java Advanced Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Number in Range</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/3_Java_OOP/Homework/7_Exceptions%20and%20Error%20Handling/1_Lab/Task_1_Number_in_Range.java">Number in Range</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Square Root</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/3_Java_OOP/Homework/7_Exceptions%20and%20Error%20Handling/1_Lab/Task_2_Square_Root.java">Square Root</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Enter Numbers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/3_Java_OOP/Homework/7_Exceptions%20and%20Error%20Handling/1_Lab/Task_3_Enter_Numbers.java">Enter Numbers</a></td>
     </tr>
   </tbody>
 </table>
