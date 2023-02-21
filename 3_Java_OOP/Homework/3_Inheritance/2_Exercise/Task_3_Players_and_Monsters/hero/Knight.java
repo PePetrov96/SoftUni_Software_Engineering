@@ -1,4 +1,4 @@
-package Task_3_Players_and_Monsters;
+package hero;
 
 public class Knight extends Hero{
     public Knight(String username, int level) {

@@ -1,20 +1,12 @@
-package Task_3_Players_and_Monsters;
+package hero;
 
 public class Hero {
-    private final String username;
-    private final int level;
+    private String username;
+    private int level;
 
     public Hero(String username, int level) {
         this.username = username;
         this.level = level;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public int getLevel() {
-        return level;
     }
 
     @Override
@@ -23,5 +15,13 @@ public class Hero {
                 this.getClass().getName(),
                 this.getUsername(),
                 this.getLevel());
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public int getLevel() {
+        return level;
     }
 }

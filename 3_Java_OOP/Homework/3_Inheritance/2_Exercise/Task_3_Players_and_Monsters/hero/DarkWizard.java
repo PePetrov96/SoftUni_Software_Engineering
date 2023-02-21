@@ -1,4 +1,4 @@
-package Task_3_Players_and_Monsters;
+package hero;
 
 public class DarkWizard extends Wizard{
     public DarkWizard(String username, int level) {
