@@ -1,4 +1,4 @@
-package hero;
+package Task_3_Players_and_Monsters;
 
 public class Hero {
     private final String username;
