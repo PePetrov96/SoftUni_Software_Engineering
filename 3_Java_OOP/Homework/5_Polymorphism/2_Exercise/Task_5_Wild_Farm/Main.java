@@ -1,5 +1,3 @@
-package Task_3_Wild_Farm;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

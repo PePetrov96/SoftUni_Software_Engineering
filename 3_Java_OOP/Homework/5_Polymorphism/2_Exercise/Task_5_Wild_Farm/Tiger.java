@@ -1,5 +1,3 @@
-package Task_3_Wild_Farm;
-
 public class Tiger extends Feline{
 
     public Tiger(String animalName, String animalType, Double animalWeight, String livingRegion) {

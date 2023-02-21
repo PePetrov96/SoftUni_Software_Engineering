@@ -1,5 +1,3 @@
-package Task_3_Wild_Farm;
-
 import java.text.DecimalFormat;
 
 public class Cat extends Feline{

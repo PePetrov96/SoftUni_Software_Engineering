@@ -1,5 +1,3 @@
-package Task_3_Wild_Farm;
-
 public abstract class Animal {
     private String animalName;
     private String animalType;
