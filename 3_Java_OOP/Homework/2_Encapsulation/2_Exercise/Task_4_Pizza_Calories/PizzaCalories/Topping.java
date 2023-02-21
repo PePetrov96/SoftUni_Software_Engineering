@@ -1,5 +1,4 @@
-package Task_4_Pizza_Calories;
-
+package PizzaCalories;
 
 public class Topping {
     private String toppingType;

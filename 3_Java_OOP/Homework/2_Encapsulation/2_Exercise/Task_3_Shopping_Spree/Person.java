@@ -1,14 +1,12 @@
-package Task_3_Shopping_Spree;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class Person {
     private String name;
     private double money;
-    private final List<Product> products;
+    private List<Product> products;
 
     public Person(String name, double money) {
         this.setName(name);
@@ -16,27 +14,8 @@ public class Person {
         this.products = new ArrayList<>();
     }
 
-    public void buyProduct (Product product) {
-        if (this.getMoney() < product.getCost()) {
-            throw new IllegalArgumentException(String.format("%s can't afford %s%n", this.getName(), product.getName()));
-        }
-        this.products.add(product);
-        this.setMoney(this.getMoney() - product.getCost());
-        System.out.printf("%s bought %s%n", this.getName(), product.getName());
-    }
-
-    @Override
-    public String toString() {
-        if (this.getProducts().size() == 0) {
-            return String.format("%s - Nothing bought", this.name);
-        } else {
-            return this.name +
-                    " - " +
-                    this.getProducts()
-                            .stream()
-                            .map(Product::toString)
-                            .collect(Collectors.joining(", "));
-        }
+    public String getName() {
+        return this.name;
     }
 
     private void setName(String name) {
@@ -46,6 +25,10 @@ public class Person {
         this.name = name;
     }
 
+    public double getMoney() {
+        return this.money;
+    }
+
     private void setMoney(double money) {
         if (money < 0) {
             throw new IllegalArgumentException("Money cannot be negative");
@@ -53,15 +36,29 @@ public class Person {
         this.money = money;
     }
 
-    public String getName() {
-        return name;
+    public void buyProduct(Product product) {
+        if (product == null) {
+            throw new IllegalArgumentException();
+        }
+        if (this.money - product.getCost() < 0) {
+            throw new IllegalArgumentException(String.format("%s can't afford %s", this.name, product.getName()));
+        }
+        this.products.add(product);
+        this.setMoney(this.money - product.getCost());
+        System.out.println(String.format("%s bought %s", this.name, product.getName()));
+
     }
 
-    public double getMoney() {
-        return money;
-    }
-
-    private List<Product> getProducts() {
-        return Collections.unmodifiableList(products);
+    @Override
+    public String toString() {
+        if (this.products.isEmpty()) {
+            return this.name + " - Nothing bought";
+        }
+        return this.name +
+                " - " +
+                this.products
+                        .stream()
+                        .map(Product::toString)
+                        .collect(Collectors.joining(", "));
     }
 }

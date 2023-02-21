@@ -1,4 +1,4 @@
-package Task_5_Football_Team_Generator;
+package FootballTeamGenerator;
 
 import java.util.LinkedHashMap;
 

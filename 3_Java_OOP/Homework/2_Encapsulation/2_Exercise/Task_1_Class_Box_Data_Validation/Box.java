@@ -1,5 +1,3 @@
-package Task_1_Class_Box_Data_Validation;
-
 public class Box {
     private double length;
     private double width;

@@ -1,5 +1,3 @@
-package Task_2_Animal_Farm;
-
 public class Chicken {
     private String name;
     private int age;

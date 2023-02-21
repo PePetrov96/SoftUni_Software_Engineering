@@ -1,4 +1,4 @@
-package Task_4_Pizza_Calories;
+package PizzaCalories;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

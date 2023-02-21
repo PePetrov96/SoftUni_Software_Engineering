@@ -1,4 +1,4 @@
-package Task_4_Pizza_Calories;
+package PizzaCalories;
 
 public enum ToppingType {
     Meat(1.2),
