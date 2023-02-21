@@ -1,7 +1,7 @@
 # Java Advanced
 Judge Contest can be found here: <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/175/Java-Advanced-Exercises">Java Advanced</a>
 
-Certificate can be found here: <a href="">Java Advanced Certificate</a>
+Certificate can be found here: <a href="https://softuni.bg/certificates/details/161712/9d6ac1d2">Java Advanced Certificate</a>
 
 <br/>
 
