@@ -1,11 +1,11 @@
 package Task_4_BarracksWars_The_Commands_Strike_Back;
 
-import pr0304Barracks.contracts.Repository;
-import pr0304Barracks.contracts.Runnable;
-import pr0304Barracks.contracts.UnitFactory;
-import pr0304Barracks.core.Engine;
-import pr0304Barracks.core.factories.UnitFactoryImpl;
-import pr0304Barracks.data.UnitRepository;
+import Task_4_BarracksWars_The_Commands_Strike_Back.contracts.Repository;
+import Task_4_BarracksWars_The_Commands_Strike_Back.contracts.Runnable;
+import Task_4_BarracksWars_The_Commands_Strike_Back.contracts.UnitFactory;
+import Task_4_BarracksWars_The_Commands_Strike_Back.core.Engine;
+import Task_4_BarracksWars_The_Commands_Strike_Back.core.factories.UnitFactoryImpl;
+import Task_4_BarracksWars_The_Commands_Strike_Back.data.UnitRepository;
 
 public class Main {
 
