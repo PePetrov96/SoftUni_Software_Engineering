@@ -1,7 +1,7 @@
-package Task_6_Military_Elite.models;
+package Task_6_Military_Elite.Models;
 
-import Task_6_Military_Elite.interfaces.LeutenantGenerall;
-import Task_6_Military_Elite.interfaces.Private;
+import Task_6_Military_Elite.Interfaces.LeutenantGenerall;
+import Task_6_Military_Elite.Interfaces.Private;
 
 import java.util.Comparator;
 import java.util.Set;
