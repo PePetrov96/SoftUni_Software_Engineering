@@ -230,9 +230,9 @@ Certificate can be found here: <a href="">Java OOP Certificate</a>
       <td><b>02.</b></td>
       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_2_Vehicles_Extension">Vehicles Extension</a></td>
       <td><b>03.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_3_Wild_Farm">Wild Farm</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_5_Wild_Farm">Wild Farm</a></td>
       <td><b>04.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_4_Word">Word</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism/2_Exercise/Task_3_Word">Word</a></td>
       <td><b>05.</b></td>
       <td><a href="XXXX">Calculator</a></td>
     </tr>
