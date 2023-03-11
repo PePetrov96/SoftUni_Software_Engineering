@@ -355,7 +355,7 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
       <td><b>05.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
     </tr>
-	    <tr>
+	<tr>
       <td><b>06.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
       <td><b>07.</b></td>
@@ -480,7 +480,7 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
       <td><b>05.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
     </tr>
-	    <tr>
+	<tr>
       <td><b>06.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
       <td><b>07.</b></td>
@@ -605,7 +605,7 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
       <td><b>05.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
     </tr>
-	    <tr>
+	<tr>
       <td><b>06.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
       <td><b>07.</b></td>
@@ -730,7 +730,7 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
       <td><b>05.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
     </tr>
-	    <tr>
+    <tr>
       <td><b>06.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
       <td><b>07.</b></td>
@@ -759,15 +759,39 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_1_Reverse_Strings.java">Reverse Strings</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_2_Repeat_Strings.java">Repeat Strings</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_3_Substring.java">Substring</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_4_Text_Filter.java">Text Filter</a></td>
-	  <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/1_Lab/Task_5_Digits_Letters_and_Other.java">Digits Letters and Other</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>05.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>07.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>08.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>09.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>10.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+    </tr>
+    <tr>
+      <td><b>11.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>12.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>13.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>14.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>15.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
     </tr>
   </tbody>
   <thead>
@@ -778,26 +802,42 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_1_Valid_Usernames.java">Valid Usernames</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_2_Character_Multiplier.java">Character Multiplier</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_3_Extract_File.java">Extract File</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_4_Caesar_Cipher.java">Caesar Cipher</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_5_Multiply_Big_Number.java">Multiply Big Number</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_6_Replace_Repeating_Chars.java">Replace Repeating Chars</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>07.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_7_String_Explosion.java">TasString Explosionk</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>08.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/2_Exercise/Task_8_Letters_Change_Numbers.java">Letters Change Numbers</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>09.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>10.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+    </tr>
+    <tr>
+      <td><b>11.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>12.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>13.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>14.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>15.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
     </tr>
   </tbody>
-    <thead>
+  <thead>
     <tr>
       <th colspan="10" style="text-align:center;">More Exercise</th>
     </tr>
@@ -805,15 +845,27 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_1_Extract_Person_Information.java">Extract_Person_Information</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>02.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_2_ASCII_Sumator.java">ASCII Sumator</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>03.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_3_Treasure_Finder.java">Treasure Finder</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>04.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_4_Morse_Code_Translator.java">Morse Code Translator</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
       <td><b>05.</b></td>
-      <td><a <td><a       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/1_Programming_Fundaments/Homework/8_Text%20Processing/3_More%20Exercise/Task_5_HTML.java">HTML</a></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+    </tr>
+    <tr>
+      <td><b>06.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>07.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>08.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>09.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
+      <td><b>10.</b></td>
+      <td><a href="XXXX">TASKNAME</a></td>
     </tr>
   </tbody>
 </table>
@@ -928,7 +980,7 @@ Certificate can be found here: <a href="">Python Fundamentals Certificate</a>
       <td><b>05.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
     </tr>
-	    <tr>
+    <tr>
       <td><b>06.</b></td>
       <td><a href="XXXX">TASKNAME</a></td>
       <td><b>07.</b></td>
