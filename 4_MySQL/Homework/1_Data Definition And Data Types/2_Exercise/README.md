@@ -18,10 +18,10 @@ Change the structure of the Minions table to have new column town_id that would 
 ## Task 3.	Insert Records in Both Tables
 Populate both tables with sample records given in the table below.
 minions
-id	name	age	    town_id
-1	Kevin	22	    1
-2	Bob	    15	    3
-3	Steward	NULL	2
+id	name		age		town_id
+1	Kevin		22		1
+2	Bob		15		3
+3	Steward		NULL		2
 
 towns
 id	name
