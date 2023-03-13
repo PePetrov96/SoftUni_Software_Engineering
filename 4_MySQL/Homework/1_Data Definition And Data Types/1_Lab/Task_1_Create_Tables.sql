@@ -1,5 +1,3 @@
-USE softuni;
-
 CREATE TABLE `employees` (
   `id` INT AUTO_INCREMENT,
   `first_name` VARCHAR(45) NOT NULL,
