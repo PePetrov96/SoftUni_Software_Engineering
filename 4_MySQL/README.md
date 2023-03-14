@@ -116,61 +116,61 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Find All Information About Departments</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_1_Find_All_Information_About_Departments.sql">Find All Information About Departments</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Find all Department Names</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_2_Find_all_Department_Names.sql">Find all Department Names</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Find Salary of Each Employee</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_3_Find_Salary_of_Each_Employee.sql">Find Salary of Each Employee</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Find Full Name of Each Employee</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_4_Find_Full_Name_of_Each_Employee.sql">Find Full Name of Each Employee</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Find Email Address of Each Employee</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_5_Find_Email_Address_of_Each_Employee.sql">Find Email Address of Each Employee</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Find All Different Employee’s Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_6_Find_All_Different_Employee%E2%80%99s_Salaries.sql">Find All Different Employee’s Salaries</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXXXXX">Find all Information About Employees</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_7_Find_all_Information_About_Employees.sql">Find all Information About Employees</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXXXXX">Find Names of All Employees by Salary in Range</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_8_Find_Names_of_All_Employees_by_Salary_in_Range.sql">Find Names of All Employees by Salary in Range</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXXXXX">Find Names of All Employees</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_9_Find_Names_of_All_Employees.sql">Find Names of All Employees</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="XXXXXXX">Find All Employees Without Manager</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_10_Find_All_Employees_Without_Manager.sql">Find All Employees Without Manager</a></td>
     </tr>
 	<tr>
       <td><b>11.</b></td>
-      <td><a href="XXXXXXX">Find All Employees with Salary More Than</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_11_Find_All_Employees_with_Salary_More_Than.sql">Find All Employees with Salary More Than</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXXXXX">Find 5 Best Paid Employees</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_12_Find_5_Best_Paid_Employees.sql">Find 5 Best Paid Employees</a></td>
       <td><b>13.</b></td>
-      <td><a href="XXXXXXX">Find All Employees Except Marketing</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_13_Find_All_Employees_Except_Marketing.sql">Find All Employees Except Marketing</a></td>
       <td><b>14.</b></td>
-      <td><a href="XXXXXXX">Sort Employees Table</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_14_Sort_Employees_Table.sql">Sort Employees Table</a></td>
 	  <td><b>15.</b></td>
-      <td><a href="XXXXXXX">Create View Employees with Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_15_Create_View_Employees_with_Salaries.sql">Create View Employees with Salaries</a></td>
     </tr>
 	<tr>
       <td><b>16.</b></td>
-      <td><a href="XXXXXXX">Create View Employees with Job Titles</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_16_Create_View_Employees_with_Job_Titles.sql">Create View Employees with Job Titles</a></td>
       <td><b>17.</b></td>
-      <td><a href="XXXXXXX">Distinct Job Titles</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_17_Distinct_Job_Titles.sql">Distinct Job Titles</a></td>
 	  <td><b>18.</b></td>
-      <td><a href="XXXXXXX">Find First 10 Started Projects</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_18_Find_First_10_Started_Projects.sql">Find First 10 Started Projects</a></td>
       <td><b>19.</b></td>
-      <td><a href="XXXXXXX">Last 7 Hired Employees</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_19_Last_7_Hired_Employees.sql">Last 7 Hired Employees</a></td>
 	  <td><b>20.</b></td>
-      <td><a href="XXXXXXX">Increase Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_20_Increase_Salaries.sql">Increase Salaries</a></td>
     </tr>
 	<tr>
       <td><b>21.</b></td>
-      <td><a href="XXXXXXX">All Mountain Peaks</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_21_All_Mountain_Peaks.sql">All Mountain Peaks</a></td>
       <td><b>22.</b></td>
-      <td><a href="XXXXXXX">Biggest Countries by Population</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_22_Biggest_Countries_by_Population.sql">Biggest Countries by Population</a></td>
 	  <td><b>23.</b></td>
-      <td><a href="XXXXXXX">Countries and Currency (Euro / Not Euro)</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_23_Countries_and_Currency_Euro_Not_Euro.sql">Countries and Currency (Euro / Not Euro)</a></td>
       <td><b>24.</b></td>
-      <td><a href="XXXXXXX">All Diablo Characters</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/2_Exercise/Task_24_All_Diablo_Characters.sql">All Diablo Characters</a></td>
     </tr>
   </tbody>
 </table>
