@@ -83,7 +83,7 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
 
 ---
 
-## <a href="XXXXXXX">02. Basic CRUD
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/4_MySQL/Homework/2_Basic%20CRUD">02. Basic CRUD
 <table>
   <thead>
     <tr>
@@ -178,7 +178,7 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
 
 ---
 
-## <a href="XXXXXXX">03. Built-in Functions
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/4_MySQL/Homework/3_Built-in%20Functions">03. Built-in Functions
 <table>
   <thead>
     <tr>
@@ -252,7 +252,7 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
 
 ---
 
-## <a href="XXXXXXX">04. Data Aggregation
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/4_MySQL/Homework/4_Data%20Aggregation">04. Data Aggregation
 <table>
   <thead>
     <tr>
@@ -329,7 +329,7 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
 
 ---
 
-## <a href="XXXXXXX">05. Table Relations
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/4_MySQL/Homework/5_Table%20Relations">05. Table Relations
 <table>
   <thead>
     <tr>
@@ -378,7 +378,7 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
 
 ---
 
-## <a href="XXXXXXX">06. Subqueries and JOINs
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs">06. Subqueries and JOINs
 <table>
   <thead>
     <tr>
@@ -451,7 +451,7 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
 
 ---
 
-## <a href="XXXXXXXk">07. Database Programmability
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/4_MySQL/Homework/7_Database%20Programmability">07. Database Programmability
 <table>
   <thead>
     <tr>
