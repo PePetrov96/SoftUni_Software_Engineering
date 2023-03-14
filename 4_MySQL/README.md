@@ -93,19 +93,19 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Select Employee Information</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/1_Lab/Task_1_Select_Employee_Information.sql">Select Employee Information</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Select Employees with Filter</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/1_Lab/Task_2_Select_Employees_with_Filter.sql">Select Employees with Filter</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Update Salary and Select</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/1_Lab/Task_3_Update_Salary_and_Select.sql">Update Salary and Select</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Top Paid Employee</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/1_Lab/Task_4_Top_Paid_Employee.sql">Top Paid Employee</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Select Employees by Multiple Filters</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/1_Lab/Task_5_Select_Employees_by_Multiple_Filters.sql">Select Employees by Multiple Filters</a></td>
     </tr>
 	<tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Delete from Table</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/2_Basic%20CRUD/1_Lab/Task_6_Delete_from_Table.sql">Delete from Table</a></td>
     </tr>
   </tbody>
   <thead>
