@@ -244,7 +244,6 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
 	<tr>
       <td><b>16.</b></td>
       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_16_Orders_Table.sql">Orders Table</a></td>
-      <td><b>17.</b></td>
     </tr>
   </tbody>
 </table>
