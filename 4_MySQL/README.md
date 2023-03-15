@@ -188,15 +188,15 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Find Book Titles</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/1_Lab/Task_1_Find_Book_Titles.sql">Find Book Titles</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Replace Titles</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/1_Lab/Task_2_Replace_Titles.sql">Replace Titles</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Sum Cost of All Books</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/1_Lab/Task_2_Replace_Titles.sql">Sum Cost of All Books</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Days Lived</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/1_Lab/Task_4_Days_Lived.sql">Days Lived</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Harry Potter Books</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/1_Lab/Task_5_Harry_Potter_Books.sql">Harry Potter Books</a></td>
     </tr>
   </tbody>
   <thead>
@@ -207,43 +207,43 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Find Names of All Employees by First Name</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_1_Find_Names_of_All_Employees_by_First_Name.sql">Find Names of All Employees by First Name</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Find Names of All Employees by Last Name</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_2_Find_Names_of_All_Employees_by_Last_Name.sql">Find Names of All Employees by Last Name</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Find First Names of All Employess</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_3_Find_First_Names_of_All_Employess.sql">Find First Names of All Employess</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Find All Employees Except Engineers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_4_Find_All_Employees_Except_Engineers.sql">Find All Employees Except Engineers</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Find Towns with Name Length</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_5_Find_Towns_with_Name_Length.sql">Find Towns with Name Length</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Find Towns Starting With</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_6_Find_Towns_Starting_With.sql">Find Towns Starting With</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXXXXX">Find Towns Not Starting With</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_7_Find_Towns_Not_Starting_With.sql">Find Towns Not Starting With</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXXXXX">Create View Employees Hired After</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_8_Create_View_Employees_Hired_After.sql">Create View Employees Hired After</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXXXXX">Length of Last Name</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_9_Length_of_Last_Name.sql">Length of Last Name</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="XXXXXXX">Countries Holding 'A'</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_10_Countries_Holding_'A'.sql">Countries Holding 'A'</a></td>
     </tr>
 	<tr>
       <td><b>11.</b></td>
-      <td><a href="XXXXXXX">Mix of Peak and River Names</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_11_Mix_of_Peak_and_River_Names.sql">Mix of Peak and River Names</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXXXXX">Games From 2011 and 2012 Year</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_12_Games_From_2011_and_2012_Year.sql">Games From 2011 and 2012 Year</a></td>
       <td><b>13.</b></td>
-      <td><a href="XXXXXXX">User Email Providers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_13_User_Email_Providers.sql">User Email Providers</a></td>
       <td><b>14.</b></td>
-      <td><a href="XXXXXXX">Get Users with IP Address Like Pattern</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_14_Get_Users_with_IP_Address_Like_Pattern.sql">Get Users with IP Address Like Pattern</a></td>
 	  <td><b>15.</b></td>
-      <td><a href="XXXXXXX">Show All Games with Duration</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_15_Show_All_Games_with_Duration.sql">Show All Games with Duration</a></td>
     </tr>
 	<tr>
       <td><b>16.</b></td>
-      <td><a href="XXXXXXX">Orders Table</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/3_Built-in%20Functions/2_Exercise/Task_16_Orders_Table.sql">Orders Table</a></td>
       <td><b>17.</b></td>
     </tr>
   </tbody>
