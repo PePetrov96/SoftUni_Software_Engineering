@@ -21,3 +21,9 @@ Write a SQL query to sum prices of all books. Format the output to 2 digits afte
 Write a SQL query to calculate the days that an author lived. Your query should return:
 - Full Name – the full name of the author.
 - Days Lived – days that he/she lived. NULL values mean that the author is still alive.
+
+
+
+## Task 5. Harry Potter Books
+
+Write a SQL query to retrieve titles of all the Harry Potter books. Order the information by id.
