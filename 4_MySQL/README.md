@@ -261,15 +261,15 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Departments Info</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/1_Lab/Task_1_Departments_Info.sql">Departments Info</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Average Salary</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/1_Lab/Task_2_Average_Salary.sql">Average Salary</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Minimum Salary</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/1_Lab/Task_3_Minimum_Salary.sql">Minimum Salary</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Appetizers Count</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/1_Lab/Task_4_Appetizers_Count.sql">Appetizers Count</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Menu Prices</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/1_Lab/Task_5_Menu_Prices.sql">Menu Prices</a></td>
     </tr>
   </tbody>
   <thead>
@@ -280,47 +280,47 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Records’ Count</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_1_Records%E2%80%99_Count.sql">Records’ Count</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Longest Magic Wand</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_2_Longest_Magic_Wand.sql">Longest Magic Wand</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Longest Magic Wand per Deposit Groups</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_3_Longest_Magic_Wand_per_Deposit_Groups.sql">Longest Magic Wand per Deposit Groups</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Smallest Deposit Group per Magic Wand Size</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_4_Smallest_Deposit_Group_per_Magic_Wand_Size.sql">Smallest Deposit Group per Magic Wand Size</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Deposits Sum</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_5_Deposits_Sum.sql">Deposits Sum</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Deposits Sum for Ollivander Family</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_6_Deposits_Sum_for_Ollivander_Family.sql">Deposits Sum for Ollivander Family</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXXXXX">Deposits Filter</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_7_Deposits_Filter.sql">Deposits Filter</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXXXXX">Deposit Charge</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_8_Deposit_Charge.sql">Deposit Charge</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXXXXX">Age Groups</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_9_Age_Groups.sql">Age Groups</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="XXXXXXX">First Letter</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_10_First_Letter.sql">First Letter</a></td>
     </tr>
 	<tr>
       <td><b>11.</b></td>
-      <td><a href="XXXXXXX">Average Interest</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_11_Average_Interest.sql">Average Interest</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXXXXX">Employees Minimum Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_12_Employees_Minimum_Salaries.sql">Employees Minimum Salaries</a></td>
       <td><b>13.</b></td>
-      <td><a href="XXXXXXX">Employees Average Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_13_Employees_Average_Salaries.sql">Employees Average Salaries</a></td>
       <td><b>14.</b></td>
-      <td><a href="XXXXXXX">Employees Maximum Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_14_Employees_Maximum_Salaries.sql">Employees Maximum Salaries</a></td>
 	  <td><b>15.</b></td>
-      <td><a href="XXXXXXX">Employees Count Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_15_Employees_Count_Salaries.sql">Employees Count Salaries</a></td>
     </tr>
 	<tr>
       <td><b>16.</b></td>
-      <td><a href="XXXXXXX">3rd Highest Salary</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_16_3rd_Highest_Salary.sql">3rd Highest Salary</a></td>
       <td><b>17.</b></td>
-      <td><a href="XXXXXXX">Salary Challenge</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_17_Salary_Challenge.sql">Salary Challenge</a></td>
 	  <td><b>18.</b></td>
-      <td><a href="XXXXXXX">Departments Total Salaries</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/4_Data%20Aggregation/2_Exercise/Task_18_Departments_Total_Salaries.sql">Departments Total Salaries</a></td>
     </tr>
   </tbody>
 </table>
