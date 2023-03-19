@@ -338,13 +338,13 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Mountains and Peaks</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/1_Lab/Task_1_Mountains_and_Peaks.sql">Mountains and Peaks</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Trip Organization</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/1_Lab/Task_2_Trip_Organization.sql">Trip Organization</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">SoftUni Hiking</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/1_Lab/Task_3_SoftUni_Hiking.sql">SoftUni Hiking</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Delete Mountains</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/1_Lab/Task_4_Delete_Mountains.sql">Delete Mountains</a></td>
     </tr>
   </tbody>
   <thead>
@@ -355,21 +355,21 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">One-To-One Relationship</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/2_Exercise/Task_1_One-To-One_Relationship.sql">One-To-One Relationship</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">One-To-Many Relationship</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/2_Exercise/Task_2_One-To-Many_Relationship.sql">One-To-Many Relationship</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Many-To-Many Relationship</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/2_Exercise/Task_3_Many-To-Many_Relationship.sql">Many-To-Many Relationship</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Self-Referencing</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/2_Exercise/Task_4_Self-Referencing.sql">Self-Referencing</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Online Store Database</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/2_Exercise/Task_5_Online_Store_Database.sql">Online Store Database</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">University Database</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/2_Exercise/Task_6_University_Database.sql">University Database</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXXXXX">Peaks in Rila</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/5_Table%20Relations/2_Exercise/Task_7_Peaks_in_Rila.sql">Peaks in Rila</a></td>
     </tr>
   </tbody>
 </table>
