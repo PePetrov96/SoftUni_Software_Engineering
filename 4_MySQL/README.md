@@ -387,13 +387,13 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Managers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/1_Lab/Task_1_Managers.sql">Managers</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Towns and Addresses</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/1_Lab/Task_2_Towns_and_Addresses.sql">Towns and Addresses</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Employees Without Managers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/1_Lab/Task_3_Employees_Without_Managers.sql">Employees Without Managers</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">High Salary</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/1_Lab/Task_4_High_Salary.sql">High Salary</a></td>
     </tr>
   </tbody>
   <thead>
@@ -404,45 +404,45 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Employee Address</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_1_Employee_Address.sql">Employee Address</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Addresses with Towns</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_2_Addresses_with_Towns.sql">Addresses with Towns</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Sales Employee</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_3_Sales_Employee.sql">Sales Employee</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Employee Departments</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_4_Employee_Departments.sql">Employee Departments</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Employees Without Project</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_5_Employees_Without_Project.sql">Employees Without Project</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Employees Hired After</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_6_Employees_Hired_After.sql">Employees Hired After</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXXXXX">Employees with Project</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_7_Employees_with_Project.sql">Employees with Project</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXXXXX">Employee 24</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_8_Employee_24.sql">Employee 24</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXXXXX">Employee Manager</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_9_Employee_Manager.sql">Employee Manager</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="XXXXXXX">Employee Summary</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_10_Employee_Summary.sql">Employee Summary</a></td>
     </tr>
 	<tr>
       <td><b>11.</b></td>
-      <td><a href="XXXXXXX">Min Average Salary</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_11_Min_Average_Salary.sql">Min Average Salary</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXXXXX">Highest Peaks in Bulgaria</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_12_Highest_Peaks_in_Bulgaria.sql">Highest Peaks in Bulgaria</a></td>
       <td><b>13.</b></td>
-      <td><a href="XXXXXXX">Count Mountain Ranges</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_13_Count_Mountain_Ranges.sql">Count Mountain Ranges</a></td>
       <td><b>14.</b></td>
-      <td><a href="XXXXXXX">Countries with Rivers</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_14_Countries_with_Rivers.sql">Countries with Rivers</a></td>
 	  <td><b>15.</b></td>
-      <td><a href="XXXXXXX">Continents and Currencies</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_15_Continents_and_Currencies.sql">Continents and Currencies</a></td>
     </tr>
 	<tr>
       <td><b>16.</b></td>
-      <td><a href="XXXXXXX">Countries without any Mountains</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_16_Countries_without_any_Mountains.sql">Countries without any Mountains</a></td>
       <td><b>17.</b></td>
-      <td><a href="XXXXXXX">Highest Peak and Longest River by Country</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/6_Subqueries%20and%20JOINs/2_Exercise/Task_17_Highest_Peak_and_Longest_River_by_Country.sql">Highest Peak and Longest River by Country</a></td>
     </tr>
   </tbody>
 </table>
