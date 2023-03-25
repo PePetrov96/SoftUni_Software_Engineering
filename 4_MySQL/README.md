@@ -460,13 +460,13 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Count Employees by Town</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/1_Lab/Task_1_Count_Employees_by_Town.sql">Count Employees by Town</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Employees Promotion</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/1_Lab/Task_2_Employees_Promotion.sql">Employees Promotion</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Employees Promotion By ID</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/1_Lab/Task_3_Employees_Promotion_By_ID.sql">Employees Promotion By ID</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Triggered</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/1_Lab/Task_4_Triggered.sql">Triggered</a></td>
     </tr>
   </tbody>
   <thead>
@@ -477,43 +477,43 @@ Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Employees with Salary Above 35000</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_1_Employees_with_Salary_Above_35000.sql">Employees with Salary Above 35000</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Employees with Salary Above Number</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_2_Employees_with_Salary_Above_Number.sql">Employees with Salary Above Number</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Town Names Starting With</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_3_Town_Names_Starting_With.sql">Town Names Starting With</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Employees from Town</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_4_Employees_from_Town.sql">Employees from Town</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Salary Level Function</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_5_Salary_Level_Function.sql">Salary Level Function</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Employees by Salary Level</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_6_Employees_by_Salary_Level.sql">Employees by Salary Level</a></td>
       <td><b>07.</b></td>
-      <td><a href="XXXXXXX">Define Function</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_7_Define_Function.sql">Define Function</a></td>
       <td><b>08.</b></td>
-      <td><a href="XXXXXXX">Find Full Name</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_8_Find_Full_Name.sql">Find Full Name</a></td>
       <td><b>09.</b></td>
-      <td><a href="XXXXXXX">People with Balance Higher Than</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_9_People_with_Balance_Higher_Than.sql">People with Balance Higher Than</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="XXXXXXX">Future Value Function</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_10_Future_Value_Function.sql">Future Value Function</a></td>
     </tr>
 	<tr>
       <td><b>11.</b></td>
-      <td><a href="XXXXXXX">Calculating Interest</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_11_Calculating_Interest.sql">Calculating Interest</a></td>
       <td><b>12.</b></td>
-      <td><a href="XXXXXXX">Deposit Money</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_12_Deposit_Money.sql">Deposit Money</a></td>
       <td><b>13.</b></td>
-      <td><a href="XXXXXXX">Withdraw Money</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_13_Withdraw_Money.sql">Withdraw Money</a></td>
       <td><b>14.</b></td>
-      <td><a href="XXXXXXX">Money Transfer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_14_Money_Transfer.sql">Money Transfer</a></td>
 	  <td><b>15.</b></td>
-      <td><a href="XXXXXXX">Log Accounts Trigger</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_15_Log_Accounts_Trigger.sql">Log Accounts Trigger</a></td>
     </tr>
 	<tr>
       <td><b>16.</b></td>
-      <td><a href="XXXXXXX">Emails Trigger</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/4_MySQL/Homework/7_Database%20Programmability/2_Exercise/Task_16_Emails_Trigger.sql">Emails Trigger</a></td>
     </tr>
   </tbody>
 </table>
