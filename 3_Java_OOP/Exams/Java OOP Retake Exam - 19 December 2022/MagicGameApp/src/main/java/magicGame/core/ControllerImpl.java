@@ -48,6 +48,7 @@ public class ControllerImpl implements Controller{
     @Override
     public String addMagician(String type, String username, int health, int protection, String magicName) {
         Magic magic = magics.findByName(magicName);
+
         if (magic == null) {
             throw new NullPointerException(ExceptionMessages.MAGIC_CANNOT_BE_FOUND);
         }
@@ -57,7 +58,7 @@ public class ControllerImpl implements Controller{
                     this.magicians.addMagician(new Wizard(username, health, protection, magic));
                 break;
             case "BlackWidow":
-                    this.magicians.addMagician(new BlackWidow(username, health, protection, magic));
+                    this.magicians.addMagician(new BlackWidow(username,health, protection, magic));
                 break;
             default:
                 throw new IllegalArgumentException(ExceptionMessages.INVALID_MAGICIAN_TYPE);
@@ -68,40 +69,22 @@ public class ControllerImpl implements Controller{
 
     @Override
     public String startGame() {
-        Collection<Magician> magicianCollection = this.magicians.getData()
-                .stream()
+        return this.region.start(this.magicians.getData().stream()
                 .filter(Magician::isAlive)
-                .collect(Collectors.toList());
-
-        return region.start(magicianCollection);
+                .collect(Collectors.toList()));
     }
 
     @Override
     public String report() {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder out = new StringBuilder();
 
-        List<Magician> magicianList = magicians.getData()
-                .stream()
-                .sorted(Comparator.comparing(Magician::getHealth)
+        List<Magician> sortedMagicians = this.magicians.getData().stream()
+                .sorted(Comparator.comparingInt(Magician::getHealth)
                         .thenComparing(Magician::getUsername))
                 .collect(Collectors.toList());
 
-        for (Magician magician : magicianList) {
-            int health = magician.getHealth();
-            if (magician.getHealth() < 0){
-                health = 0;
-            }
-            int protection = magician.getProtection();
-            if (magician.getProtection() < 0){
-                protection = 0;
-            }
+        sortedMagicians.forEach(magician -> out.append(magician.toString()));
 
-            sb.append(String.format("%s: %s", magician.getClass().getSimpleName(), magician.getUsername())).append(System.lineSeparator())
-                    .append(String.format("Health: %d", health)).append(System.lineSeparator())
-                    .append(String.format("Protection: %d", protection)).append(System.lineSeparator())
-                    .append(String.format("Magic: %s", magician.getMagic().getName())).append(System.lineSeparator());
-        }
-
-        return sb.toString().trim();
+        return out.toString().trim();
     }
 }

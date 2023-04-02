@@ -10,11 +10,11 @@ public abstract class MagicianImpl implements Magician{
     private boolean isAlive;
     private Magic magic;
 
-    protected MagicianImpl(String username, int health, int protection, Magic magic) {
+    public MagicianImpl(String username, int health, int protection, Magic magic) {
         setUsername(username);
         setHealth(health);
         setProtection(protection);
-        this.isAlive = true;
+        setAlive();
         setMagic(magic);
     }
 
@@ -37,6 +37,10 @@ public abstract class MagicianImpl implements Magician{
             throw new IllegalArgumentException(ExceptionMessages.INVALID_MAGICIAN_PROTECTION);
         }
         this.protection = protection;
+    }
+
+    private void setAlive() {
+        isAlive = this.health > 0;
     }
 
     private void setMagic(Magic magic) {
@@ -73,12 +77,34 @@ public abstract class MagicianImpl implements Magician{
 
     @Override
     public void takeDamage(int points) {
-        this.protection -= points;
-        if (this.protection < 0){
-            health += this.protection;
+        int remainingDamage = points;
+
+        if (remainingDamage > this.protection) {
+            remainingDamage -= this.protection;
+            this.protection = 0;
+        } else {
+            this.protection -= remainingDamage;
+            remainingDamage = 0;
         }
-        if (health <= 0){
-            isAlive = false;
+
+        this.health -= remainingDamage;
+
+        if (this.health < 0) {
+            this.health = 0;
         }
+
+        if (this.health == 0) {
+            this.isAlive = false;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return String.format(
+                "%s: %s%n" +
+                "Health: %d%n" +
+                "Protection: %d%n" +
+                "Magic: %s%n",
+                getClass().getSimpleName(), getUsername(), getHealth(), getProtection(), getMagic().getName());
     }
 }
