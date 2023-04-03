@@ -1,4 +1,4 @@
-# Java Advanced
+# Java OOP
 Judge Contest can be found here: <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/187/Java-OOP-Exercises">Java OOP</a>
 
 Certificate can be found here: <a href="">Java OOP Certificate</a>

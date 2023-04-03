@@ -1,4 +1,4 @@
-# Java Advanced
+# Databases Basics
 Judge Contest can be found here: <a href="https://judge.softuni.org/Contests#!/List/ByCategory/66/Java-Databases-Basics-Exercises">MySQL Databases Basics</a>
 
 Certificate can be found here: <a href="XXXXXXX">Databases Basics Certificate</a>
