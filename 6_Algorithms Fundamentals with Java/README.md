@@ -7,7 +7,7 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
 
 ---
 
-## <a href="XXXXX">01. Recursion and Backtracking
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking">01. Recursion and Backtracking
 
 <table>
   <thead>
@@ -40,7 +40,7 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
 
 ---
 
-## <a href="XXXXX">02. Combinatorial Problems
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems">02. Combinatorial Problems
 
 <table>
   <thead>
@@ -73,7 +73,7 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
 
 ---
 
-## <a href="XXXXX">03. Recursion and Combinatorial Problems
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/3_Recursion_and_Combinatorial_Problems">03. Recursion and Combinatorial Problems
 
 <table>
   <thead>
@@ -110,7 +110,7 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
 
 ---
 
-## <a href="XXXXX">04. Searching, Sorting and Greedy Algorithms
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/4_Searching_Sorting_and_Greedy_Algorithms">04. Searching, Sorting and Greedy Algorithms
 
 <table>
   <thead>
@@ -137,7 +137,7 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
 
 ---
 
-## <a href="XXXXX">05. Graph Theory, Traversal and Shortest Paths
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/5_Graph_Theory_Traversal_and_Shortest_Paths">05. Graph Theory, Traversal and Shortest Paths
 
 <table>
   <thead>
@@ -185,7 +185,7 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
 
 ---
 
-## <a href="XXXXX">06. Introduction to Dynamic Programming
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/6_Introduction_to_Dynamic_Programming">06. Introduction to Dynamic Programming
 
 <table>
   <thead>
