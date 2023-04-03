@@ -1,8 +1,8 @@
 package christmasPastryShop.entities.cocktails;
 
 public class Hibernation extends BaseCocktail{
-    private static final double Initial_hibernation_Price = 4.50;
+    private static final double HIBERNATION_PRICE = 4.50;
     public Hibernation(String name, int size, String brand) {
-        super(name, size, Initial_hibernation_Price, brand);
+        super(name, size, HIBERNATION_PRICE, brand);
     }
 }

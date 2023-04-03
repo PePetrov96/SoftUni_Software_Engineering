@@ -17,7 +17,6 @@ import christmasPastryShop.repositories.interfaces.DelicacyRepository;
 
 public class Main {
     public static void main(String[] args) {
-
         String a = " ";
         int a1 = a.length();
         DelicacyRepository<Delicacy> delicacyRepository = new DelicacyRepositoryImpl();
@@ -29,7 +28,7 @@ public class Main {
         ConsoleReader reader = new ConsoleReader();
         ConsoleWriter writer = new ConsoleWriter();
         EngineImpl engine = new EngineImpl(reader, writer, controller);
-        engine.run();
 
+        engine.run();
     }
 }

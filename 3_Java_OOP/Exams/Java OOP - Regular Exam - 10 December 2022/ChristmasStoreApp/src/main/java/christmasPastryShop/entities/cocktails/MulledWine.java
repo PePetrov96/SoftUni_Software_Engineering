@@ -1,8 +1,8 @@
 package christmasPastryShop.entities.cocktails;
 
 public class MulledWine extends BaseCocktail{
-    private static final double Initial_mulledWine_Price = 3.50;
+    private static final double MULLED_WINE_PRICE = 3.50;
     public MulledWine(String name, int size, String brand) {
-        super(name, size, Initial_mulledWine_Price, brand);
+        super(name, size, MULLED_WINE_PRICE, brand);
     }
 }

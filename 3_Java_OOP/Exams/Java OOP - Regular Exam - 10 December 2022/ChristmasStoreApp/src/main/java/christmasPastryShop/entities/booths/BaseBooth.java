@@ -21,38 +21,22 @@ public abstract class BaseBooth implements Booth {
     public BaseBooth(int boothNumber, int capacity, double pricePerPerson) {
         this.delicacyOrders = new ArrayList<>();
         this.cocktailOrders = new ArrayList<>();
-        setBoothNumber(boothNumber);
-        setCapacity(capacity);
-        setNumberOfPeople(numberOfPeople);
-        setPricePerPerson(pricePerPerson);
-        this.isReserved = false;
-    }
-
-    private void setBoothNumber(int boothNumber) {
         this.boothNumber = boothNumber;
-    }
-
-    private void setPricePerPerson(double pricePerPerson) {
+        setCapacity(capacity);
         this.pricePerPerson = pricePerPerson;
-    }
-
-    private void setReserved(boolean reserved) {
-        isReserved = reserved;
-    }
-
-    private void setPrice(double price) {
-        this.price = price;
+        this.isReserved = false;
+        this.price = 0;
     }
 
     private void setCapacity(int capacity) {
-        if (capacity <= 0) {
+        if (capacity < 0) {
             throw new IllegalArgumentException(ExceptionMessages.INVALID_TABLE_CAPACITY);
         }
         this.capacity = capacity;
     }
 
     private void setNumberOfPeople(int numberOfPeople) {
-        if (numberOfPeople < 0) {
+        if (numberOfPeople <= 0) {
             throw new IllegalArgumentException(ExceptionMessages.INVALID_NUMBER_OF_PEOPLE);
         }
         this.numberOfPeople = numberOfPeople;
@@ -80,30 +64,30 @@ public abstract class BaseBooth implements Booth {
 
     @Override
     public void reserve(int numberOfPeople) {
-        setReserved(true);
+        this.isReserved = true;
         setNumberOfPeople(numberOfPeople);
-        setPrice(numberOfPeople * pricePerPerson);
+        this.price = this.pricePerPerson * numberOfPeople;
     }
 
     @Override
     public double getBill() {
-        double cocktailPrices = cocktailOrders.stream()
+        double cocktailPrice = cocktailOrders.stream()
                 .mapToDouble(Cocktail::getPrice)
                 .sum();
 
-        double delicacyPrices = delicacyOrders.stream()
+        double delicacyPrice = delicacyOrders.stream()
                 .mapToDouble(Delicacy::getPrice)
                 .sum();
 
-        return (price + cocktailPrices + delicacyPrices);
+        return cocktailPrice + delicacyPrice + price;
     }
 
     @Override
     public void clear() {
-        setReserved(false);
-        setPrice(0);
-        setNumberOfPeople(0);
-        delicacyOrders = new ArrayList<>();
-        cocktailOrders = new ArrayList<>();
+        this.cocktailOrders.clear();
+        this.delicacyOrders.clear();
+        this.isReserved = false;
+        this.price = 0;
+        this.numberOfPeople = 0;
     }
 }

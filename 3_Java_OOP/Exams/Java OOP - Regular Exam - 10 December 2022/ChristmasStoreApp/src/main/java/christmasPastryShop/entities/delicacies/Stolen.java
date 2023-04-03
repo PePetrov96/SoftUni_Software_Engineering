@@ -1,8 +1,8 @@
 package christmasPastryShop.entities.delicacies;
 
 public class Stolen extends BaseDelicacy{
-    private static final double Initial_Stolen_Portion = 250;
+    private static final double INITIAL_STOLEN_PORTION = 250;
     public Stolen(String name, double price) {
-        super(name, Initial_Stolen_Portion, price);
+        super(name, INITIAL_STOLEN_PORTION, price);
     }
 }

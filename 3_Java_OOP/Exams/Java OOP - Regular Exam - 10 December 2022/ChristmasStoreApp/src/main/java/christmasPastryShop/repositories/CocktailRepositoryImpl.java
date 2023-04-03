@@ -8,15 +8,15 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class CocktailRepositoryImpl implements CocktailRepository<Cocktail> {
-    private Collection<Cocktail> cocktails;
+    private Collection<Cocktail> models;
 
     public CocktailRepositoryImpl() {
-        this.cocktails = new ArrayList<>();
+        this.models = new ArrayList<>();
     }
 
     @Override
     public Cocktail getByName(String name) {
-        return this.cocktails.stream()
+        return this.models.stream()
                 .filter(cocktail -> cocktail.getName().equals(name))
                 .findFirst()
                 .orElse(null);
@@ -24,11 +24,11 @@ public class CocktailRepositoryImpl implements CocktailRepository<Cocktail> {
 
     @Override
     public Collection<Cocktail> getAll() {
-        return Collections.unmodifiableCollection(cocktails);
+        return Collections.unmodifiableCollection(this.models);
     }
 
     @Override
     public void add(Cocktail cocktail) {
-        this.cocktails.add(cocktail);
+        this.models.add(cocktail);
     }
 }
