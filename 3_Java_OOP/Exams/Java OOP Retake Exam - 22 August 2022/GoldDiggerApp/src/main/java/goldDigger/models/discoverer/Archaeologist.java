@@ -1,11 +1,36 @@
 package goldDigger.models.discoverer;
 
-import goldDigger.models.museum.Museum;
+import java.lang.reflect.Field;
 
 public class Archaeologist extends BaseDiscoverer{
-    private static final double ENERGY = 60;
-
+    private static final double INITIAL_ENERGY = 60;
     public Archaeologist(String name) {
-        super(name, ENERGY);
+        super(name, INITIAL_ENERGY);
+    }
+
+    @Override
+    public void dig() {
+        Field energyField;
+
+        try {
+            energyField = BaseDiscoverer.class.getDeclaredField("energy");
+        } catch (NoSuchFieldException e) {
+            throw new RuntimeException(e);
+        }
+
+        energyField.setAccessible(true);
+        double currentEnergy;
+
+        try {
+            currentEnergy = energyField.getDouble(this);
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
+
+        try {
+            energyField.setDouble(this, Math.max(0, currentEnergy - 15));
+        } catch (IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

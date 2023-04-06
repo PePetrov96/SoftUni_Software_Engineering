@@ -1,98 +1,60 @@
 package archeologicalExcavations;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class ExcavationTests {
-    private Archaeologist archaeologist;
-    private Excavation excavation;
-
-    @Before
-    public void initializeArcheologist() {
-        archaeologist = new Archaeologist("Ivan", 200);
-        excavation = new Excavation("MountEverest", 2);
-
-        excavation.addArchaeologist(archaeologist);
-    }
+    private Archaeologist arch1 = new Archaeologist("Ivan", 200);
+    private Archaeologist arch2 = new Archaeologist("Kiro", 100);
+    private Archaeologist arch3 = new Archaeologist("Petko", 300);
+    private Excavation excavation = new Excavation("Everest", 2);
 
     @Test
-    public void constructor_ShouldSetSuccessfullyValues() {
-        Assert.assertEquals(2, excavation.getCapacity());
-        Assert.assertEquals("MountEverest", excavation.getName());
-    }
-
-    @Test
-    public void getCorrectCount() {
-        Assert.assertEquals(1, excavation.getCount());
-    }
-
-    @Test
-    public void getCorrectNameAndEnergy() {
-        Assert.assertEquals("Ivan", archaeologist.getName());
-        Assert.assertEquals(200.0, archaeologist.getEnergy(), 200.0);
-    }
-
-    @Test
-    public void removesArcheologistAndReturnsTrue() {
-        Assert.assertTrue(excavation.removeArchaeologist("Ivan"));
+    public void excavation_correct_initializing(){
         Assert.assertEquals(0, excavation.getCount());
+        Assert.assertEquals("Everest", excavation.getName());
+        Assert.assertEquals(2, excavation.getCapacity());
     }
 
     @Test
-    public void removesArcheologistAndReturnsFalse() {
-        Assert.assertFalse(excavation.removeArchaeologist("Gosho"));
+    public void excavation_correct_get_count(){
+        Assert.assertEquals(0, excavation.getCount());
+        excavation.addArchaeologist(arch1);
         Assert.assertEquals(1, excavation.getCount());
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void cannotSetCapacityBelowZeroExcavation() {
-        Excavation excavation2 = new Excavation("Test", -1);
+    @Test(expected = NullPointerException.class)
+    public void excavation_cannot_set_null_name(){
+        Excavation excavation1 = new Excavation(null, 20);
     }
 
     @Test(expected = NullPointerException.class)
-    public void cannotSetNameToEmptyExcavation() {
-        Excavation excavation2 = new Excavation(" ", 1);
-    }
-
-    @Test(expected = NullPointerException.class)
-    public void cannotSetNameToNullExcavation() {
-        Excavation excavation2 = new Excavation(null, 1);
+    public void excavation_cannot_set_empty_name(){
+        Excavation excavation1 = new Excavation(" ", 20);
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void cannotAddTheSameArcheologist() {
-        archaeologist = new Archaeologist("Ivan", 200);
-        excavation.addArchaeologist(archaeologist);
-        excavation.addArchaeologist(archaeologist);
+    public void excavation_cannot_set_negative_capacity(){
+        Excavation excavation1 = new Excavation("Everest", -1);
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void cannotGoOverTheCapacity() {
-        Archaeologist archaeologist1 = new Archaeologist("Gosho", 200);
-        Archaeologist archaeologist2 = new Archaeologist("Kiro", 200);
+    public void excavation_cannot_add_more_than_the_capacity(){
+        excavation.addArchaeologist(arch1);
+        excavation.addArchaeologist(arch2);
+        excavation.addArchaeologist(arch3);
+    }
 
-        excavation.addArchaeologist(archaeologist1);
-        excavation.addArchaeologist(archaeologist2);
+    @Test(expected = IllegalArgumentException.class)
+    public void excavation_cannot_add_the_same_archeologist_twice(){
+        excavation.addArchaeologist(arch1);
+        excavation.addArchaeologist(arch1);
     }
 
     @Test
-    public void getProperCount() {
-        Assert.assertEquals(1, excavation.getCount());
-    }
-
-    @Test
-    public void canCreateArchaeologist() {
-        Archaeologist archaeologist1 = new Archaeologist("Ivan", 20);
-        Assert.assertNotNull(archaeologist1 );
-    }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void addMethod_ShouldThrowsExceptionForDuplicateAstronaut() {
-        Excavation excavation = new Excavation("Misionis", 2);
-        Archaeologist archaeologist = new Archaeologist("Mike", 20);
-
-        excavation.addArchaeologist(archaeologist);
-        excavation.addArchaeologist(archaeologist);
+    public void excavation_remove_archeologist_(){
+        excavation.addArchaeologist(arch1);
+        Assert.assertTrue(excavation.removeArchaeologist(arch1.getName()));
+        Assert.assertFalse(excavation.removeArchaeologist(arch1.getName()));
     }
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 
-public class DiscovererRepository implements Repository<Discoverer>{
+public class DiscovererRepository implements Repository<Discoverer> {
     private Collection<Discoverer> discoverers;
 
     public DiscovererRepository() {

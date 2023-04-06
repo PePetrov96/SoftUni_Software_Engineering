@@ -11,16 +11,15 @@ import goldDigger.models.operation.OperationImpl;
 import goldDigger.models.spot.Spot;
 import goldDigger.models.spot.SpotImpl;
 import goldDigger.repositories.DiscovererRepository;
-import goldDigger.repositories.Repository;
 import goldDigger.repositories.SpotRepository;
 
 import java.util.Collection;
 import java.util.stream.Collectors;
 
 public class ControllerImpl implements Controller{
-    private final Repository<Discoverer> discovererRepository;
-    private final Repository<Spot> spotRepository;
-    private int count;
+    private DiscovererRepository discovererRepository;
+    private SpotRepository spotRepository;
+    private int inspectedSpots = 0;
 
     public ControllerImpl() {
         this.discovererRepository = new DiscovererRepository();
@@ -30,11 +29,14 @@ public class ControllerImpl implements Controller{
     @Override
     public String addDiscoverer(String kind, String discovererName) {
         switch (kind) {
-            case "Archaeologist": this.discovererRepository.add(new Archaeologist(discovererName));
+            case "Anthropologist":
+                    this.discovererRepository.add(new Anthropologist(discovererName));
                 break;
-            case "Anthropologist": this.discovererRepository.add(new Anthropologist(discovererName));
+            case "Archaeologist":
+                    this.discovererRepository.add(new Archaeologist(discovererName));
                 break;
-            case "Geologist": this.discovererRepository.add(new Geologist(discovererName));
+            case "Geologist":
+                    this.discovererRepository.add(new Geologist(discovererName));
                 break;
             default:
                 throw new IllegalArgumentException(ExceptionMessages.DISCOVERER_INVALID_KIND);
@@ -71,53 +73,56 @@ public class ControllerImpl implements Controller{
 
     @Override
     public String inspectSpot(String spotName) {
-        Collection<Discoverer> discoverParty = this.discovererRepository.getCollection()
+        Collection<Discoverer> discoverers = discovererRepository.getCollection()
                 .stream()
                 .filter(discoverer -> discoverer.getEnergy() > 45)
                 .collect(Collectors.toList());
 
-        if (discoverParty.size() == 0) {
+        if (discoverers.isEmpty()) { //if there are no discoverers above 45 energy
             throw new IllegalArgumentException(ExceptionMessages.SPOT_DISCOVERERS_DOES_NOT_EXISTS);
         }
 
-        Spot spot = spotRepository.byName(spotName);
+        int initial = discoverers.size(); //count of discoverers that canDig() before the expedition
 
-        Operation operation = new OperationImpl();
-        operation.startOperation(spot, discoverParty);
+        Spot spot = spotRepository.byName(spotName); //get the spot
 
-        long excluded = discoverParty.stream().filter(discoverer -> discoverer.getEnergy() == 0).count();
-        this.count++;
+        Operation operation = new OperationImpl(); //make a new Operation
 
-        return String.format(ConstantMessages.INSPECT_SPOT, spotName, excluded);
+        operation.startOperation(spot, discoverers); //start the operation
+
+        this.inspectedSpots++;
+
+        long remaining = discoverers.stream()
+                .filter(Discoverer::canDig).count(); //count of discoverers that canDig() after the expedition
+
+        return String.format(ConstantMessages.INSPECT_SPOT, spotName, (initial - remaining));
     }
 
     @Override
     public String getStatistics() {
-        StringBuilder result = new StringBuilder(
-                String.format(ConstantMessages.FINAL_SPOT_INSPECT, this.count))
+        StringBuilder out = new StringBuilder(String.format(ConstantMessages.FINAL_SPOT_INSPECT, inspectedSpots))
                 .append(System.lineSeparator())
                 .append(ConstantMessages.FINAL_DISCOVERER_INFO)
                 .append(System.lineSeparator());
 
-        for (Discoverer discoverer : this.discovererRepository.getCollection()) {
-
-            result.append(String.format(ConstantMessages.FINAL_DISCOVERER_NAME, discoverer.getName()))
+        for (Discoverer discoverer : discovererRepository.getCollection()) {
+            out
+                    .append(String.format(ConstantMessages.FINAL_DISCOVERER_NAME, discoverer.getName()))
                     .append(System.lineSeparator())
                     .append(String.format(ConstantMessages.FINAL_DISCOVERER_ENERGY, discoverer.getEnergy()))
                     .append(System.lineSeparator());
 
-            if (discoverer.getMuseum().getExhibits().size() == 0) {
-                result.append(String.format(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS
-                        , "None"));
+            if (discoverer.getMuseum().getExhibits().isEmpty()) {
+                out.append(String.format(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS,
+                        "None"));
             } else {
-                result.append(String.format(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS,
-                        (String.join(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS_DELIMITER, discoverer.getMuseum().getExhibits()))));
+                out.append(String.format(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS,
+                        String.join(ConstantMessages.FINAL_DISCOVERER_MUSEUM_EXHIBITS_DELIMITER, discoverer.getMuseum().getExhibits())));
             }
 
-            result.append(System.lineSeparator());
-
+            out.append(System.lineSeparator());
         }
 
-        return result.toString().trim();
+        return out.toString().trim();
     }
 }

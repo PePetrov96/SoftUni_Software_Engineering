@@ -1,5 +1,6 @@
 package goldDigger.models.discoverer;
 
+import goldDigger.common.ConstantMessages;
 import goldDigger.common.ExceptionMessages;
 import goldDigger.models.museum.BaseMuseum;
 import goldDigger.models.museum.Museum;
@@ -7,11 +8,11 @@ import goldDigger.models.museum.Museum;
 public abstract class BaseDiscoverer implements Discoverer{
     private String name;
     private double energy;
-    private final Museum museum;
+    private Museum museum;
 
     public BaseDiscoverer(String name, double energy) {
-        this.setName(name);
-        this.setEnergy(energy);
+        setName(name);
+        setEnergy(energy);
         this.museum = new BaseMuseum();
     }
 
@@ -40,17 +41,15 @@ public abstract class BaseDiscoverer implements Discoverer{
     }
 
     @Override
+    public boolean canDig() {
+        return getEnergy() > 0;
+    }
+
+    @Override
     public Museum getMuseum() {
         return this.museum;
     }
 
     @Override
-    public void dig() {
-        setEnergy(Math.max(0, getEnergy() - 15));
-    }
-
-    @Override
-    public boolean canDig() {
-        return this.energy > 0;
-    }
+    public abstract void dig();
 }
