@@ -15,7 +15,6 @@ public abstract class BaseService implements Service{
     private int capacity;
     private Collection<Supplement> supplements;
     private Collection<Robot> robots;
-    private int totalFed;
 
     public BaseService(String name, int capacity) {
         setName(name);

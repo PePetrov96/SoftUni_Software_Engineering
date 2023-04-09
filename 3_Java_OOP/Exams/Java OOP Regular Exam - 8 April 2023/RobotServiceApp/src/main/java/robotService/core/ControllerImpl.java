@@ -116,6 +116,7 @@ public class ControllerImpl implements Controller{
                 .orElse(null);
 
         assert service != null;
+
         int count = service.getRobots().size(); // count the robots
 
         this.services.stream()
