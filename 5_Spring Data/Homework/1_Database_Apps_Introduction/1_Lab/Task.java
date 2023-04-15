@@ -9,7 +9,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Main {
+public class Task {
     public static void main(String[] args) throws SQLException, IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String user = "root";
