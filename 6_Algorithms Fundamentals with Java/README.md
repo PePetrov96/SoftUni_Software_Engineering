@@ -18,21 +18,21 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Recursive Array Sum</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking/Task_1_Recursive_Array_Sum.java">Recursive Array Sum</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Recursive Drawing</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking/Task_2_Recursive_Drawing.java">Recursive Drawing</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Generating 0/1 Vectors</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking/Task_3_Generating_0_1_Vectors.java">Generating 0/1 Vectors</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Recursive Factorial</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking/Task_4_Recursive_Factorial.java">Recursive Factorial</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Paths in Labyrinth</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking/Task_5_Paths_in_Labyrinth.java">Paths in Labyrinth</a></td>
     </tr>
 	<tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Queens Puzzle</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking/Task_6_Queens_Puzzle.java">Queens Puzzle</a></td>
       <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">Recursive Fibonacci</a></td>
+	  <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/1_Recursion_and_Backtracking/Task_7_Recursive_Fibonacci.java">Recursive Fibonacci</a></td>
     </tr>
   </tbody>
 </table>
