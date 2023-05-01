@@ -1,5 +1,4 @@
 # Spring Data
-Judge Contest can be found here: <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/255/Algorithms-Fundamentals-Exercises">Spring Data</a>
 
 Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
