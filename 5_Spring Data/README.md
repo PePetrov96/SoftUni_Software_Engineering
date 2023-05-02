@@ -52,7 +52,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">02. ORM Fundamentals 2
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/2_ORM_Fundamentals">02. ORM Fundamentals
 
 <table>
   <thead>
@@ -62,16 +62,25 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   </thead>
   <tbody>
     <tr>
-      <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><b>02.</b></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/entities/User.java">Create Entities</a></td>
 	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/orm/MyConnector.java">Create Database Connection</a></td>
 	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/manager/DbContext.java">Create Database Context</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/manager/EntityManager.java">Create Entity Manager</a></td>
+	  <td><b>06.</b></td>
+      <td><a href="XXXXXXX">Persist Object in the Database</a></td>
+    </tr>
+	<tr>
+      <td><b>07.</b></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/manager/EntityManager.java">Fetching Results</a></td>
+	  <td><b>08.</b></td>
+	  <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/Main.java">Test Framework</a></td>
+	  <td><b>09.</b></td>
+	  <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/Main.java">Fetch Users</a></td>
+	  <td><b>10.</b></td>
     </tr>
   </tbody>
   <thead>
@@ -82,27 +91,15 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/manager/EntityManager.java">Create Table</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/Main.java">Test Create</a></td>
 	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/manager/EntityManager.java">Alter Table</a></td>
 	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/Main.java">Test Alter</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-    </tr>
-	<tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>08.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>09.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>10.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/manager/EntityManager.java">Delete</a></td>
     </tr>
   </tbody>
 </table>
@@ -110,7 +107,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/3_Introduction_to_Hibernate/2_Exercise/IntroToHibernate">03. Introduction to Hibernate 3
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/3_Introduction_to_Hibernate">03. Introduction to Hibernate
 
 <table>
   <thead>
@@ -155,7 +152,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">04. Lecture 4
+## <a href="XXXXXX">04. Lecture
 
 <table>
   <thead>
@@ -213,7 +210,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">05. Lecture 5
+## <a href="XXXXXX">05. Lecture
 
 <table>
   <thead>
@@ -271,7 +268,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">06. Lecture 6
+## <a href="XXXXXX">06. Lecture
 
 <table>
   <thead>
