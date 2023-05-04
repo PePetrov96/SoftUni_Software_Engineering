@@ -49,7 +49,7 @@ public class Task_6_Adding_a_New_Address_and_Updating_Employee {
         factory.close();
     }
     private static void addAddress() {
-        // First, let's find the town with the given name
+        // Find the town with the given name
         String query1 =
                 "SELECT t " +
                 "FROM Town AS t " +
@@ -58,7 +58,7 @@ public class Task_6_Adding_a_New_Address_and_Updating_Employee {
         Town town = em.createQuery(query1, Town.class)
                 .getSingleResult();
 
-        // Then, let's check if the address exists
+        // Check if the address exists
         String query2 =
                 "SELECT a " +
                 "FROM Address AS a " +

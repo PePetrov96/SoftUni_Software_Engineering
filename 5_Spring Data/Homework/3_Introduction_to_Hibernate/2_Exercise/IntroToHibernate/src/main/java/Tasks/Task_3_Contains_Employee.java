@@ -20,10 +20,9 @@ public class Task_3_Contains_Employee {
                 "FROM Employee AS e " +
                 "WHERE CONCAT_WS(' ', e.firstName, e.lastName) = :fullName";
 
-        TypedQuery<Long> query = em.createQuery(sqlQuery, Long.class)
-                .setParameter("fullName", fullName);
-
-        Long count = query.getSingleResult();
+        Long count = em.createQuery(sqlQuery, Long.class)
+                .setParameter("fullName", fullName)
+                .getSingleResult();
 
         if (count > 0) {
             System.out.println("Yes");
