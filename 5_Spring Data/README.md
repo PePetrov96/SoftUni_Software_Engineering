@@ -152,7 +152,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">04. Hibernate Code First
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First">04. Hibernate Code First
 
 <table>
   <thead>
@@ -163,15 +163,9 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/1_Lab/HibernateCodeFirst/src/main/java/entities">Vehicle Hierarchy</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/1_Lab/HibernateCodeFirst/src/main/java/entities/sub_entities">Relations</a></td>
     </tr>
   </tbody>
   <thead>
@@ -182,27 +176,19 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/2_Exercise/Gringotts">Gringotts Database</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="XXXXXXX">Sales Database</a></td>
 	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="XXXXXXX">University System</a></td>
 	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="XXXXXXX">Hospital Database</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="XXXXXXX">Bills Payment System</a></td>
     </tr>
 	<tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>08.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>09.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>10.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="XXXXXXX">Football Betting Database</a></td>
     </tr>
   </tbody>
 </table>
