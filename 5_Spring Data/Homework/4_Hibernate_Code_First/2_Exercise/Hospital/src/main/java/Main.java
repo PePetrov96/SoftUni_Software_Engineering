@@ -20,7 +20,7 @@ public class Main {
         //Ivan
         //Ivanov
         //1996/11/04
-        //Yes
+        //Y
         //AddVisitation
         //Ivan
         //Ivanov

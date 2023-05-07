@@ -11,12 +11,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.NoResultException;
 import javax.persistence.Persistence;
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.*;
 import java.util.Date;
-import java.util.List;
 
 public class ControllerImpl implements Controller {
     private static final EntityManagerFactory factory = Persistence.createEntityManagerFactory("hospital_database");
@@ -110,6 +108,8 @@ public class ControllerImpl implements Controller {
     @Override
     public String givePatientVisitations(String firstName, String lastName) {
         Patient patient = getPatient(firstName, lastName);
+
+        em.merge(patient);
 
         if (patient == null) {
             throw new IllegalArgumentException(String.format(ExceptionMessages.PATIENT_NOT_IN_DATABASE, firstName, lastName));
