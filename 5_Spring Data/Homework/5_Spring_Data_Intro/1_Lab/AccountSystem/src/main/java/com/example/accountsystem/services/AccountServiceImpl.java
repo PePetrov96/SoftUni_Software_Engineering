@@ -1,14 +1,13 @@
 package com.example.accountsystem.services;
 
 import com.example.accountsystem.model.Account;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import com.example.accountsystem.repositories.AccountRepository;
 
-import java.math.BigDecimal;
-import java.util.Optional;
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.math.BigDecimal;
 
 @Service
 public class AccountServiceImpl implements AccountService {
