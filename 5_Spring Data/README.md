@@ -71,7 +71,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 	  <td><b>05.</b></td>
       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/manager/EntityManager.java">Create Entity Manager</a></td>
 	  <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Persist Object in the Database</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/2_ORM_Fundamentals/1_Lab/MiniORM/src/main/java/Main.java">Persist Object in the Database</a></td>
     </tr>
 	<tr>
       <td><b>07.</b></td>
