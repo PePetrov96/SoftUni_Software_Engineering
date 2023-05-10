@@ -226,27 +226,9 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/2_Exercise/BookshopSystem">Bookshop System</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-    </tr>
-	<tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>08.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>09.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>10.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/2_Exercise/UserSystem">User System</a></td>
     </tr>
   </tbody>
 </table>
