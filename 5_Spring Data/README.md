@@ -178,17 +178,13 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
       <td><b>01.</b></td>
       <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/2_Exercise/Gringotts">Gringotts Database</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Sales Database</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/2_Exercise/Sales">Sales Database</a></td>
 	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">University System</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/2_Exercise/University">University System</a></td>
 	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Hospital Database</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/2_Exercise/Hospital">Hospital Database</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Bills Payment System</a></td>
-    </tr>
-	<tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Football Betting Database</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/4_Hibernate_Code_First/2_Exercise/PaymentSystem">Bills Payment System</a></td>
     </tr>
   </tbody>
 </table>
@@ -196,7 +192,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">05. Spring Data Intro
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/5_Spring_Data_Intro">05. Spring Data Intro
 
 <table>
   <thead>
@@ -207,16 +203,20 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/1_Lab/AccountSystem/src/main/resources/application.properties">Project Setup</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/1_Lab/AccountSystem/src/main/java/com/example/accountsystem/model">Database Models</a></td>
 	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/1_Lab/AccountSystem/src/main/java/com/example/accountsystem/repositories">Repositories</a></td>
 	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/1_Lab/AccountSystem/src/main/java/com/example/accountsystem/services">Services</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/1_Lab/AccountSystem/src/main/java/com/example/accountsystem/ConsoleRunner.java">ConsoleRunner and Application</a></td>
     </tr>
+	<tr>
+	  <td><b>06.</b></td>
+	  <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/5_Spring%20Data/Homework/5_Spring_Data_Intro/1_Lab/AccountSystem/src/main/java/com/example/accountsystem/AccountSystemApplication.java">Test</a></td>
+	</tr>
   </tbody>
   <thead>
     <tr>
