@@ -51,21 +51,21 @@ Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Ja
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Permutations without Repetition</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems/Task_1_Permutations_without_Repetition.java">Permutations without Repetition</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Permutations with Repetition</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems/Task_2_Permutations_with_Repetition.java">Permutations with Repetition</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Variations without Repetition</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems/Task_3_Variations_without_Repetitions.java">Variations without Repetition</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Variations with Repetition</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems/Task_4_Variations_with_Repetitions.java">Variations with Repetition</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Combinations without Repetition</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems/Task_5_Combinations_without_Repetitions.java">Combinations without Repetition</a></td>
     </tr>
 	<tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Combinations with Repetition</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems/Task_6_Combinations_with_Repetitions.java">Combinations with Repetition</a></td>
       <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">N Choose K Count</a></td>
+	  <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/6_Algorithms%20Fundamentals%20with%20Java/Homework/2_Combinatorial_Problems/Task_7_N_Choose_K_Count.java">N Choose K Count</a></td>
     </tr>
   </tbody>
 </table>
