@@ -6,7 +6,6 @@ import com.example.springintro.service.AuthorService;
 import com.example.springintro.service.BookService;
 import com.example.springintro.service.CategoryService;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -21,9 +20,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class BookServiceImpl implements BookService {
-
     private static final String BOOKS_FILE_PATH = "src/main/resources/files/books.txt";
-
     private final BookRepository bookRepository;
     private final AuthorService authorService;
     private final CategoryService categoryService;

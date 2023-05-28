@@ -1,9 +1,6 @@
 package com.example.springintro.service;
 
-import com.example.springintro.model.entity.AgeRestriction;
 import com.example.springintro.model.entity.Book;
-import com.example.springintro.model.entity.EditionType;
-import org.springframework.data.repository.query.Param;
 
 import java.io.IOException;
 import java.math.BigDecimal;
