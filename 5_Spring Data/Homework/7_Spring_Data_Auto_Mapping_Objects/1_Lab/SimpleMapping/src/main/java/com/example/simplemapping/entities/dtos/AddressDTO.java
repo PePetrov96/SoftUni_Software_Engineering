@@ -1,10 +1,10 @@
 package com.example.simplemapping.entities.dtos;
 
-public class CreateAddressDTO {
+public class AddressDTO {
     private String country;
     private String city;
 
-    public CreateAddressDTO(String country, String city) {
+    public AddressDTO(String country, String city) {
         this.country = country;
         this.city = city;
     }
