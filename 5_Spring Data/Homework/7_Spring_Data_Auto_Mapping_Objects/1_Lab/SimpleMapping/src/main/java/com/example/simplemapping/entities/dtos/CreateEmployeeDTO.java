@@ -8,9 +8,9 @@ public class CreateEmployeeDTO {
     private String lastName;
     private BigDecimal salary;
     private LocalDate birthday;
-    private CreateAddressDTO address;
+    private AddressDTO address;
     public CreateEmployeeDTO(String firstName, String lastName, BigDecimal salary,
-                             LocalDate birthday, CreateAddressDTO address) {
+                             LocalDate birthday, AddressDTO address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
@@ -61,11 +61,11 @@ public class CreateEmployeeDTO {
         this.birthday = birthday;
     }
 
-    public CreateAddressDTO getAddress() {
+    public AddressDTO getAddress() {
         return address;
     }
 
-    public void setAddress(CreateAddressDTO address) {
+    public void setAddress(AddressDTO address) {
         this.address = address;
     }
 }
