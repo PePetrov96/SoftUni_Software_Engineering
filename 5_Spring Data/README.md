@@ -236,7 +236,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">06. Spring Data Advanced Querying
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/6_Spring_Data_Advanced_Querying">06. Spring Data Advanced Querying
 
 <table>
   <thead>
@@ -247,16 +247,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-    </tr>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/6_Spring_Data_Advanced_Querying/1_Lab/ShampooCompany">Shampoo Company</a></td>
   </tbody>
   <thead>
     <tr>
@@ -266,27 +257,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-    </tr>
-	<tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>08.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>09.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>10.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/6_Spring_Data_Advanced_Querying/2_Exercise/BookshopSystem">Bookshop System</a></td>
     </tr>
   </tbody>
 </table>
@@ -294,7 +265,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">07. Spring Data Auto Mapping Objects
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/7_Spring_Data_Auto_Mapping_Objects">07. Spring Data Auto Mapping Objects
 
 <table>
   <thead>
@@ -305,15 +276,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/7_Spring_Data_Auto_Mapping_Objects/1_Lab/SimpleMapping">Simple Mapping</a></td>
     </tr>
   </tbody>
   <thead>
@@ -324,27 +287,7 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-    </tr>
-	<tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>08.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>09.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>10.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/7_Spring_Data_Auto_Mapping_Objects/2_Exercise/GameStore">Game Store</a></td>
     </tr>
   </tbody>
 </table>
@@ -352,28 +295,9 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
 
 ---
 
-## <a href="XXXXXX">08. JSON Processing
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/8_JSON_Processing">08. JSON Processing
 
 <table>
-  <thead>
-    <tr>
-      <th colspan="10" style="text-align:center;">Lab</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-    </tr>
-  </tbody>
   <thead>
     <tr>
       <th colspan="10" style="text-align:center;">Exercises</th>
@@ -382,27 +306,9 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/8_JSON_Processing/2_Exercise/JSONProductShopProcessing">Product Shop</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-    </tr>
-	<tr>
-      <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>07.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>08.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>09.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>10.</b></td>
-	  <td><a href="XXXXXXX">Task</a></td>
+      <td><a href=https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/8_JSON_Processing/2_Exercise/JSONCarDealerProcessing">Car Dealer">Task</a></td>
     </tr>
   </tbody>
 </table>
