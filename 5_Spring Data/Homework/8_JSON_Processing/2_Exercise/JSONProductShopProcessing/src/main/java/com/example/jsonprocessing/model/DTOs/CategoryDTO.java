@@ -6,16 +6,16 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CategoryDto implements Serializable {
+public class CategoryDTO implements Serializable {
     @Expose
     private String name;
     @Expose
-    private List<ProductDto> products = new ArrayList<>();
+    private List<ProductDTO> products = new ArrayList<>();
 
-    public CategoryDto() {
+    public CategoryDTO() {
     }
 
-    public CategoryDto(String name) {
+    public CategoryDTO(String name) {
         this.name = name;
     }
 
@@ -27,11 +27,11 @@ public class CategoryDto implements Serializable {
         this.name = name;
     }
 
-    public List<ProductDto> getProducts() {
+    public List<ProductDTO> getProducts() {
         return products;
     }
 
-    public void setProducts(List<ProductDto> products) {
+    public void setProducts(List<ProductDTO> products) {
         this.products = products;
     }
 }

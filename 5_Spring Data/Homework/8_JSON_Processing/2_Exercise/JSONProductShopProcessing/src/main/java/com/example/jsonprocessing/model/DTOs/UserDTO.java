@@ -6,7 +6,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDto implements Serializable {
+public class UserDTO implements Serializable {
     @Expose
     private String firstName;
     @Expose
@@ -14,16 +14,16 @@ public class UserDto implements Serializable {
     @Expose
     private Integer age;
     @Expose
-    private List<ProductDto> soldProducts = new ArrayList<>();
+    private List<ProductDTO> soldProducts = new ArrayList<>();
     @Expose
-    private List<ProductDto> boughtProducts = new ArrayList<>();
+    private List<ProductDTO> boughtProducts = new ArrayList<>();
     @Expose
-    private List<UserDto> friends = new ArrayList<>();
+    private List<UserDTO> friends = new ArrayList<>();
 
-    public UserDto() {
+    public UserDTO() {
     }
 
-    public UserDto(String firstName, String lastName, Integer age) {
+    public UserDTO(String firstName, String lastName, Integer age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
@@ -53,27 +53,27 @@ public class UserDto implements Serializable {
         this.age = age;
     }
 
-    public List<ProductDto> getSoldProducts() {
+    public List<ProductDTO> getSoldProducts() {
         return soldProducts;
     }
 
-    public void setSoldProducts(List<ProductDto> soldProducts) {
+    public void setSoldProducts(List<ProductDTO> soldProducts) {
         this.soldProducts = soldProducts;
     }
 
-    public List<ProductDto> getBoughtProducts() {
+    public List<ProductDTO> getBoughtProducts() {
         return boughtProducts;
     }
 
-    public void setBoughtProducts(List<ProductDto> boughtProducts) {
+    public void setBoughtProducts(List<ProductDTO> boughtProducts) {
         this.boughtProducts = boughtProducts;
     }
 
-    public List<UserDto> getFriends() {
+    public List<UserDTO> getFriends() {
         return friends;
     }
 
-    public void setFriends(List<UserDto> friends) {
+    public void setFriends(List<UserDTO> friends) {
         this.friends = friends;
     }
 }

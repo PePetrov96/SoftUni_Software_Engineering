@@ -1,24 +1,14 @@
 package com.example.jsonprocessing.model.DTOs;
 
-import com.google.gson.annotations.Expose;
-
 import java.math.BigDecimal;
 
-public class ProductJsonDto {
-    @Expose
+public class ProductUserJsonDTO {
     private String name;
-    @Expose
     private BigDecimal price;
-    @Expose
-    private String seller;
 
-    public ProductJsonDto(String name, BigDecimal  price, String seller) {
+    public ProductUserJsonDTO(String name, BigDecimal price) {
         this.name = name;
         this.price = price;
-        this.seller = seller;
-    }
-
-    public ProductJsonDto() {
     }
 
     public String getName() {
@@ -35,13 +25,5 @@ public class ProductJsonDto {
 
     public void setPrice(BigDecimal price) {
         this.price = price;
-    }
-
-    public String getSeller() {
-        return seller;
-    }
-
-    public void setSeller(String seller) {
-        this.seller = seller;
     }
 }

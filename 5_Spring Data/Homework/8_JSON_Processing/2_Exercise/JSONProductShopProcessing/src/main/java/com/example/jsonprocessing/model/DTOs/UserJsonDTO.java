@@ -5,21 +5,21 @@ import com.google.gson.annotations.Expose;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserJsonDto {
+public class UserJsonDTO {
     @Expose
     private String firstName;
     @Expose
     private String lastName;
     @Expose
-    private List<ProductWithBuyerJsonDto> soldProducts = new ArrayList<>();
+    private List<ProductWithBuyerJsonDTO> soldProducts = new ArrayList<>();
 
-    public UserJsonDto(String firstName, String lastName, List<ProductWithBuyerJsonDto> soldProducts) {
+    public UserJsonDTO(String firstName, String lastName, List<ProductWithBuyerJsonDTO> soldProducts) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.soldProducts = soldProducts;
     }
 
-    public UserJsonDto() {
+    public UserJsonDTO() {
     }
 
     public String getFirstName() {
@@ -38,11 +38,11 @@ public class UserJsonDto {
         this.lastName = lastName;
     }
 
-    public List<ProductWithBuyerJsonDto> getSoldProducts() {
+    public List<ProductWithBuyerJsonDTO> getSoldProducts() {
         return soldProducts;
     }
 
-    public void setSoldProducts(List<ProductWithBuyerJsonDto> soldProducts) {
+    public void setSoldProducts(List<ProductWithBuyerJsonDTO> soldProducts) {
         this.soldProducts = soldProducts;
     }
 }

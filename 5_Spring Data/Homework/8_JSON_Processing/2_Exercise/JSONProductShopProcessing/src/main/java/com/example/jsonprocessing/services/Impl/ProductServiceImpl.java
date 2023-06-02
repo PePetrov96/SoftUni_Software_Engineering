@@ -1,10 +1,8 @@
 package com.example.jsonprocessing.services.Impl;
 
 import com.example.jsonprocessing.model.Category;
-import com.example.jsonprocessing.model.DTOs.CategoryDto;
-import com.example.jsonprocessing.model.DTOs.ProductDto;
-import com.example.jsonprocessing.model.DTOs.ProductJsonDto;
-import com.example.jsonprocessing.model.DTOs.UserDto;
+import com.example.jsonprocessing.model.DTOs.ProductDTO;
+import com.example.jsonprocessing.model.DTOs.ProductJsonDTO;
 import com.example.jsonprocessing.model.Product;
 import com.example.jsonprocessing.model.User;
 import com.example.jsonprocessing.repositories.CategoryRepository;
@@ -53,12 +51,12 @@ public class ProductServiceImpl implements ProductService {
     @Transactional
     public void importProductsFromJson() {
         try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/products.json"))) {
-            ProductDto[] productDtos = this.gson.fromJson(reader, ProductDto[].class);
+            ProductDTO[] productDTOS = this.gson.fromJson(reader, ProductDTO[].class);
 
             int userCount = this.userRepository.countAll();
             int categoryCount = this.categoryRepository.countAll();
 
-            for (ProductDto productDto : productDtos) {
+            for (ProductDTO productDto : productDTOS) {
                 User seller = getRandomUser(userCount);
                 User buyer = getRandomUser(userCount);
                 Category category = getRandomCategory(categoryCount);
@@ -108,14 +106,14 @@ public class ProductServiceImpl implements ProductService {
     public void exportProductsToJSON(double minPrice, double maxPrice, String fileName) {
         List<Product> products = getProductsInRangeAndNoBuyer(minPrice, maxPrice);
 
-        List<ProductJsonDto> productJsonDtos = products.stream()
+        List<ProductJsonDTO> productJsonDTOS = products.stream()
                 .map(this::convertToProductJsonDto)
                 .collect(Collectors.toList());
 
         String filePath = "src/main/resources/exports/" + fileName;
 
         try (FileWriter writer = new FileWriter(filePath)) {
-            gson.toJson(productJsonDtos, writer);
+            gson.toJson(productJsonDTOS, writer);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -126,10 +124,10 @@ public class ProductServiceImpl implements ProductService {
         return productRepository.findByPriceBetweenAndBuyerIsNullOrderByPriceAsc(minPrice, maxPrice);
     }
 
-    private ProductJsonDto convertToProductJsonDto(Product product) {
+    private ProductJsonDTO convertToProductJsonDto(Product product) {
         BigDecimal price = BigDecimal.valueOf(product.getPrice()).setScale(2, RoundingMode.DOWN);
         String sellerName = product.getSeller().getFirstName() + " " + product.getSeller().getLastName();
 
-        return new ProductJsonDto(product.getName(), price, sellerName);
+        return new ProductJsonDTO(product.getName(), price, sellerName);
     }
 }

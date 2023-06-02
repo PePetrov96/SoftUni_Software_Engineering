@@ -6,20 +6,20 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductDto implements Serializable {
+public class ProductDTO implements Serializable {
     @Expose
     private String name;
     @Expose
     private double price;
     @Expose
-    private UserDto seller;
+    private UserDTO seller;
     @Expose
-    private UserDto buyer;
+    private UserDTO buyer;
     @Expose
-    private List<CategoryDto> categories = new ArrayList<>();
-    public ProductDto() {
+    private List<CategoryDTO> categories = new ArrayList<>();
+    public ProductDTO() {
     }
-    public ProductDto(String name, double price, UserDto seller, UserDto buyer) {
+    public ProductDTO(String name, double price, UserDTO seller, UserDTO buyer) {
         this.name = name;
         this.price = price;
         this.seller = seller;
@@ -42,27 +42,27 @@ public class ProductDto implements Serializable {
         this.price = price;
     }
 
-    public UserDto getSeller() {
+    public UserDTO getSeller() {
         return seller;
     }
 
-    public void setSeller(UserDto seller) {
+    public void setSeller(UserDTO seller) {
         this.seller = seller;
     }
 
-    public UserDto getBuyer() {
+    public UserDTO getBuyer() {
         return buyer;
     }
 
-    public void setBuyer(UserDto buyer) {
+    public void setBuyer(UserDTO buyer) {
         this.buyer = buyer;
     }
 
-    public List<CategoryDto> getCategories() {
+    public List<CategoryDTO> getCategories() {
         return categories;
     }
 
-    public void setCategories(List<CategoryDto> categories) {
+    public void setCategories(List<CategoryDTO> categories) {
         this.categories = categories;
     }
 }

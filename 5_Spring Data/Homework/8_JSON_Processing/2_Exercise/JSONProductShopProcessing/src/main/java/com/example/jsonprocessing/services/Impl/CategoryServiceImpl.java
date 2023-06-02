@@ -1,8 +1,8 @@
 package com.example.jsonprocessing.services.Impl;
 
 import com.example.jsonprocessing.model.Category;
-import com.example.jsonprocessing.model.DTOs.CategoryDto;
-import com.example.jsonprocessing.model.DTOs.CategoryProductJsonDto;
+import com.example.jsonprocessing.model.DTOs.CategoryDTO;
+import com.example.jsonprocessing.model.DTOs.CategoryProductJsonDTO;
 import com.example.jsonprocessing.repositories.CategoryRepository;
 import com.example.jsonprocessing.services.CategoryService;
 import com.google.gson.Gson;
@@ -42,9 +42,9 @@ public class CategoryServiceImpl implements CategoryService {
     @Transactional
     public void importCategoriesFromJson() {
         try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/categories.json"))) {
-            CategoryDto[] categoryDtos = this.gson.fromJson(reader, CategoryDto[].class);
+            CategoryDTO[] categoryDTOS = this.gson.fromJson(reader, CategoryDTO[].class);
 
-            for (CategoryDto categoryDto : categoryDtos) {
+            for (CategoryDTO categoryDto : categoryDTOS) {
                 Category category = modelMapper.map(categoryDto, Category.class);
                 this.categoryRepository.save(category);
             }
@@ -56,11 +56,11 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     @Transactional(readOnly = true)
     public void exportCategoriesByProductCount() {
-        List<CategoryProductJsonDto> categories = this.categoryRepository
+        List<CategoryProductJsonDTO> categories = this.categoryRepository
                 .findAll()
                 .stream()
                 .map(this::convertToCategoryProductJsonDto)
-                .sorted(Comparator.comparingLong(CategoryProductJsonDto::getProductsCount).reversed())
+                .sorted(Comparator.comparingLong(CategoryProductJsonDTO::getProductsCount).reversed())
                 .collect(Collectors.toList());
 
         String filePath = "src/main/resources/exports/categoriesByProductCount.json";
@@ -72,7 +72,7 @@ public class CategoryServiceImpl implements CategoryService {
         }
     }
 
-    private CategoryProductJsonDto convertToCategoryProductJsonDto(Category category) {
+    private CategoryProductJsonDTO convertToCategoryProductJsonDto(Category category) {
         long productsCount = category.getProducts().size();
 
         BigDecimal averagePrice = category.getProducts().stream()
@@ -84,7 +84,7 @@ public class CategoryServiceImpl implements CategoryService {
                 .map(product -> BigDecimal.valueOf(product.getPrice()))
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
-        return new CategoryProductJsonDto(
+        return new CategoryProductJsonDTO(
                 category.getName(),
                 productsCount,
                 averagePrice,

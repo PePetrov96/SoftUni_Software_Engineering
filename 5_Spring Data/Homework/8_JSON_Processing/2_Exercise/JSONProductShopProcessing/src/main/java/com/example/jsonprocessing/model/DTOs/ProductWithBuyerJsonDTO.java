@@ -4,7 +4,7 @@ import com.google.gson.annotations.Expose;
 
 import java.math.BigDecimal;
 
-public class ProductWithBuyerJsonDto {
+public class ProductWithBuyerJsonDTO {
     @Expose
     private String name;
     @Expose
@@ -14,10 +14,10 @@ public class ProductWithBuyerJsonDto {
     @Expose
     private String buyerLastName;
 
-    public ProductWithBuyerJsonDto() {
+    public ProductWithBuyerJsonDTO() {
     }
 
-    public ProductWithBuyerJsonDto(String name, BigDecimal price, String buyerFirstName, String buyerLastName) {
+    public ProductWithBuyerJsonDTO(String name, BigDecimal price, String buyerFirstName, String buyerLastName) {
         this.name = name;
         this.price = price;
         this.buyerFirstName = buyerFirstName;

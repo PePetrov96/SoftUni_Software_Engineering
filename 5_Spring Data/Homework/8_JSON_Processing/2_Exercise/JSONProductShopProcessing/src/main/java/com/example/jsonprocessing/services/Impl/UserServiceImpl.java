@@ -40,10 +40,10 @@ public class UserServiceImpl implements UserService {
     @Transactional
     public void importUsersFromJson() {
         try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/users.json"))) {
-            UserDto[] userDtos = this.gson.fromJson(reader, UserDto[].class);
+            UserDTO[] userDTOS = this.gson.fromJson(reader, UserDTO[].class);
 
-            for (UserDto userDto : userDtos) {
-                User user = this.modelMapper.map(userDto, User.class);
+            for (UserDTO userDTO : userDTOS) {
+                User user = this.modelMapper.map(userDTO, User.class);
                 this.userRepository.save(user);
             }
         } catch (IOException e) {
@@ -58,30 +58,30 @@ public class UserServiceImpl implements UserService {
                 .filter(user -> user.getSoldProducts().stream().anyMatch(product -> product.getBuyer() != null))
                 .toList();
 
-        List<UserJsonDto> userJsonDtos = users.stream()
+        List<UserJsonDTO> userJsonDTOS = users.stream()
                 .map(this::convertToUserJsonDto)
                 .collect(Collectors.toList());
 
         String filePath = "src/main/resources/exports/usersWithSoldProducts.json";
 
         try (FileWriter writer = new FileWriter(filePath)) {
-            gson.toJson(userJsonDtos, writer);
+            gson.toJson(userJsonDTOS, writer);
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    private UserJsonDto convertToUserJsonDto(User user) {
-        List<ProductWithBuyerJsonDto> productJsonDtos = user.getSoldProducts().stream()
+    private UserJsonDTO convertToUserJsonDto(User user) {
+        List<ProductWithBuyerJsonDTO> productJsonDtos = user.getSoldProducts().stream()
                 .filter(product -> product.getBuyer() != null)
                 .map(this::convertToProductJsonDto)
                 .collect(Collectors.toList());
 
-        return new UserJsonDto(user.getFirstName(), user.getLastName(), productJsonDtos);
+        return new UserJsonDTO(user.getFirstName(), user.getLastName(), productJsonDtos);
     }
 
-    private ProductWithBuyerJsonDto convertToProductJsonDto(Product product) {
+    private ProductWithBuyerJsonDTO convertToProductJsonDto(Product product) {
         BigDecimal price = BigDecimal.valueOf(product.getPrice()).setScale(2, RoundingMode.DOWN);
-        return new ProductWithBuyerJsonDto(product.getName(), price, product.getBuyer().getFirstName(), product.getBuyer().getLastName());
+        return new ProductWithBuyerJsonDTO(product.getName(), price, product.getBuyer().getFirstName(), product.getBuyer().getLastName());
     }
     @Override
     @Transactional(readOnly = true)

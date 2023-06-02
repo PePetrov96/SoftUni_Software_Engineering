@@ -4,7 +4,7 @@ import com.google.gson.annotations.Expose;
 
 import java.math.BigDecimal;
 
-public class CategoryProductJsonDto {
+public class CategoryProductJsonDTO {
     @Expose
     private String category;
     @Expose
@@ -14,10 +14,10 @@ public class CategoryProductJsonDto {
     @Expose
     private BigDecimal totalRevenue;
 
-    public CategoryProductJsonDto() {
+    public CategoryProductJsonDTO() {
     }
 
-    public CategoryProductJsonDto(String category, long productsCount, BigDecimal averagePrice, BigDecimal totalRevenue) {
+    public CategoryProductJsonDTO(String category, long productsCount, BigDecimal averagePrice, BigDecimal totalRevenue) {
         this.category = category;
         this.productsCount = productsCount;
         this.averagePrice = averagePrice;
