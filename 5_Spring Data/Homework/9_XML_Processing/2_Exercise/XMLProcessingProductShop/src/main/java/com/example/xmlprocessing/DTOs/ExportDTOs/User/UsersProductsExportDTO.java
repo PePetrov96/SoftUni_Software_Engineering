@@ -1,7 +1,5 @@
 package com.example.xmlprocessing.DTOs.ExportDTOs.User;
 
-import com.example.xmlprocessing.DTOs.ExportDTOs.Product.ProductExportDTO;
-import com.example.xmlprocessing.DTOs.ExportDTOs.Product.ProductExportWrapper;
 import com.example.xmlprocessing.DTOs.ExportDTOs.Product.SoldProductDTO;
 import com.example.xmlprocessing.DTOs.ExportDTOs.Product.SoldProductWrapper;
 import com.example.xmlprocessing.model.Product;
@@ -22,7 +20,6 @@ public class UsersProductsExportDTO {
     @XmlElement(name = "sold-products")
     private SoldProductWrapper productWrapper;
 
-    // Add a new field for product count
     private int productCount;
 
     public UsersProductsExportDTO(String firstName, String lastName, int age, List<Product> products) {

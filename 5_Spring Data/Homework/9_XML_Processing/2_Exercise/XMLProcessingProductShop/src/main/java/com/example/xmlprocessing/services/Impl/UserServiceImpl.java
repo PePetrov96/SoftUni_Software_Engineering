@@ -2,7 +2,6 @@ package com.example.xmlprocessing.services.Impl;
 
 import com.example.xmlprocessing.DTOs.ExportDTOs.Product.ProductsSellerDTO;
 import com.example.xmlprocessing.DTOs.ExportDTOs.Product.ProductsSellerWrapper;
-import com.example.xmlprocessing.DTOs.ExportDTOs.Product.SoldProductWrapper;
 import com.example.xmlprocessing.DTOs.ExportDTOs.User.UserExportDTO;
 import com.example.xmlprocessing.DTOs.ExportDTOs.User.UserExportWrapper;
 import com.example.xmlprocessing.DTOs.ExportDTOs.User.UsersProductsExportDTO;
@@ -20,7 +19,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.lang.reflect.Field;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;

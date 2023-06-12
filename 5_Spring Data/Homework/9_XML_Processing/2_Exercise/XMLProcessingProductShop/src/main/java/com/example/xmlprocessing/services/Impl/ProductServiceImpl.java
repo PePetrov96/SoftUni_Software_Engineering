@@ -6,7 +6,6 @@ import com.example.xmlprocessing.model.Product;
 import com.example.xmlprocessing.repositories.ProductRepository;
 import com.example.xmlprocessing.services.ProductService;
 import jakarta.xml.bind.JAXBContext;
-import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
