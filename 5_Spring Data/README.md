@@ -327,15 +327,9 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="XXXXXXX">Product Shop</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
-	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Task</a></td>
+      <td><a href="XXXXXXX">Car Dealer</a></td>
     </tr>
   </tbody>
 </table>
