@@ -130,6 +130,7 @@ public class SeedServiceImpl implements SeedService {
             }
 
             this.userRepository.flush();
+            this.userSize = this.userRepository.count();
         } catch (Exception e) {
             e.printStackTrace();
         }
