@@ -327,9 +327,9 @@ Certificate can be found here: <a href="XXXXXXX">Spring Data Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Product Shop</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/9_XML_Processing/2_Exercise/XMLProcessingProductShop">Product Shop</a></td>
 	  <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Car Dealer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/5_Spring%20Data/Homework/9_XML_Processing/2_Exercise/XMLProcessingCarDealer">Car Dealer</a></td>
     </tr>
   </tbody>
 </table>
