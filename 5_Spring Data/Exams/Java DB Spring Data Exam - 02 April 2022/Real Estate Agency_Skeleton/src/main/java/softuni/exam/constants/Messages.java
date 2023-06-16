@@ -10,4 +10,6 @@ public enum Messages {
     public static final String INVALID_APARTMENT = "Invalid apartment%n";
     public static final String IMPORT_OFFER = "Successfully imported offer %.2f%n";
     public static final String INVALID_OFFER = "Invalid offer%n";
+
+    public static final String EXPORT_OFFER = "Agent %s %s with offer №%d:\n-Apartment area: %.2f\n--Town: %s\n---Price: %.2f$\n";
 }
