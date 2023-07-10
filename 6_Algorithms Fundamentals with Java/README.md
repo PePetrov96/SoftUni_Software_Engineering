@@ -1,7 +1,7 @@
 # Algorithms Fundamentals with Java
 Judge Contest can be found here: <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/255/Algorithms-Fundamentals-Exercises">Algorithms Fundamentals with Java</a>
 
-Certificate can be found here: <a href="XXXXXXX">Algorithms Fundamentals with Java Certificate</a>
+Certificate can be found here: <a href="https://softuni.bg/certificates/details/176658/60735c94">Algorithms Fundamentals with Java Certificate</a>
 
 <br/>
 
