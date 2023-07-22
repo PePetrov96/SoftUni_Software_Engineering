@@ -36,7 +36,7 @@ public class CarsServiceImpl implements CarsService {
 
     @Override
     public boolean areImported() {
-        return this.carsRepository.count() >= 1;
+        return this.carsRepository.count() > 0;
     }
 
     @Override
