@@ -1,4 +1,4 @@
-# Java OOP
+# HTML & CSS
 Judge Contest can be found here: <a href="https://judge.softuni.org/Contests#!/List/ByCategory/134/HTML-and-CSS-Exercises">HTML & CSS</a>
 
 Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
