@@ -1,0 +1,16 @@
+.my-list {
+    background-color: rgb(247, 243, 129);
+    padding: 8px 24px;
+    max-width: 500px;
+    border: 1px solid #f7f381;
+    box-shadow: 0 0 10px 2px #333333;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+ol {
+    margin: 12px;
+}
