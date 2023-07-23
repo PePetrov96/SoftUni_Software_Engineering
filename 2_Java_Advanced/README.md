@@ -7,7 +7,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">01. Stacks and Queues
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/1_Stacks%20and%20Queues">01. Stacks and Queues
 <table>
   <thead>
     <tr>
@@ -72,7 +72,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">02. Multidimensional Arrays
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/2_Multidimensional%20Array">02. Multidimensional Arrays
 <table>
   <thead>
     <tr>
@@ -143,7 +143,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">03. Sets and Maps Advanced
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/3_Sets%20And%20Maps%20Advanced">03. Sets and Maps Advanced
 <table>
   <thead>
     <tr>
@@ -218,7 +218,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">04. Streams, Files and Directories
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/4_Streams%2C%20Files%20And%20Directories">04. Streams, Files and Directories
 <table>
   <thead>
     <tr>
@@ -279,7 +279,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">05. Functional Programming
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/5_Functional%20Programming">05. Functional Programming
 <table>
   <thead>
     <tr>
@@ -344,7 +344,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">06. Defining classes
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/6_Defining%20Classes">06. Defining classes
 <table>
   <thead>
     <tr>
@@ -395,7 +395,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">07. Generics
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/7_Generics">07. Generics
 <table>
   <thead>
     <tr>
@@ -454,7 +454,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">08. Iterators and Comparators
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/8_Iterators%20and%20Comparators">08. Iterators and Comparators
 <table>
   <thead>
     <tr>
@@ -507,7 +507,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">09. Basic Algorithms
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/2_Java_Advanced/Homework/9_Basic%20Algorithms/1_Lab">09. Basic Algorithms
 <table>
   <thead>
     <tr>

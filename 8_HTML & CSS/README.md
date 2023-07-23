@@ -7,7 +7,7 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-## <a href="Folder Link">01. Introduction to HTML and CSS
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS">01. Introduction to HTML and CSS
 <table>
   <thead>
     <tr>
@@ -45,7 +45,7 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-## <a href="Folder Link">02. HTML Structure
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/2_HTML%20Structure">02. HTML Structure
 <table>
   <thead>
     <tr>
@@ -75,7 +75,7 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-## <a href="Folder Link">03. CSS & Typography
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/3_CSS%20%26%20Typography">03. CSS & Typography
 <table>
   <thead>
     <tr>
@@ -117,7 +117,7 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-## <a href="Folder Link">04. CSS Box Model
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model">04. CSS Box Model
 <table>
   <thead>
     <tr>
@@ -153,7 +153,7 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-## <a href="Folder Link">05. Flexbox
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox">05. Flexbox
 <table>
   <thead>
     <tr>
@@ -195,7 +195,7 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-## <a href="Folder Link">06. Position and Grid
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid">06. Position and Grid
 <table>
   <thead>
     <tr>
@@ -229,7 +229,7 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-## <a href="Folder Link">07. Media Queries
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries">07. Media Queries
 <table>
   <thead>
     <tr>

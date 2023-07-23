@@ -7,7 +7,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">01. Working with Abstraction
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/1_Working%20with%20Abstraction">01. Working with Abstraction
 <table>
   <thead>
     <tr>
@@ -54,7 +54,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">02. Encapsulation
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/2_Encapsulation">02. Encapsulation
 <table>
   <thead>
     <tr>
@@ -97,7 +97,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">03. Inheritance
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/3_Inheritance">03. Inheritance
 <table>
   <thead>
     <tr>
@@ -146,7 +146,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">04. Interfaces and Abstraction
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/4_Interfaces%20and%20Abstraction">04. Interfaces and Abstraction
 <table>
   <thead>
     <tr>
@@ -201,7 +201,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">05. Polymorphism
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/5_Polymorphism">05. Polymorphism
 <table>
   <thead>
     <tr>
@@ -242,7 +242,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">06. Reflection
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/6_Reflection">06. Reflection
 <table>
   <thead>
     <tr>
@@ -283,7 +283,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="Folder Link">07. Exceptions and Error Handling
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/3_Java_OOP/Homework/7_Exceptions%20and%20Error%20Handling/1_Lab">07. Exceptions and Error Handling
 <table>
   <thead>
     <tr>
