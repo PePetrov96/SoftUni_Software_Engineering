@@ -17,27 +17,27 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Welcome to HTML</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_1">Welcome to HTML</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Fruits</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_2">Fruits</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Wiki Page</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_3">Wiki Page</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">To Do List</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_4">To Do List</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">HTML Lists</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_5">HTML Lists</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Definition Lists</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_6">Definition Lists</a></td>
 	  <td><b>07.</b></td>
-      <td><a href="XXXX">Reversed List</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_7">Reversed List</a></td>
 	  <td><b>08.</b></td>
-      <td><a href="XXXX">Modern JavaScript</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_8">Modern JavaScript</a></td>
 	  <td><b>09.</b></td>
-      <td><a href="XXXX">Book Story</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_9">Book Story</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="XXXX">World Cup News</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/1_Exercise/Task_10">World Cup News</a></td>
     </tr>
   </tbody>
 </table>
