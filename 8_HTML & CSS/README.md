@@ -45,10 +45,6 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-<br/>
-
----
-
 ## <a href="Folder Link">02. HTML Structure
 <table>
   <thead>
@@ -75,10 +71,6 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
     </tr>
   </tbody>
 </table>
-<br/>
-
----
-
 <br/>
 
 ---
@@ -125,10 +117,6 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-<br/>
-
----
-
 ## <a href="Folder Link">04. CSS Box Model
 <table>
   <thead>
@@ -161,11 +149,6 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
     </tr>
   </tbody>
 </table>
-<br/>
-
----
-
-
 <br/>
 
 ---
@@ -212,11 +195,6 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-
-<br/>
-
----
-
 ## <a href="Folder Link">06. Position and Grid
 <table>
   <thead>
@@ -251,11 +229,6 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
 
 ---
 
-
-<br/>
-
----
-
 ## <a href="Folder Link">07. Media Queries
 <table>
   <thead>
@@ -285,5 +258,3 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
   </tbody>
 </table>
 <br/>
-
----
