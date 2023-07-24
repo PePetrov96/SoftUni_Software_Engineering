@@ -17,27 +17,27 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_1">Welcome to HTML</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_1_Welcome_to_HTML">Welcome to HTML</a></td>
       <td><b>02.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_2">Fruits</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_2_Fruits">Fruits</a></td>
       <td><b>03.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_3">Wiki Page</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_3_Wiki_Page">Wiki Page</a></td>
       <td><b>04.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_4">To Do List</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_4_To_Do_List">To Do List</a></td>
       <td><b>05.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_5">HTML Lists</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_5_HTML_Lists">HTML Lists</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_6">Definition Lists</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_6_Definition_Lists">Definition Lists</a></td>
 	  <td><b>07.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_7">Reversed List</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_7_Reversed_List">Reversed List</a></td>
 	  <td><b>08.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_8">Modern JavaScript</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_8_Modern_JavaScript">Modern JavaScript</a></td>
 	  <td><b>09.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_9">Book Story</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_9_Book_Story">Book Story</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_10">World Cup News</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/1_Introduction%20to%20HTML%20and%20CSS/Task_10_World_Cup_News">World Cup News</a></td>
     </tr>
   </tbody>
 </table>
