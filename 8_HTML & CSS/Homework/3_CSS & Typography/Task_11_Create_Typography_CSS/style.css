@@ -1,0 +1,55 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 40px 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: solid rgb(221,221,221);
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+blockquote footer {
+    text-align: right;
+}
+
+#first-ul-list {
+    list-style-type: square;
+}
+
+#second-ul-list {
+    list-style-type: disc;
+}
+
+#third-ul-list {
+    list-style-type: circle;
+}
+
+table {
+    text-align: left;
+    border-spacing: 2px; /* Adjust as needed */
+    background-color: #ccc; /* This will be the color of the space between cells */
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    background-color: #ccc; /* dark gray */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.8); /* light gray */
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.5); /* pale gray */
+
+}
