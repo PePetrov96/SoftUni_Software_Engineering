@@ -1,0 +1,46 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+    align-items: baseline;
+    margin-bottom: 0;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    gap: 10px;
+    padding-left: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+hr {
+    border-top: 2px solid black;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main {
+    margin: 0 20px;
+}
