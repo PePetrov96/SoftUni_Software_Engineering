@@ -127,25 +127,25 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Block Model Container</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_1_Block_Model_Container">Block Model Container</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Scrolling Article</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_2_Scrolling_Article">Scrolling Article</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Brazil Coffee</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_3_Brazil_Coffee">Brazil Coffee</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Article</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_4_Article">Article</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Block Article</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_5_Block_Article">Block Article</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Navigation Inline Block</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_6_Navigation_Inline_Block">Navigation Inline Block</a></td>
 	  <td><b>07.</b></td>
-      <td><a href="XXXX">Make Your Own Website</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_7_Make_Your_Own_Website">Make Your Own Website</a></td>
 	  <td><b>08.</b></td>
-      <td><a href="XXXX">Photo Gallery Inline Block</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_8_Photo_Gallery_Inline_Block">Photo Gallery Inline Block</a></td>
 	  <td><b>09.</b></td>
-      <td><a href="XXXX">Blog Layout Inline Block</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/4_CSS%20Box%20Model/Task_9_Blog_Layout_Inline_Block">Blog Layout Inline Block</a></td>
     </tr>
   </tbody>
 </table>
