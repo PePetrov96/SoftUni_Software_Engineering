@@ -163,31 +163,31 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Flexbox Layout</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_1_Flexbox_Layout">Flexbox Layout</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">FlexModel Articles</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_2_FlexModel_Articles">FlexModel Articles</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">ABC Game</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_3_ABC_Game">ABC Game</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Calendar</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_4_Calendar">Calendar</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Navigation Flexbox</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_5_Navigation_Flexbox">Navigation Flexbox</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Photo Gallery</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_6_Photo_Gallery">Photo Gallery</a></td>
 	  <td><b>07.</b></td>
-      <td><a href="XXXX">Blog Layout</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_7_Blog_Layout">Blog Layout</a></td>
 	  <td><b>08.</b></td>
-      <td><a href="XXXX">Sticky Footer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_8_Sticky_Footer">Sticky Footer</a></td>
 	  <td><b>09.</b></td>
-      <td><a href="XXXX">Center Flexbox</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_9_Center_Flexbox">Center Flexbox</a></td>
 	  <td><b>10.</b></td>
-      <td><a href="XXXX">Expanding Flex Cards</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_10_Expanding_Flex_Cards">Expanding Flex Cards</a></td>
     </tr>
 	<tr>
 	  <td><b>11.</b></td>
-      <td><a href="XXXX">Cards with CSS Columns and Flexbox</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/5_Flexbox/Task_11_Cards_With_CSS_Columns_And_Flexbox">Cards with CSS Columns and Flexbox</a></td>
 	</tr>
   </tbody>
 </table>
