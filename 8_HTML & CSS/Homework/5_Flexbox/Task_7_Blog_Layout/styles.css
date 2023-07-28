@@ -1,0 +1,86 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 2em 7em 2em 7em;
+
+}
+
+div header {
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside ul a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+h1, h3 {
+    font-family: Georgia, serif;
+}
+
+#section-1-subsection-1 {
+    width: 70%;
+    padding: 0 30px 0 0;
+}
+
+
+#section-1-subsection-2 {
+    width: 30%;
+    padding: 0 0 0 30px;
+}
+
+#section-1 {
+    display: flex;
+}
+
+#article-1-image {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+#article-2-image {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+img {
+    width: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-item:first-child {
+    border-right: 5px solid gray;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.flex-item:nth-child(2) {
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    color: gray;
+}
+
+.flex-item:nth-child(2) footer {
+    float: right;
+    margin-top: 20px;
+    color: gray;
+}

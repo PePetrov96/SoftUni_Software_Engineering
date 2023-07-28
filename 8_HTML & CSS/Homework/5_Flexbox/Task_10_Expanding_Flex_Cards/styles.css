@@ -1,0 +1,51 @@
+:root {
+    --defaultBackground: rgb(238, 238, 238);
+}
+.masonry {
+    display: flex;
+}
+
+body {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.options {
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    overflow:hidden;
+    min-width:600px;
+    max-width:900px;
+    width:calc(100% - 100px);
+    height:400px;
+}
+
+.option {
+    position: relative;
+    overflow:hidden;
+    min-width:60px;
+    margin:10px;
+    background:var(--optionBackground, var(--defaultBackground, #E6E9ED));
+    background-size:auto 120%;
+    background-position:center;
+    transition:.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+
+.option:hover {
+    flex-grow:10000;
+    transform:scale(1);
+    max-width:600px;
+    margin:0;
+    border-radius:40px;
+    background-size:auto 100%;
+}
+
+.option:not(.option:hover) {
+    flex-grow:1;
+    border-radius:30px;
+}

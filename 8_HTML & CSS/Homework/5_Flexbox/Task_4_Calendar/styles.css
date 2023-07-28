@@ -1,0 +1,58 @@
+.masonry {
+    display: flex;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto auto;
+    max-width: 65vw;
+    height: 20em;
+}
+
+.week, .notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.title-row-1, .title-row-2 {
+    grid-column: 1;
+    flex-basis: 100%;
+}
+
+.day-row-1, .day-row-2 {
+    grid-column: 1;
+    flex: 1;
+    flex-direction: column;
+}
+
+.note-row-1 {
+    grid-row: 1;
+}
+
+.note-row-2 {
+    grid-row: 2;
+}
+
+.note-row-1, .note-row-2 {
+    flex-grow: 1;
+    grid-column: 2;
+    align-self: stretch;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  /* Add this line */
+    flex-grow: 1;
+}
+
+
+span {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
