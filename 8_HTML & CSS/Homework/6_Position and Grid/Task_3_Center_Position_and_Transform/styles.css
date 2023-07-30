@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0 0 15px 0 black;
+    border-radius: 20px;
+}
+
+#top-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#top-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+#bottom-card {
+    background-color: rgb(255, 255, 255);
+    padding: 2em;  /* using 'em' instead of 'px' */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;  /* using 'em' instead of 'rem' */
+}
+
+a {
+    background-color: rgb(0, 153, 0);
+    align-self: flex-end;
+    padding: 1em;  /* using 'em' instead of 'px' */
+    text-decoration: none;
+    color: white;
+    font-size: 1em;  /* using 'em' instead of 'px' */
+    border-radius: 10px;
+    margin-top: 20px;
+}

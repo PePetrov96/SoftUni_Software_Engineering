@@ -1,0 +1,38 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+body {
+    display: grid;
+}
+
+.card {
+    display: block;
+    position: absolute;
+}
+
+.viewport {
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically */
+    height: 50vh; /* 50% of the viewport height */
+}
+
+.card img {
+    max-width: 100%; /* ensure the image doesn't overflow */
+    height: auto; /* maintain aspect ratio */
+}
+
+#top-viewport {
+    background: linear-gradient(to right, #185b9d, #42cba1);
+}
+
+#bottom-viewport {
+    background: linear-gradient(to right, #a83278, #d28114);
+}
+
+.card i {
+    position: absolute;
+    bottom: 20px; /* distance from the bottom of the .card */
+    right: 20px; /* distance from the right of the .card */
+    font-size: 25px; /* adjust the size of the icons as needed */
+    color: white;
+}
