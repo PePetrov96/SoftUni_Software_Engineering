@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+.site-header {
+    border-bottom: 3px solid black;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header p {
+    font-size: 36px;
+}
+
+#site-nav-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#site-nav-bar ul {
+    list-style-type: none;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#site-nav-bar a {
+    color: darkgreen;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
