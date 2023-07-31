@@ -1,0 +1,17 @@
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+
+.new {
+    position: relative;
+    padding-bottom: -200px;
+    padding-left: 150px;
+    transform: translate(15%, -25%);
+}
+
+.cup {
+    position: fixed;
+}
+

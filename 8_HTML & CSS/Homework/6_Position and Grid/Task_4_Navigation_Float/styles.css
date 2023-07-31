@@ -1,21 +1,18 @@
 body {
     background-color: rgb(238, 238, 238);
-    margin: 20px;
-    padding: 20px;
-}
-
-img {
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.25);
+    margin: 20px 40px 20px 40px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 blockquote {
     font-family: Georgia, serif;
 }
 
-h1 {
+header h1 {
     font-family: Georgia, serif;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .site-header {
@@ -23,6 +20,9 @@ h1 {
     font-family: Georgia, serif;
     display: flex;
     justify-content: space-between;
+    flex: 0 0 100%;
+    max-width: 100%;
+    order: 0;
 }
 
 .site-header p {
@@ -50,5 +50,68 @@ h1 {
 
 a {
     text-decoration: none;
+    color: forestgreen;
 }
 
+.container {
+    flex: 0 0 70%;
+    max-width: 70%;
+    order: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0 0 0;
+}
+
+#page-nav-bar {
+    flex: 0 0 25%;
+    max-width: 25%;
+    order: 2;
+    margin-left: 5%;
+    padding: 20px 0 0 0;
+}
+
+img {
+    width: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.25);
+}
+
+#article-1-image {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+#article-2-image {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item:first-child {
+    float: left;
+    border-right: 5px solid rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.flex-item:nth-child(2) {
+    float: right;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    color: gray;
+}
+
+.flex-item:nth-child(2) footer {
+    float: right;
+    margin-top: 20px;
+    color: gray;
+}
