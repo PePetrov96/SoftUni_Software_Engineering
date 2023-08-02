@@ -1,0 +1,241 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+body {
+    background-image: url("images/body-background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+    margin: 2em 10em;
+}
+
+/* ALL SECTIONS - TITLE SECTIONS - DESIGN */
+.title-header {
+    text-align: center;
+}
+
+.title-header h1 {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    text-align: center;
+    font-size: 2.2em;
+
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+
+    width: 15em;
+    padding-bottom: 1em;
+}
+
+.title-header h1::after {
+    content: "";
+    position: absolute;
+    left: 6em;
+    bottom: 0;
+    width: 3em; /* This makes the line 50% of the width of the text */
+    border-bottom: 0.15em solid black; /* Change the color and thickness as you wish */
+    padding-bottom: 1em;
+}
+
+/* HEADER - DESIGN */
+header {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+header div h1 { /* "Purple spider" text */
+    margin: 0;
+    font-size: 3.2em;
+    color: purple;
+}
+
+header div p { /* text BELOW "Purple spider" */
+    margin: 0;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+header nav {
+    align-self: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3em;
+    align-self: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* "NEED A WEBSITE" SECTION - DESIGN */
+.need-a-website {
+    /*border: 1px solid green; !* PLACEHOLDER *!*/
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+}
+
+.flex-container {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    display: flex;
+}
+
+.flex-container div {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+}
+
+.flex-container div h1 {
+    font-size: 2.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container div p {
+    padding: 1em 0;
+    margin: 0;
+}
+
+.flex-container img {
+    /*border: 1px solid black; !* PLACEHOLDER *!*/
+    padding-left: 3.5em;
+    height: 10vh;
+    align-self: center;
+}
+
+.need-a-website button {
+    margin-top: 1em;
+    padding: 0.5em 1.3em;
+    border-radius: 0.3em;
+}
+
+
+/* "OUR TEAM" & "TESTIMONIAL" SECTION - DESIGN */
+.cards {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.card {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    flex: 0 1 30%;
+    box-sizing: border-box;
+    margin: 1em;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 gray;
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+}
+
+/* "NEWSLETTER" SECTION - DESIGN */
+.newsletter .title-header {
+    color: white;
+}
+
+.newsletter {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    background: purple;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 10em;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    padding-bottom: 2em;
+}
+
+.newsletter form {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.newsletter input[type="email"],
+.newsletter input[type="submit"] {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: none;
+}
+
+/* "TESTIMONIAL" SECTION ONLY - DESIGN */
+.testimonials {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    background-image: url("images/team-background.jpg");
+    background-size: cover;
+
+    margin-left: calc(-1 * 10em); /* reverse the body's left and right margins */
+    margin-right: calc(-1 * 10em);
+
+    padding-left: 10em; /* add equivalent padding to preserve content position */
+    padding-right: 10em;
+    padding-bottom: 5em;
+}
+
+/* FOOTER SECTION - DESIGN */
+.footer-container {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-container div {
+    flex: 1;
+    margin: 1em;
+}
+
+.site-map, .contacts, .footer-logo {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    font-size: 1.1em;
+}
+
+.site-map ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: -1vh;
+}
+
+.site-map ul li {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.site-map ul li a, .contacts ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -1vh;
+}
+
+.contacts ul li i {
+    padding-right: 0.5em;
+}
