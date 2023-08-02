@@ -205,23 +205,23 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Simple Site Layout</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_1_Simple_Site_Layout">Simple Site Layout</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Position Playground</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_2_Position_Playground">Position Playground</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Center Position and Transform</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_3_Center_Position_and_Transform">Center Position and Transform</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Navigation</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_4_Navigation_Float">Navigation</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">New Offer</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_5_New_Offer">New Offer</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Social Media Icons</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_6_Social_Media_Icons">Social Media Icons</a></td>
 	  <td><b>07.</b></td>
-      <td><a href="XXXX">Interior Design Studio</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_7_Interior_Design_Studio">Interior Design Studio</a></td>
 	  <td><b>08.</b></td>
-      <td><a href="XXXX">Jewellery Website</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/6_Position%20and%20Grid/Task_8_Jewellery_Website">Jewellery Website</a></td>
     </tr>
   </tbody>
 </table>
@@ -239,21 +239,21 @@ Certificate can be found here: <a href="XXXX">HTML & CSS Certificate</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXX">Responsive Site Layout</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries/Task_1_Responsive_Site_Layout">Responsive Site Layout</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXX">Responsive Top Menu</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries/Task_2_Responsive_Top_Menu">Responsive Top Menu</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXX">Media Queries in Typography</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries/Task_3_MQs_In_Typography">Media Queries in Typography</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXX">Responsive Forms</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries/Task_4_Responsive_Forms">Responsive Forms</a></td>
       <td><b>05.</b></td>
-      <td><a href="XXXX">Responsive Media Boxes</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries/Task_5_Responsive_Media_Boxes">Responsive Media Boxes</a></td>
     </tr>
     <tr>
       <td><b>06.</b></td>
-      <td><a href="XXXX">Landing Page</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries/Task_6_Landing_Page">Landing Page</a></td>
 	  <td><b>07.</b></td>
-      <td><a href="XXXX">Responsive Tables</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/8_HTML%20%26%20CSS/Homework/7_Media%20Queries/Task_7_Responsive_Tables">Responsive Tables</a></td>
     </tr>
   </tbody>
 </table>
