@@ -1,0 +1,114 @@
+@media screen and (max-width: 499px) {
+    body {
+        font-size: 12px; /*Phones 12px*/
+    }
+
+    #article-1-image, #article-2-image {
+        float: none;
+    }
+
+    .flex-container {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 599px) {
+    body {
+        font-size: 14px; /*Screens larger than 500px - 14px*/
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    body {
+        font-size: 16px; /*Screens larger than 600px - 16px*/
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1299px) {
+    body {
+        font-size: 18px; /*Screens larger than 800px - 18px*/
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1799px) {
+    body {
+        font-size: 21px; /*Screens larger than 1300px - 21px*/
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    body {
+        font-size: 23px; /*Screens larger than 1800px - 23px*/
+    }
+}
+
+body {
+    margin: 20px 40px 20px 40px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+.site-header {
+    border-bottom: 3px solid black;
+    font-family: Georgia, serif;
+    flex: 0 0 100%;
+}
+
+.site-header p {
+    font-size: 36px;
+}
+
+img {
+    width: 200px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.25);
+}
+
+#article-1-image {
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+#article-2-image {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item:first-child {
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.flex-item:nth-child(2) {
+    float: right;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 5px solid rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+    color: gray;
+}
+
+.flex-item:nth-child(2) footer {
+    float: right;
+    margin-top: 20px;
+    color: gray;
+}
