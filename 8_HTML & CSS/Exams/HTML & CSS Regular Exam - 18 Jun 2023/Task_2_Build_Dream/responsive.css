@@ -1,0 +1,74 @@
+@media (width <= 600px) { /* PHONE */
+    body {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    /* HEADER NAV-BAR */
+    .home-navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        align-self: center;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 10px 0 #d4d4d4;
+    }
+
+    .home-cta-container {
+        justify-content: right;
+        align-self: flex-end;
+    }
+
+    /* HOME HERO SECTION */
+    .home-hero {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10em;
+    }
+
+    .home-hero-text-container {
+        order: 2;
+        width: 90%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .home-image1 {
+        order: 1;
+        width: 100%;
+    }
+
+    .home-cta-btn2 {
+        width: 50%;
+        align-self: center;
+    }
+
+    /* HOME FEATURES */
+    .home-heading-container {
+        width: 90%;
+    }
+
+    .home-cards-container {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2 {
+        align-self: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* HOME STATS */
+    .home-stats {
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+        padding-top: 55em;
+    }
+}

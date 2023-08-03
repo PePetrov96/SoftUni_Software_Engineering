@@ -1,0 +1,392 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.home-container * {
+    font-family: Inter, sans-serif;
+}
+
+/* ALL BUTTONS - STYLE */
+.Anchor {
+    text-decoration: none;
+    color: black;
+}
+
+/* NAVIGATION BAR - DESIGN */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 3em; /* IMPORTANT */
+    background-color: white;
+}
+
+.nav-bar-containers {
+    text-decoration: none;
+    align-self: center;
+}
+
+.nav-bar-containers a {
+    padding-right: 1em;
+
+}
+
+.log-in-button,
+.sign-up-button {
+    width: 6em;
+    height: 3em;
+    border: none;
+    background: none;
+}
+
+.sign-up-button,
+.log-in-button {
+    border-radius: 0.5em;
+}
+
+.sign-up-button {
+    background-color: lightblue;
+}
+
+.sign-up-button:hover {
+    background-color: cadetblue;
+}
+
+.log-in-button:hover {
+    background-color: lightblue;
+}
+
+
+/* DOWNLOAD SECTION 1 & 2 - DESIGN */
+.download-section-1,
+.download-section-2 {
+    background-color: lightblue;
+    padding: 5em 0;
+}
+
+.download-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.download-section-2 .download-section-text {
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.download-section-text h1 {
+    font-size: 2.8em;
+    padding-bottom: 0.25em;
+}
+
+.download-section-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.iOS-download-button:hover,
+.Android-download-button:hover {
+    background-color: dimgray;
+}
+
+.download-section-buttons a {
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: black;
+    color: white;
+}
+
+.download-section-buttons a i {
+    padding-right: 0.3em;
+    color: white;
+}
+
+/* STATISTICS SECTION - DESIGN */
+.statistics-section {
+    padding: 5em 3em; /* IMPORTANT */
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+}
+
+.downloads,
+.revenue,
+.users {
+    text-align: center;
+    padding: 1em 1em;
+}
+.downloads {
+    border-left: 3px solid gray;
+}
+
+.revenue {
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+}
+
+.users {
+    border-right: 3px solid gray;
+}
+
+.downloads h1,
+.revenue h1,
+.users h1 {
+    font-size: 2em;
+    padding-bottom: 0.8em;
+}
+
+/* FEATURES SECTION - DESIGN */
+.features-section {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    background-color: lightblue;
+    padding: 0 3.6em; /* IMPORTANT */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.phone {
+    border: 1px dashed gray;
+}
+
+.features-text {
+    width: 50%;
+}
+
+.features-text h1 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.features-text h3 {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+
+.features-text p {
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+
+.features-text a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
+/* PRICING OPTIONS SECTION - DESIGN */
+.pricing-plans-section {
+    padding-bottom: 3em;
+    background-color: #eaeaea;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-plans-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.pricing-plans-header h1 {
+    font-size: 2em;
+}
+
+.pricing-plans-button {
+    margin: 1em 0 2em 0;
+    padding: 0.3em 1em;
+    background-color: lightblue;
+    border: none;
+    border-radius: 0.3em;
+}
+
+.pricing-plans-button:hover {
+    background-color: cadetblue;
+}
+
+.pricing-plans-options,
+.pricing-plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch
+}
+.pricing-plans {
+    border: 1px solid gray; /* PLACEHOLDER */
+    border-radius: 1em 0 0 1em;
+    background-color: white;
+    width: 60%;
+}
+
+.pricing-plan-expand {
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-radius: 0 1em 1em 0;
+    background-color: lightblue;
+    width: 40%;
+}
+
+.header h3{
+    font-size: 2em;
+    padding-bottom: 0.1em;
+    padding-top: 0.2em;
+    text-align: center;
+}
+
+.header p {
+    font-size: 0.9em;
+    padding-bottom: 1.5em;
+}
+
+.price-tag {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid gray;
+}
+
+.price-tag p {
+    color: gray;
+    transform: translateY(40%) translateX(10%);
+}
+
+.header h1 {
+    font-size: 2em;
+}
+
+.benefits {
+    padding: 1em 0;
+}
+
+.benefits ul {
+    font-size: 0.5em;
+    list-style-type: none;
+}
+
+.benefits li::before {
+    content: "\2713\0020";
+}
+
+.benefits ul li {
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+.pricing-plan-standard {
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.pricing-plan-plus {
+    margin: 1em 0;
+    padding: 1em;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.pricing-plan-premium {
+    padding: 1em;
+    margin: 1em 0;
+}
+
+.purchase-button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.purchase-plan-button {
+    padding: 1em 2em;
+    border-radius: 1em;
+    border: none;
+    width: 100%;
+    background-color: lightblue;
+}
+
+.purchase-plan-button:hover {
+    background-color: cadetblue;
+}
+
+.pricing-plan-expand {
+    padding: 3em 2em;
+    display: flex; /* Turn the div into a flex container */
+    flex-direction: column; /* Stack the child elements vertically */
+    justify-content: flex-start; /* Align child elements to the start */
+}
+
+.pricing-plan-expand h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+.pricing-plan-expand p {
+    font-size: 1.2em;
+    padding-bottom: 1.5em;
+}
+
+.pricing-plan-expand ul {
+    font-size: 0.5em;
+    list-style-type: none; /* This removes the default bullets */
+}
+
+.pricing-plan-expand li::before {
+    content: "\2713\0020"; /* This is the unicode for a check mark followed by a space */
+}
+
+.contact-us-button {
+    padding: 1em;
+
+    border-radius: 1em;
+    border: none;
+    width: 100%;
+
+    background-color: black;
+    color: white;
+
+    margin-top: auto;
+}
+
+.contact-us-button:hover {
+    background-color: dimgray;
+}
+
+/* FOOTER SECTION - DESIGN */
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    gap: 1em;
+}
+
+.right-footer a {
+    margin-left: 1em;
+    color: black;
+    gap: 1em;
+}
