@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.15;
+    font-family: Lato, serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: Montserrat, serif;
+}
+
+/* HEADER Design */
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    align-self: center;
+
+    padding: 0.5em 3em;
+
+    height: 3em;
+    box-shadow: 0 0 10px 0 gray;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.navigation {
+    gap: 1em;
+}
+
+.Navigation-Link span {
+    font-size: 0.7em;
+}
+
+.Navigation-Link {
+    cursor: pointer;
+}
+
+.Navigation-Link:hover {
+    color: purple;
+}
+
+/* TAXES Design */
+.taxes {
+    background-color: #55546c;
+    padding-top: 2.99em;
+    height: 40vh;
+}
+
+.calculator-image {
+    height: 20vh;
+    width: auto;
+    transform: translateX(-43%) translateY(10%);
+}
+
+.taxes-text {
+    color: white;
+    transform: translateY(150%);
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+/* DESCRIPTION Design */
+.description {
+    padding: 10em 7em 5em 7em;
+}
+
+.description > h1 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.description > p {
+    font-size: 0.7em;
+    margin-bottom: 2em;
+}
+
+.content-table {
+    font-size: 0.9em;
+    width: 100%;
+
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+.column-1 {
+    font-size: 0.9em;
+    width: 80%;
+    height: 2.5em;
+    padding: 0 0 0 1em;
+}
+
+.column-2,
+.column-3 {
+    width: 10%;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.table-body .row:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+.table-body .row:nth-child(even) {
+    background-color: #fffcfc;
+}
+
+.content-table .row:first-child .column-1 {
+    border-top-left-radius: 0.5em;
+}
+
+.content-table .row:last-child .column-1 {
+    border-bottom-left-radius: 0.5em;
+}
+
+.content-table .row:last-child .column-3 {
+    border-bottom-right-radius: 0.5em;
+}
+
+/* CARDS Design */
+.cards {
+    display: flex;
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    transform: translateY(-50%);
+    gap: 3.33%;
+}
+
+.card {
+    width: 33%;
+    background-color: white;
+    box-shadow: 0 0 10px 0 gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+}
+
+.card-top {
+    height: 70%;
+    margin: 1em;
+}
+
+.card-button-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 2em;
+}
+
+.Sign-in-for-course {
+    border: none;
+    background-color: #9b5dc7;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 1.5em;
+    cursor: pointer;
+}
+
+.Sign-in-for-course:hover {
+    background-color: RGB(155, 93, 199, 80%);
+}
+
+.card-top h1 {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.card-top p {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 1em;
+
+}
+
+.card-bottom {
+    height: 5em;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+.card-bottom2,
+.card-bottom3 {
+    display: flex;
+}
+
+.card-bottom-right {
+    margin: 0.5em;
+    width: 50%;
+}
+
+.card-bottom-left {
+    border-right: 3px solid white;
+    margin: 0.5em;
+    width: 50%;
+}
+
+.card1-bottom-text {
+    padding: 0.5em;
+}
+
+.card-bottom1 {
+    background: linear-gradient(to right, #049c3f, #4bd67e);
+}
+
+.card-bottom2 {
+    background: linear-gradient(to right, #4c6c88, #629bcf);
+}
+
+.card-bottom3 {
+    background: linear-gradient(to right, #4d38a7, #8a7ce1);
+}
+
+.card-bottom p {
+    font-size: 0.8em;
+}
+
+
+/* FINANCIAL Design */
+.financial {
+    display: flex;
+    padding: 1em 3em 5em 3em;
+}
+
+.financial-text {
+}
+
+.financial-text h1 {
+    font-weight: normal;
+    padding-bottom: 1em;
+    font-size: 1.3em;
+}
+.financial-text p {
+    font-size: 0.8em;
+}
+
+#p-1 {
+    padding-bottom: 1em;
+}
+
+.financial-image {
+    justify-content: center;
+    align-self: center;
+}
+
+/* FOOTER Design */
+.footer {
+    padding: 1em;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    background-color: #55546c;
+    color: #86869f;
+}
+
+.footer p {
+    font-size: 0.7em;
+}

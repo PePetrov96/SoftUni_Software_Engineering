@@ -1,0 +1,122 @@
+@media (width <= 600px) {
+    .div-header ul,
+    .div-logo,
+    .blog-title SPAN,
+    .blog-title a,
+    .gallery article div,
+    .options article a,
+    .blog img,
+    .magazine-title a {
+        display: none;
+    }
+
+    /* header section */
+    .options {
+        flex-direction: column;
+    }
+
+    .options article {
+        width: auto;
+    }
+
+    .options article h4 {
+        text-align: center;
+    }
+
+    /* gallery section */
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery article {
+        align-self: center;
+        max-width: 60%;
+    }
+
+    .gallery article img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* blog section */
+
+    .blog .blog-title h4 {
+        font-size: 1.5em;
+    }
+
+    .blog-title {
+        padding: 1em 0 0 4em;
+        width: auto;
+    }
+
+    #about-blog {
+        border: 1px solid green;
+
+        font-size: 0.8em;
+
+        width: 90%;
+        height: auto;
+    }
+
+    /* magazine section */
+    .magazine-title h4, .magazine-title SPAN {
+        font-size: 1em;
+    }
+
+    .magazine-title {
+        width: auto;
+        padding: 0 0 0 4em;
+    }
+
+    .magazine article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .magazine article img {
+        justify-content: center;
+        align-self: center;
+        padding-bottom: 1em;
+    }
+
+    .magazine-info h2 {
+        font-size: 1.2em;
+    }
+
+    .magazine-info {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .magazine-info img {
+        width: 80%;
+        height: 203px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .magazine-info h3,
+    .magazine-info p {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .magazine-info button {
+        width: 30%;
+        align-self: center;
+        margin-bottom: 5em;
+    }
+
+    footer, footer * {
+        display: flex;
+        flex-direction: column;
+    }
+}

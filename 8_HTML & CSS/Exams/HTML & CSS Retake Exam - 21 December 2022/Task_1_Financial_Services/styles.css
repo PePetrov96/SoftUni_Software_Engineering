@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.15;
+    font-family: Poppins, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 1em;
+}
+
+/* HEADER DESIGN */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.header-subject {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    gap: 0.5em;
+}
+
+.colored {
+    color: #3174D3;
+}
+
+.header h1 {
+    font-size: 1.5em;
+    padding-bottom: 0.2em;
+    font-weight: normal;
+}
+
+.header p {
+    font-size: 0.8em;
+}
+
+/* CARDS DESIGN */
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding-top: 1em;
+    gap: 1em;
+    max-width: 120vh;
+}
+
+.card {
+    width: 33.33%;
+    background-color: slategray;
+    border-radius: 1em;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.bottom-card {
+    margin: 1em;
+}
+
+.bottom-card h1 {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.bottom-card p {
+    font-size: 0.7em;
+    margin-bottom: 1em;
+}
+
+.button {
+    font-size: 0.8em;
+    padding: 0.2em 1em;
+    border-radius: 0.9em;
+    border: 1px solid white;
+    color: white;
+    background-color: #3174D3;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: RGB(49, 116, 211, 50%);
+}
