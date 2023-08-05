@@ -1,0 +1,372 @@
+* {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.15;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER AND FOOTER SECTION - DESIGN */
+.header,
+.footer {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 1.5em 0;
+    background-color: white;
+}
+
+.header {
+    box-shadow: 0 0 10px 0 gray;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+}
+
+.header .logo {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    font-weight: bold;
+    padding-left: 3em;
+}
+
+.navigation-bar {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    padding-right: 3em;
+}
+
+.Navigation-Link {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    margin-left: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Navigation-Link:hover {
+    color: lightskyblue;
+}
+
+.footer-right {
+    padding-right: 3em;
+    font-size: 0.5em;
+}
+
+.footer-left {
+    padding-left: 3em;
+}
+
+.footer-left i {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.footer-left i:hover {
+    color: lightskyblue;
+}
+
+/* DONATION SECTION - DESIGN */
+.donation-section {
+    padding: 0 5em;
+    background-color: lightskyblue;
+}
+
+.donation-section-flex-container {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.donation-section-text {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    justify-content: center;
+    align-self: center;
+    margin-right: 5em;
+}
+
+.donation-section-text h1 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.donation-section-text p {
+    font-size: 0.8em;;
+    padding-bottom: 2em;
+}
+
+.donate-now-button,
+.join-our-newsletter-button {
+    padding: 1em 4em;
+    margin-right: 1em;
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.join-our-newsletter-button{
+    background-color: black;
+    color: white;
+}
+
+.donate-now-button:hover {
+    cursor: pointer;
+    background-color: RGB(255, 255, 255, 50%);
+}
+
+.join-our-newsletter-button:hover {
+    cursor: pointer;
+    background-color: RGB(0, 0, 0, 50%);
+}
+
+/* WHO WE ARE - DESIGN */
+.who-are-we {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    padding: 2em;
+}
+
+.who-are-we-header {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.who-are-we-header h1 {
+    font-size: 1.5em;
+}
+
+.who-are-we-header p {
+    /*border: 1px solid green; !* PLACEHOLDER *!*/
+    width: 40vh;
+    align-self: center;
+    padding: 1em 0;
+}
+
+.who-are-we-cards {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2em;
+    gap: 2em;
+}
+
+.card {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    display: flex;
+    flex-direction: column;
+}
+
+.card i {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    font-size: 10em;
+    color: lightskyblue;
+    align-self: center;
+}
+
+.card h1, .card p {
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 1.2em;
+}
+
+/* OUR MISSION SECTION - DESIGN */
+.our-mission {
+    /*border: 1px solid blue; !* PLACEHOLDER *!*/
+    padding: 4em 5em;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-mission h1 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.our-mission-list {
+    /*border: 1px solid red; !* PLACEHOLDER *!*/
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 70%;
+    padding: 2em 0;
+}
+
+.our-mission-list1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    width: 50%;
+}
+
+.our-mission-list1 li {
+    padding-bottom: 1em;
+}
+
+.our-mission-button-container {
+    justify-content: center;
+    align-self: center;
+}
+
+.our-mission-button {
+    padding: 1em 4em;
+    margin-right: 1em;
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: 0.8em;
+    background-color: black;
+    color: white;
+}
+
+.our-mission-button:hover {
+    cursor: pointer;
+    background-color: RGB(0, 0, 0, 50%);
+}
+/* ANIMALS SECTION - DESIGN*/
+.animals {
+    display: flex;
+    flex-direction: column;
+}
+
+.animals-header {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.animals-header h1 {
+    padding-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+.picture-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 3em 2em 3em;
+}
+
+.picture-flex-container img {
+    width: 100%;
+    max-width: 22%;
+    height: auto;
+}
+
+/* HOW WE WORK SECTION - DESIGN*/
+.how-we-work {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+}
+
+.how-we-work-header {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.how-we-work-all-containers {
+    padding: 1em 8em 5em 8em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.how-we-work-container {
+    border: 1px solid gray;
+    border-radius: 0.5em;
+}
+
+.how-we-work-container-header {
+    padding: 1em;
+    background-color: lightskyblue;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.how-we-work-container-text{
+    padding: 1em;
+}
+
+/* NEWSLETTER SECTION - DESIGN*/
+.newsletter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter .newsletter-left,
+.newsletter .newsletter-right {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.newsletter-left img {
+    width: 100%;
+    height: auto;
+}
+
+.newsletter-right {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding: 0 4em;
+}
+
+.newsletter-right h1 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+.newsletter-right p {
+    font-size: 0.8em;
+    padding-bottom: 2em;
+}
+
+.sign-up-section {
+    display: flex;
+    flex-direction: column;
+    width: 25vh;
+    gap: 2em;
+}
+
+.sign-up-section input {
+    padding: 0.5em 2em;
+    border-radius: 0.3em;
+    border: 1px solid gray;
+    font-weight: bold;
+}
+
+.sign-up-section button {
+    width: 15vh;
+    height: auto;
+
+    padding: 1em 2em;
+
+    border-radius: 0.3em;
+    font-weight: bold;
+    font-size: 0.8em;
+
+    background-color: black;
+    color: white;
+}
+
+.sign-up-section button:hover {
+    cursor: pointer;
+    background-color: RGB(0, 0, 0, 50%);
+}

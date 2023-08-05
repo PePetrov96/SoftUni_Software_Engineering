@@ -1,0 +1,73 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("image/background.jpg");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 10em;
+    gap: 2em;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+    background-color: white;
+    padding: 1.5em;
+}
+
+.price-tag {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.price-tag h1 {
+    transform: translateY(15%);
+    font-size: 3em;
+}
+
+.price-tag p {
+    align-self: flex-end;
+}
+
+.sub-text {
+    font-size: 0.8em;
+    color: gray;
+    padding: 0 0 2em 0;
+}
+
+.benefits {
+    list-style-type: none;
+}
+
+.benefits li {
+    padding: 0.5em 0;
+}
+
+.benefits li i {
+    padding-right: 0.5em;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1em 2.5em;
+}
+
+.button-container {
+    margin-top: auto;
+    padding-top: 2em;
+}
