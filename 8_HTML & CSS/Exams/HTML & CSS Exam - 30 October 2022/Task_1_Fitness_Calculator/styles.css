@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.15;
+    font-family: "Open Sans", serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 1370px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-self: center;
+
+    border: 1px solid gray;
+    border-radius: 1.5em;
+
+    box-shadow: 0 10px 15px gray;
+}
+
+.picture, .calculator {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.picture img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em 2em;
+
+}
+
+.title {
+    padding-bottom: 2em;
+}
+
+.for-you {
+    font-size: 0.7em;
+}
+
+.unit-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.unit-button {
+    width: 40%;
+    padding: 0.6em 0;
+    font-size: 0.7em;
+    border-radius: .5em;
+
+    cursor: pointer;
+}
+
+.us-unit {
+    background-color: green;
+    color: white;
+}
+
+.us-unit:hover {
+    background-color: RGB(0, 128, 0, 80%);
+}
+
+.eu-unit:hover {
+    background-color: RGB(0, 0, 0, 20%);
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.gender-fields {
+    padding: 1em 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+}
+
+.gender-field,
+.age-field {
+    width: 45%;
+}
+
+#gender,
+#years {
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+}
+
+.height,
+.weight {
+    padding-bottom: 1em;
+}
+
+#weight, .height-buttons {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.height-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+}
+
+#height-feet, #height-inches {
+    width: 45%;
+    border: 1px solid gray;
+}
+
+.calculate-button {
+    margin: 1em;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+.calculate {
+    width: 100%;
+    border: none;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 0.8em;
+
+
+    height: 1.6em;
+    border-radius: 0.8em;
+    box-shadow: 0 5px 15px 0 gray;
+
+    cursor: pointer;
+}
+
+.calculate:hover {
+    background-color: RGB(0, 191, 255, 70%);
+}

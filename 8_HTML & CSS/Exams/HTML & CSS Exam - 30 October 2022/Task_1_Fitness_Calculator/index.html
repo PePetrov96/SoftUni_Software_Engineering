@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Calculator</title>
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="picture">
+            <img src="image/calculator.png">
+        </div>
+
+        <div class="calculator">
+            <h1 class="title">FITNESS CALCULATOR</h1>
+
+            <p class="for-you">Buttons will NOT work without JS. This is HTML/CSS course only!</p>
+
+            <div class="unit-buttons">
+                <button class="unit-button us-unit" type="button">Standard units (US)</button>
+                <button class="unit-button eu-unit" type="button">Metric units</button>
+            </div>
+
+            <div class="gender">
+                <h1>Gender</h1>
+                <div class="gender-fields">
+                    <div class="gender-field">
+                        <select id="gender" name="gender" required>
+                            <option value="" disabled selected>Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="age-field">
+                        <input type="number" id="years" name="years" placeholder="Years..." min="1" max="99" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="weight">
+                <h1>Weight</h1>
+                <input type="number" id="weight" name="weight" placeholder="Pounds..." min="1" max="999" required>
+            </div>
+
+            <div class="height">
+                <h1>Height</h1>
+                <div class="height-buttons">
+                    <input type="number" id="height-feet" name="height-feet" placeholder="Feet..." min="1" max="10" required>
+                    <input type="number" id="height-inches" name="height-inches" placeholder="Inches..." min="1" max="10" required>
+                </div>
+            </div>
+
+            <div class="calculate-button">
+                <button class="calculate" type="button">Calculate</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

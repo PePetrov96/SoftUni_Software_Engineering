@@ -1,0 +1,110 @@
+@media (width <= 600px) {
+    .site-navigation {
+        display: none;
+    }
+
+    .site-main {
+        padding: 0;
+        margin: 0;
+    }
+
+    .entry-header-container .button-primary {
+        width: 25%;
+    }
+
+    .entry-header {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),
+        url("./images/header-image.jpg");
+        background-position: 50% center;
+        color: #fff;
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 5px;
+    }
+
+    .site-logos-container {
+        gap: 0;
+        min-width: 0;
+    }
+
+    .site-logos-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .site-information-image {
+        display: none;
+    }
+
+    .site-information {
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .site-information-text {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .entry-description {
+        align-self: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .button-primary {
+        align-self: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .site-form-container .entry-title {
+        font-size: 0.5em;
+    }
+
+
+    .site-form-container p {
+        flex-direction: column;
+    }
+
+    .site-form-container input {
+        width: 100%;
+    }
+
+    .site-form-container form button {
+        margin-left: 33%;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+    }
+
+    .site-blog-container {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .site-posts {
+        flex-direction: column;
+        margin: 0 10%;
+        padding: 0 10% 10%;
+    }
+
+    .site-footer {
+        flex-direction: column;
+    }
+
+    .site-footer * {
+        justify-content: center;
+        align-self: center;
+    }
+}
