@@ -1,0 +1,68 @@
+@media (width <= 600px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+        text-align: center;
+        margin: 1em 0 0;
+    }
+
+    header nav ul li {
+        padding: 0;
+        margin: 0.5em 0 0;
+    }
+
+    .header-title {
+        padding: 0;
+    }
+
+    .team-description-wrapper ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .team-description-wrapper ul li img {
+        width: 100%;
+        height: auto;
+    }
+
+    .choose-us ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5em;
+    }
+    .blog-news {
+        gap: 10em;
+    }
+
+    .blog-news ul .item {
+        box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.3);
+    }
+
+    .blog-news ul {
+        display: flex;
+        flex-direction: column;
+        gap: 3em;
+        padding: 2em;
+    }
+
+    .about-us {
+        margin: auto;
+        width: 100%;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .about-us p:nth-child(3) {
+        width: 80%;
+    }
+}

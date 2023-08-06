@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.15;
+    font-family: Roboto, serif;
+}
+
+h1 {
+    font-family: 'Abril Fatface', serif;
+}
+
+.container {
+    padding: 0 5em;
+}
+
+/* BACKGROUND IMAGE */
+
+.top-content {
+    background-image: url("image/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position-y: 50%;
+
+    align-self: center;
+    justify-content: center;
+
+    height: 37em; /* HERE */
+}
+
+/* TOP CONTENT */
+.logo-card {
+    position: absolute;
+    height: 230px;
+    width: 280px;
+
+    top: 2em;
+    left: 7em;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 5px 5px 20px gray;
+    gap: 2%;
+}
+
+.text-card {
+    position: absolute;
+    width: 375px;
+    height: 330px;
+
+    top: 13.5em;
+    right: 7em;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    text-align: right;
+
+    background: linear-gradient(to right, #9e958c, #cac8c6);
+
+    box-shadow: 5px 5px 20px gray;
+}
+
+.title h1 {
+    font-size: 2em;
+}
+
+.company-name p {
+    font-size: 0.95em;
+}
+
+.title {
+    height: 60%;
+    margin: 1em 5em 0 1em;
+    border-bottom: 2px solid white;
+}
+
+.company-name {
+    height: 20%;
+    margin: 0 1em 1em 1em;
+    padding-top: 1em;
+}
+
+.text-card p {
+    font-size: 1.1em;
+    margin: 0 1em 1em 1em;
+    color: white;
+}
+
+.text-card h1 {
+    margin-right: 0.5em;
+    font-size: 3em;
+    color: #8c8580;
+}
+
+/* BOTTOM CONTENT */
+.bottom-content {
+    background-color: #f3f1f3;
+    display: flex;
+    flex-direction: row;
+    color: #323233;
+    /*height: 36em;*/
+    height: auto;
+}
+/* BOTTOM LEFT CONTENT */
+.left-side {
+    width: 70%;
+}
+
+.left-side-content {
+    /*padding: 2em 3em;*/
+}
+
+.our-services {
+    padding: 2em 3em;
+}
+
+.contact-text {
+    padding: 1em 3em;
+}
+
+.email-submit {
+    padding: 0.5em 3em 1.5em 3em;
+}
+
+.our-services h1 {
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.our-services-list {
+    list-style-type: none;
+}
+
+.our-services-list li {
+    padding-bottom: 1em;
+    font-size: 0.8em;
+}
+
+.contact-text {
+    display: flex;
+    flex-wrap: wrap; /* Allows the elements to wrap onto the next line if there's not enough space */
+    justify-content: flex-start;
+}
+
+.element,
+.element i {
+    flex: 0 0 auto; /* Don't grow, don't shrink, and auto width */
+    width: fit-content; /* Makes the width fit the content */
+    padding: 0.2em;
+    font-size: 0.8em;
+}
+
+.contact-header {
+    padding-left: 3em;
+    border-bottom: 2px solid #323233;
+}
+
+.contact-header h1 {
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+.email-submit input {
+    border: none;
+    background-color: #bbb0ad;
+    color: white;
+
+    height: 2em;
+    width: 15em;
+    margin-right: 0.5em;
+    padding-left: 0.5em;
+
+    border-radius: 0.4em;
+}
+
+.email-submit input::placeholder {
+    color: white;
+    font-weight: normal;
+    font-size: 0.7em;
+}
+
+.email-submit button {
+    border: none;
+    background-color: #66794d;
+    color: white;
+    height: 2em;
+    padding: 0 2em;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+
+.email-submit button:hover {
+    background-color: RGB(102, 121, 77, 70%);
+}
+
+/* BOTTOM RIGHT CONTENT */
+.right-side {
+    background-color: #bbb0ad;
+    width: 30%;
+}
+
+.right-side-content {
+    padding: 0 1em 0 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    height: 100%;
+}
+
+.right-side-element {
+    padding: 1em 0;
+}
+
+.top-number {
+    color: white;
+    font-size: 3em;
+}
+
+.bottom-number {
+    font-size: 0.8em;
+}
+
+/* ADDITIONS */
+.our-services h1,
+.contact-header h1,
+.bottom-number {
+    text-transform: uppercase;
+}

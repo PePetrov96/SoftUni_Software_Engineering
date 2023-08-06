@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.15;
+    font-family: Mulish, serif;
+}
+
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    border: 1px solid black;
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-image: url("images/form-background.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 1em;
+    box-shadow: 10px 10px 15px gray;
+
+    height: 66vh;
+    width: 85vh;
+
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-self: center;
+
+    width: 50%;
+    height: 66vh;
+
+    padding-left: 2em;
+}
+
+.card-content h1 {
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.names{
+    display: flex;
+
+    gap: 10%;
+}
+
+.first-name,
+.last-name{
+    width: 45%;
+}
+
+#firstName,
+#lastName,
+#email,
+#password,
+#confirmPassword {
+    width: 100%;
+    border-radius: 1.5em;
+    height: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid gray;
+    padding-left: 0.8em;
+}
+
+.first-name,
+.last-name,
+.email,
+.password,
+.password-confirm {
+    color: gray;
+}
+
+#acceptTerms {
+    background-color: gray;
+}
+
+.terms-and-conditions * {
+    text-decoration: none;
+    color: gray;
+}
+
+.terms-and-conditions {
+    padding-bottom: 2em;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.submit-button {
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    background-color: crimson;
+    border-radius: 2em;
+
+    height: 3em;
+    width: 10em;
+}
+
+.submit-button:hover {
+    background-color: RGB(220, 20, 60, 70%);
+    cursor: pointer;
+}

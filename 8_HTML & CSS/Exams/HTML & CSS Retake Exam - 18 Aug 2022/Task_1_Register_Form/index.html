@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&display=swap">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-content">
+                <h1>Registration Form</h1>
+
+                <div class="names">
+                    <div class="first-name">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+
+                    <div class="last-name">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="password-confirm">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+
+                <div class="terms-and-conditions">
+                    <input type="checkbox" id="acceptTerms" name="acceptTerms" required>
+                    <label for="acceptTerms">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.</label>
+                </div>
+
+                <div class="button-container">
+                    <button class="submit-button" type="button">Register Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
