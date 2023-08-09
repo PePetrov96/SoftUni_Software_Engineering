@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap);
 
+html {
+  line-height: 1.15;
+  font-family: Open Sans;
+  font-size: 18px;
+}
+
 body {
   font-weight: 400;
   font-style: normal;
@@ -72,7 +78,7 @@ body {
   display: flex;
   z-index: 100;
   position: sticky;
-  box-shadow: 5px 5px 10px 0 #d4d4d4;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -85,8 +91,11 @@ body {
   position: relative;
   max-width: 1414px;
   align-items: center;
-  padding: 16px 24px;
+  padding-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
   flex-direction: row;
+  padding-bottom: 16px;
   justify-content: space-between;
 }
 
@@ -98,9 +107,7 @@ body {
 
 .home-link,
 .home-link1,
-.home-link2,
-.home-link3{
-  font-family: Roboto;
+.home-link2 {
   font-weight: bold;
   margin-right: 24px;
   text-decoration: none;
@@ -119,10 +126,16 @@ body {
 
 .home-cta-btn {
   color: #ffffff;
-  padding: 8px 40px;
+  padding-top: 8px;
+  padding-left: 40px;
+  padding-bottom: 8px;
+  padding-right: 40px;
   border-radius: 34px;
   background-color: #bb4cff;
-  border-width: 0;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
 
 .home-image {
@@ -136,9 +149,12 @@ body {
   max-width: 1414px;
   margin-top: 40px;
   align-items: center;
-  padding: 40px 24px;
+  padding-top: 40px;
+  padding-left: 24px;
   margin-bottom: 40px;
+  padding-right: 24px;
   flex-direction: row;
+  padding-bottom: 40px;
   justify-content: space-between;
 }
 
@@ -176,7 +192,7 @@ body {
   align-self: stretch;
   text-align: center;
   padding-top: 16px;
-  border-width: 0;
+  border-width: 0px;
   border-radius: 34px;
   padding-bottom: 16px;
   background-color: #bb4cff;
@@ -235,8 +251,11 @@ body {
   position: relative;
   align-self: flex-start;
   align-items: center;
-  padding: 16px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   flex-direction: column;
+  padding-bottom: 16px;
 }
 
 .home-image2,
@@ -259,8 +278,11 @@ body {
   width: 30%;
   display: flex;
   align-items: center;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   flex-direction: column;
-  padding: 16px;
+  padding-bottom: 16px;
 }
 
 .home-stats {

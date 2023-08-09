@@ -1,392 +1,443 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
-@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
-
+:root {
+    --black: #010100;
+    --black-hover: RGB(1, 1, 0, 0.6);
+    --light-blue: #ade3de;
+    --light-blue-hover: RGB(173, 227, 222, 0.6);
+    --gray: #f2f5fb;
+}
 
 * {
     padding: 0;
     margin: 0;
     font-size: 20px;
+    line-height: 1.15;
+    font-family: Inter, serif;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-html {
-    box-sizing: border-box;
-}
-
-.home-container * {
-    font-family: Inter, sans-serif;
-}
-
-/* ALL BUTTONS - STYLE */
-.Anchor {
-    text-decoration: none;
-    color: black;
-}
-
-/* NAVIGATION BAR - DESIGN */
-.nav-bar {
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2em 3em; /* IMPORTANT */
+    flex-direction: column;
+}
+
+/* NAVIGATION BAR */
+
+.navigation-bar-container {
     background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
-.nav-bar-containers {
+.nav-bar {
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    height: 100px;
+    width: 100%;
+}
+
+.left-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.left-nav-bar span a {
     text-decoration: none;
-    align-self: center;
+    color: var(--black);
+}
+.left-nav-bar span a:hover {
+    color: var(--black-hover);
 }
 
-.nav-bar-containers a {
-    padding-right: 1em;
-
-}
-
-.log-in-button,
-.sign-up-button {
-    width: 6em;
-    height: 3em;
-    border: none;
-    background: none;
+.right-nav-bar {
+    display: flex;
+    gap: 20px;
 }
 
 .sign-up-button,
 .log-in-button {
-    border-radius: 0.5em;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
 }
 
 .sign-up-button {
-    background-color: lightblue;
+    background-color: var(--light-blue);
 }
 
-.sign-up-button:hover {
-    background-color: cadetblue;
+.log-in-button {
+    background: none;
 }
 
+.sign-up-button:hover,
 .log-in-button:hover {
-    background-color: lightblue;
+    cursor: pointer;
+    background-color: var(--light-blue-hover);
 }
 
+/* DOWNLOAD SECTION */
+.download-section {
+    background-color: var(--light-blue);
+    margin-top: 100px;
+    height: 400px;
 
-/* DOWNLOAD SECTION 1 & 2 - DESIGN */
-.download-section-1,
-.download-section-2 {
-    background-color: lightblue;
-    padding: 5em 0;
-}
-
-.download-section-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 2em;
-}
-
-.download-section-2 .download-section-text {
-    padding-left: 25%;
-    padding-right: 25%;
     text-align: center;
 }
 
+.download-section-text {
+    padding-bottom: 40px;
+}
+
 .download-section-text h1 {
-    font-size: 2.8em;
-    padding-bottom: 0.25em;
+    font-size: 3em;
+    padding-bottom: 20px;
+
+}
+.download-section-text p {
+    font-size: 0.9em;
 }
 
 .download-section-buttons {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
+    justify-content: space-between;
+    gap: 20px;
 }
 
-.iOS-download-button:hover,
-.Android-download-button:hover {
-    background-color: dimgray;
-}
-
-.download-section-buttons a {
-    padding: 1em;
-    border-radius: 0.5em;
-    background-color: black;
+.download-button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--black);
     color: white;
 }
 
-.download-section-buttons a i {
-    padding-right: 0.3em;
-    color: white;
+.download-button:hover {
+    background-color: var(--black-hover);
+    cursor: pointer;
 }
 
-/* STATISTICS SECTION - DESIGN */
-.statistics-section {
-    padding: 5em 3em; /* IMPORTANT */
+/* STAT SECTION */
+
+.stat-section-container {
+    height: 400px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.stat-section {
+    display: flex;
     align-self: center;
-    justify-content: center;
+    max-width: 1200px;
 }
 
-.downloads,
-.revenue,
-.users {
+.stat-card {
     text-align: center;
-    padding: 1em 1em;
-}
-.downloads {
-    border-left: 3px solid gray;
+    width: 33%;
 }
 
-.revenue {
-    border-left: 3px solid gray;
-    border-right: 3px solid gray;
-}
-
-.users {
-    border-right: 3px solid gray;
-}
-
-.downloads h1,
-.revenue h1,
-.users h1 {
+.stat-card h1 {
     font-size: 2em;
-    padding-bottom: 0.8em;
+    padding-bottom: 25px;
 }
 
-/* FEATURES SECTION - DESIGN */
-.features-section {
-    /*border: 1px solid red; !* PLACEHOLDER *!*/
-    background-color: lightblue;
-    padding: 0 3.6em; /* IMPORTANT */
+.stat-card p {
+    padding-bottom: 60px;
+}
 
+.stat-card:first-child,
+.stat-card:nth-child(2) {
+    border-left: 1px solid gray;
+}
+
+.stat-card:nth-child(2),
+.stat-card:nth-child(3) {
+    border-right: 1px solid gray;
+}
+
+/* EXPLORE SECTION */
+.explore-section-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 5em;
+    background-color: var(--light-blue);
 }
 
-.phone {
+.explore-section {
+    display: flex;
+    max-width: 1000px;
+    height: 550px;
+}
+
+.left-side {
     border: 1px dashed gray;
 }
 
-.features-text {
-    width: 50%;
+.left-side img {
+    height: 100%;
 }
 
-.features-text h1 {
-    font-size: 2em;
-    padding-bottom: 1em;
-}
-
-.features-text h3 {
-    font-size: 1em;
-    padding-bottom: 0.5em;
-}
-
-.features-text p {
-    font-size: 1em;
-    padding-bottom: 2em;
-}
-
-.features-text a {
-    color: black;
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
-}
-
-/* PRICING OPTIONS SECTION - DESIGN */
-.pricing-plans-section {
-    padding-bottom: 3em;
-    background-color: #eaeaea;
+.right-side {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-.pricing-plans-header {
+.right-side-text-container {
+    margin: 50px;
+}
+
+.right-side-text-container h1 {
+    font-size: 2em;
+    padding-bottom: 30px;
+}
+.right-side-text-container h4 {
+    padding-bottom: 15px;
+}
+
+.right-side-text-container p {
+    padding-bottom: 30px;
+}
+
+.right-side-text-container p:nth-child(5) {
+    padding-bottom: 60px;
+}
+
+.right-side-text-container span {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+.right-side-text-container span a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.right-side-text-container span a:hover {
+    color: var(--black-hover);
+}
+
+/* PRICING SECTION */
+.pricing-section-container {
+    background-color: var(--gray);
+    height: 800px; /* CAPPED! */
+}
+
+.pricing-section {
+    background-color: #f2f5fb;
+    height: 800px; /* CAPPED! */
+}
+
+.pricing-header {
+    padding: 50px 0 80px 0;
+}
+
+.pricing-header-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2em 0;
-}
-
-.pricing-plans-header h1 {
-    font-size: 2em;
-}
-
-.pricing-plans-button {
-    margin: 1em 0 2em 0;
-    padding: 0.3em 1em;
-    background-color: lightblue;
-    border: none;
-    border-radius: 0.3em;
-}
-
-.pricing-plans-button:hover {
-    background-color: cadetblue;
-}
-
-.pricing-plans-options,
-.pricing-plans {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch
-}
-.pricing-plans {
-    border: 1px solid gray; /* PLACEHOLDER */
-    border-radius: 1em 0 0 1em;
-    background-color: white;
-    width: 60%;
-}
-
-.pricing-plan-expand {
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-radius: 0 1em 1em 0;
-    background-color: lightblue;
-    width: 40%;
-}
-
-.header h3{
-    font-size: 2em;
-    padding-bottom: 0.1em;
-    padding-top: 0.2em;
     text-align: center;
 }
 
-.header p {
-    font-size: 0.9em;
-    padding-bottom: 1.5em;
+.pricing-header-text-button {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--light-blue);
 }
 
-.price-tag {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    padding-bottom: 1em;
-    border-bottom: 2px solid gray;
+.pricing-header-text-button p {
+    width: 100%;
 }
 
-.price-tag p {
-    color: gray;
-    transform: translateY(40%) translateX(10%);
-}
-
-.header h1 {
+.pricing-header-text h1 {
     font-size: 2em;
 }
 
-.benefits {
-    padding: 1em 0;
+/* PRICING CARDS BORDERS & COLOR */
+.cards-container {
+    display: flex;
 }
 
-.benefits ul {
-    font-size: 0.5em;
-    list-style-type: none;
+.pricing-cards {
+    height: 500px; /* CAPPED! */
+    width: 60%;
+
+    display: flex;
+
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+
+    padding: 10px;
 }
 
-.benefits li::before {
-    content: "\2713\0020";
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 33.333%;
+
+    flex-grow: 1;
 }
 
-.benefits ul li {
-    padding: 0.5em;
-    font-size: 1.5em;
-}
-
-.pricing-plan-standard {
-    padding: 1em;
-    margin: 1em 0;
-}
-
-.pricing-plan-plus {
-    margin: 1em 0;
-    padding: 1em;
+.card:nth-child(2) {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
 
-.pricing-plan-premium {
-    padding: 1em;
-    margin: 1em 0;
-}
+.expand-card {
+    width: 40%;
+    background-color: var(--light-blue);
+    border-radius: 0 20px 20px 0;
+    border: 1px solid gray;
+    padding: 20px;
 
-.purchase-button {
     display: flex;
-    align-self: center;
-    justify-content: center;
-    padding: 1em;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
-.purchase-plan-button {
-    padding: 1em 2em;
-    border-radius: 1em;
-    border: none;
-    width: 100%;
-    background-color: lightblue;
+/* PRICING CARDS CONTENT */
+ul {
+    list-style-type: none;
 }
 
-.purchase-plan-button:hover {
-    background-color: cadetblue;
+.card-header {
+    border-bottom: 1px solid gray;
 }
 
-.pricing-plan-expand {
-    padding: 3em 2em;
-    display: flex; /* Turn the div into a flex container */
-    flex-direction: column; /* Stack the child elements vertically */
-    justify-content: flex-start; /* Align child elements to the start */
-}
-
-.pricing-plan-expand h3 {
+.card-header h1 {
     text-align: center;
-    padding-bottom: 0.5em;
+    padding-bottom: 10px;
 }
-.pricing-plan-expand p {
-    font-size: 1.2em;
-    padding-bottom: 1.5em;
+.card-header p {
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
-.pricing-plan-expand ul {
+.price {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.price h1 {
+    font-size: 2em;
+}
+
+.card-body,
+.expand-card-body {
     font-size: 0.5em;
-    list-style-type: none; /* This removes the default bullets */
+    padding-top: 30px;
+
+    flex-grow: 1; /* IMPORTANT!!!! */
 }
 
-.pricing-plan-expand li::before {
-    content: "\2713\0020"; /* This is the unicode for a check mark followed by a space */
+.card-body ul,
+.expand-card-body ul {
+    font-size: 0.5em;
+}
+
+.card-body ul li,
+.expand-card-body ul li {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.card-body ul li i,
+.expand-card-body ul li i {
+    font-size: 15px;
+}
+
+.expand-card-header h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.expand-card-header p {
+    font-weight: bold;
+}
+
+.card-footer,
+.expand-card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.get-plan-button,
+.contact-us-button {
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+
+.get-plan-button {
+    background-color: var(--light-blue);
 }
 
 .contact-us-button {
-    padding: 1em;
-
-    border-radius: 1em;
-    border: none;
-    width: 100%;
-
-    background-color: black;
+    background-color: var(--black);
     color: white;
+}
 
-    margin-top: auto;
+.get-plan-button:hover {
+    background-color: var(--light-blue-hover);
+    cursor: pointer;
 }
 
 .contact-us-button:hover {
-    background-color: dimgray;
+    background-color: var(--black-hover);
+    cursor: pointer;
 }
 
-/* FOOTER SECTION - DESIGN */
-.footer-section {
+/* DOWNLOAD SECTION 2 */
+.download-section-text2 {
+    width: 500px;
+}
+
+.download-section2 {
+    margin-top: 0;
+}
+
+/* FOOTER SECTION */
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.right-footer {
     display: flex;
     justify-content: space-between;
-    padding: 2em;
-    gap: 1em;
+    gap: 15px;
 }
 
 .right-footer a {
-    margin-left: 1em;
-    color: black;
-    gap: 1em;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.right-footer a:hover {
+    color: var(--black-hover);
 }
