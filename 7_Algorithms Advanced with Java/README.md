@@ -7,7 +7,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="XXXXXXX">01. Graphs DijkstraI and MST - Lab
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/7_Algorithms%20Advanced%20with%20Java/Homework/1_Graphs%20Topologica%20Sorting%2C%20MST">01. Graphs DijkstraI and MST - Lab
 
 <table>
   <thead>
@@ -18,9 +18,9 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Dijkstra</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/7_Algorithms%20Advanced%20with%20Java/Homework/1_Graphs%20Topologica%20Sorting%2C%20MST/1_Lab/1_Dijkstra">Dijkstra</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Minimal Spanning Tree</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/7_Algorithms%20Advanced%20with%20Java/Homework/1_Graphs%20Topologica%20Sorting%2C%20MST/1_Lab/2_Minimal_Spanning_Tree">Minimal Spanning Tree</a></td>
     </tr>
   </tbody>
 </table>
@@ -28,7 +28,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="XXXXXXX">02. Graphs Bellman-Ford Longest Path in DAG
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)">02. Graphs Bellman-Ford Longest Path in DAG
 
 <table>
   <thead>
@@ -39,9 +39,9 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Bellman-Ford</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/1_Lab/Task_1_Bellman_Ford.java">Bellman-Ford</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Longest Path</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/1_Lab/Task_2_Longest_Path.java">Longest Path</a></td>
     </tr>
   </tbody>
     <thead>
@@ -52,19 +52,19 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Cable Network</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/2_Exercise/Task_1_Cable_Network.java">Cable Network</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Modified Kruskal Algorithm</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/2_Exercise/Task_2_Modified_Kruskal_Algorithm.java">Modified Kruskal Algorithm</a></td>
 	  <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Most Reliable Path</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/2_Exercise/Task_3_Most_Reliable_Path.java">Most Reliable Path</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Cheap Town Tour</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/2_Exercise/Task_4_Cheap_Town_Tour.java">Cheap Town Tour</a></td>
 	  <td><b>05.</b></td>
-      <td><a href="XXXXXXX">Undefined</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/2_Exercise/Task_5_Undefined.java">Undefined</a></td>
     </tr>
 	<tr>
       <td><b>06.</b></td>
-      <td><a href="XXXXXXX">Big Trip</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/2_Graphs%20Bellman-Ford%2C%20Longest%20Path%20in%20(DAG)/2_Exercise/Task_6_Big_Trip.java">Big Trip</a></td>
     </tr>
   </tbody>
 </table>
@@ -72,7 +72,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="XXXXXXX">03. Graphs Strongly Connected Components, Max Flow
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/7_Algorithms%20Advanced%20with%20Java/Homework/3_Graphs%20Strongly%20Connected%20Components%2C%20Max%20Flow/1_Lab/Graphs-Strongly-Connected-Components-Max-Flow">03. Graphs Strongly Connected Components, Max Flow
 
 <table>
   <thead>
@@ -83,11 +83,11 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Strongly Connected Components</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/3_Graphs%20Strongly%20Connected%20Components%2C%20Max%20Flow/1_Lab/Graphs-Strongly-Connected-Components-Max-Flow/src/main/java/StronglyConnectedComponents.java">Strongly Connected Components</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Articulation Points</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/3_Graphs%20Strongly%20Connected%20Components%2C%20Max%20Flow/1_Lab/Graphs-Strongly-Connected-Components-Max-Flow/src/main/java/ArticulationPoints.java">Articulation Points</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Max Flow</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/3_Graphs%20Strongly%20Connected%20Components%2C%20Max%20Flow/1_Lab/Graphs-Strongly-Connected-Components-Max-Flow/src/main/java/EdmondsKarp.java">Max Flow</a></td>
     </tr>
   </tbody>
   <thead>
@@ -108,7 +108,7 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
 
 ---
 
-## <a href="XXXXXXX">04. Dynamic Programming Advanced
+## <a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/tree/main/7_Algorithms%20Advanced%20with%20Java/Homework/4_Dynamic%20Programming%20Advanced">04. Dynamic Programming Advanced
 
 <table>
   <thead>
@@ -119,9 +119,9 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">0/1 Knapsack</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/4_Dynamic%20Programming%20Advanced/1_Lab/Task_1_Knapsack.java">0/1 Knapsack</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">Longest Common Subsequence</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/4_Dynamic%20Programming%20Advanced/1_Lab/Task_2_Longest_Common_Subsequence.java">Longest Common Subsequence</a></td>
     </tr>
   </tbody>
   <thead>
@@ -132,13 +132,13 @@ Certificate can be found here: <a href="https://softuni.bg/certificates/details/
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXXXX">Abaspa basapa</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/4_Dynamic%20Programming%20Advanced/2_Exercise/Task_1_Abaspa_basapa.java">Abaspa basapa</a></td>
       <td><b>02.</b></td>
-      <td><a href="XXXXXXX">The Mad Gardener</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/4_Dynamic%20Programming%20Advanced/2_Exercise/Task_2_The_Mad_Gardener.java">The Mad Gardener</a></td>
       <td><b>03.</b></td>
-      <td><a href="XXXXXXX">Zigzag Matrix</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/4_Dynamic%20Programming%20Advanced/2_Exercise/Task_3_Zigzag_Matrix.java">Zigzag Matrix</a></td>
       <td><b>04.</b></td>
-      <td><a href="XXXXXXX">Rectangle Intersection</a></td>
+      <td><a href="https://github.com/PePetrov96/SoftUni_Software_Engineering/blob/main/7_Algorithms%20Advanced%20with%20Java/Homework/4_Dynamic%20Programming%20Advanced/2_Exercise/Task_4_Rectangle_Intersection.java">Rectangle Intersection</a></td>
     </tr>
   </tbody>
 </table>
