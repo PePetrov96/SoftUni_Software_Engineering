@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.15;
+    font-family: Courgette, serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    background-color: #f5f4f4;
+    height: 100%; /* This will now be 100% of the body height */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2em;
+    text-align: center;
+}
+
+.header-description {
+    color: #ca2026;
+    margin-left: 7em;
+    font-weight: bold;
+}
+
+.header-title {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.header-description {
+    font-size: 1.2em;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    gap: 2em;
+    padding: 0 2em;
+}
+
+.card {
+    width: 33%;
+    border-radius: 1em;
+    background-color: white;
+}
+
+.top-card {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0.8em;
+    min-height: 200px;
+}
+
+.bottom-card-text {
+    flex-grow: 1;
+}
+
+.bottom-card-header {
+    text-align: center;
+    padding-bottom: 0.8em;
+}
+
+.bottom-card-header h1 {
+    font-size: 1.2em;
+}
+
+.bottom-card-text {
+    padding: 0.8em 0;
+    flex-grow: 1;
+}
+
+.bottom-card-text p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.bottom-card-button{
+    align-self: center;
+    margin-top: auto;
+}
+
+.bottom-card a {
+    text-decoration: none;
+    color: RGB(0,0,0);
+    font-size: 1em;
+    cursor: pointer;
+}
+
+a:hover {
+    color: RGB(0,0,0, 70%);
+}
+
+i {
+    color: #ca2026;
+}
