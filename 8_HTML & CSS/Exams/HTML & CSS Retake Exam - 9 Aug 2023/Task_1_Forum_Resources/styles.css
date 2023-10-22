@@ -1,0 +1,161 @@
+:root {
+    --white: rgba(255,254,254,255);
+    --black: rgba(1,0,1,255);
+    --gray: rgba(150, 150, 150, 0.3);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.25;
+    font-family: "Inter", serif;
+    color: var(--black);
+}
+
+/* BACKGROUND */
+
+body {
+    background: url('images/background.jpg');
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+
+    gap: 40px;
+}
+
+/* ALL CARDS */
+.card {
+    box-shadow: 5px 5px 10px var(--gray);
+    background: var(--white);
+}
+
+/* LEFT-SIDE CARDS */
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    width: 60%;
+}
+
+.top-card,
+.bottom-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3em 2em;
+
+    height: 250px;
+}
+
+.top-left-card-text,
+.bottom-left-card-text {
+    padding: 1em;
+}
+
+.top-left-card-text h1,
+.bottom-left-card-text h1 {
+    font-size: 5em;
+}
+
+.top-left-card-text footer,
+.bottom-left-card-text footer {
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.top-left-card-picture,
+.bottom-left-card-picture {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+}
+
+#picture1,
+#picture2 {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* RIGHT-SIDE CARD */
+.right-side {
+    width: 30%;
+}
+
+.special-card {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3em 2em;
+
+    height: 660px;
+}
+
+.special-card-text {
+    flex-grow: 1;
+}
+
+.special-card-text h1 {
+    font-size: 7em;
+}
+
+.special-card-footer {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    border-top: 1px solid var(--black);
+    padding-top: 1em;
+}
+
+.special-card-footer-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#picture3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.special-card-footer-text h1 {
+    font-size: 1.5em;
+}
+.special-card-footer-text p {
+    font-size: 0.75em;
+}
+
+/* EFFECTS */
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
