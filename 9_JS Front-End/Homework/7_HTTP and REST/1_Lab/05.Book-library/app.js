@@ -1,42 +1,47 @@
+const BASE_URL = 'http://localhost:3030/jsonstore/collections/books';
+
+const endpoints = {
+    books: () => `${BASE_URL}`,
+    book: (id) => `${BASE_URL}/${id}`,
+};
+
+const authorInput = document.querySelector('input[name="author"]');
+const titleInput = document.querySelector('input[name="title"]');
+const formTitle = document.querySelector('#form h3');
+const booksTable = document.querySelector('table tbody');
+
 function attachEvents() {
-    document.querySelector('table').addEventListener('click', handleTableClick);
-    document.getElementById('form').addEventListener('click', handleFormClick);
     document.getElementById('loadBooks').addEventListener('click', loadBooks);
+    document.getElementById('submitButton').addEventListener('click', handleFormSubmit);
+    booksTable.addEventListener('click', handleTableClick);
+}
+
+function handleFormSubmit(event) {
+    event.preventDefault();
+    const action = formTitle.textContent.includes('Edit') ? saveEditedBook : createBook;
+    action().catch(console.error);
 }
 
 function handleTableClick(event) {
-    let button = event.target.closest('button');
+    const button = event.target.closest('button');
     if (!button) return;
 
-    if (button.innerText === 'Edit') {
-        prepareEditForm(button);
-    } else if (button.innerText === 'Delete') {
-        deleteBook(button).catch(console.error);
+    const row = button.closest('tr');
+    if (button.textContent === 'Edit') {
+        prepareEditForm(row);
+    } else if (button.textContent === 'Delete') {
+        deleteBook(row).catch(console.error);
     }
 }
 
-function handleFormClick(event) {
-    let button = event.target.closest('button');
-    if (!button) return;
-
-    if (button.innerText === 'Submit') {
-        createBook().catch(console.error);
+async function loadBooks() {
+    try {
+        const response = await fetch(endpoints.books());
+        const data = await response.json();
+        booksTable.innerHTML = Object.values(data).map(createBookRow).join('');
+    } catch (error) {
+        console.error('Error loading books:', error);
     }
-}
-
-function loadBooks() {
-    return fetch('http://localhost:3030/jsonstore/collections/books')
-        .then(res => res.json())
-        .then(updateBookTable)
-        .catch(error => {
-            console.error('Error loading books:', error);
-            throw error;
-        });
-}
-
-function updateBookTable(books) {
-    const tableBody = document.querySelector('table tbody');
-    tableBody.innerHTML = Object.values(books).map(book => createBookRow(book)).join('');
 }
 
 function createBookRow(book) {
@@ -51,133 +56,96 @@ function createBookRow(book) {
         </tr>`;
 }
 
-function createBook() {
-    const title = document.querySelector('input[name="title"]').value;
-    const author = document.querySelector('input[name="author"]').value;
+async function createBook() {
+    const title = titleInput.value.trim();
+    const author = authorInput.value.trim();
+    if (!title || !author) return;
 
-    if (title.length === 0 || author.length === 0) {
-        return Promise.resolve(); // Return a resolved promise for empty inputs
+    try {
+        await fetch(endpoints.books(), {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ title, author })
+        });
+        await loadBooks();
+        resetForm();
+    } catch (error) {
+        console.error('Error creating book:', error);
+    }
+}
+
+function prepareEditForm(row) {
+    titleInput.value = row.cells[0].textContent;
+    authorInput.value = row.cells[1].textContent;
+    formTitle.textContent = 'Edit FORM';
+    document.getElementById('submitButton').textContent = 'Save';
+    row.classList.add('editing');
+}
+
+async function saveEditedBook() {
+    const row = document.querySelector('tr.editing');
+    if (!row) return;
+
+    const title = titleInput.value.trim();
+    const author = authorInput.value.trim();
+    const bookId = await findBookID(row.cells[0].textContent, row.cells[1].textContent);
+
+    if (!title || !author || !bookId) return;
+
+    try {
+        await fetch(endpoints.book(bookId), {
+            method: 'PUT',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ title, author })
+        });
+        row.cells[0].textContent = title;
+        row.cells[1].textContent = author;
+        resetForm();
+    } catch (error) {
+        console.error('Error updating book:', error);
+    } finally {
+        row.classList.remove('editing');
+    }
+}
+
+async function deleteBook(row) {
+    const bookId = await findBookID(row.cells[0].textContent, row.cells[1].textContent);
+    if (!bookId) {
+        row.remove();
+        return;
     }
 
-    const bookData = {title, author};
-
-    return fetch('http://localhost:3030/jsonstore/collections/books', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(bookData)
-    })
-        .then(res => res.json())
-        .then(createdBook => {
-            loadBooks(); // Reload all books
-            document.querySelector('input[name="title"]').value = '';
-            document.querySelector('input[name="author"]').value = '';
-        })
-        .catch(error => {
-            console.error('Error creating book:', error);
-            throw error;
+    try {
+        await fetch(endpoints.book(bookId), {
+            method: 'DELETE'
         });
+        row.remove();
+    } catch (error) {
+        console.error('Error deleting book:', error);
+    }
 }
 
-function prepareEditForm(button) {
-    let row = button.closest('tr');
-    let title = row.querySelector('td:nth-of-type(1)').textContent;
-    let author = row.querySelector('td:nth-of-type(2)').textContent;
-
-    document.querySelector('input[name="title"]').value = title;
-    document.querySelector('input[name="author"]').value = author;
-
-    document.querySelector('#form h3').textContent = 'Edit FORM';
-    const submitButton = document.querySelector('#form button');
-    submitButton.textContent = 'Save';
-    submitButton.onclick = () => saveEditedBook(row, submitButton).catch(console.error);
+async function findBookID(title, author) {
+    try {
+        const response = await fetch(endpoints.books());
+        const books = await response.json();
+        for (let id in books) {
+            if (books[id].title === title && books[id].author === author) {
+                return id;
+            }
+        }
+        return null;
+    } catch (error) {
+        console.error('Error finding book ID:', error);
+        throw error;
+    }
 }
 
-function saveEditedBook(row, submitButton) {
-    const titleInput = document.querySelector('input[name="title"]');
-    const authorInput = document.querySelector('input[name="author"]');
-    const title = titleInput.value;
-    const author = authorInput.value;
-
-    return findBookID(row.querySelector('td:nth-of-type(1)').textContent, row.querySelector('td:nth-of-type(2)').textContent)
-        .then(bookId => {
-            let fetchUrl = 'http://localhost:3030/jsonstore/collections/books';
-            let method = 'POST';
-
-            if (bookId) {
-                fetchUrl += `/${bookId}`;
-                method = 'PUT';
-            }
-
-            return fetch(fetchUrl, {
-                method: method,
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ title, author })
-            });
-        })
-        .then(response => response.json())
-        .then(updatedBook => {
-            row.querySelector('td:nth-of-type(1)').textContent = updatedBook.title;
-            row.querySelector('td:nth-of-type(2)').textContent = updatedBook.author;
-
-            titleInput.value = '';
-            authorInput.value = '';
-            document.querySelector('#form h3').textContent = 'FORM';
-            submitButton.textContent = 'Submit';
-            submitButton.onclick = createBook;
-        })
-        .catch(error => {
-            console.error('Error saving edited book:', error);
-            throw error;
-        });
-}
-
-function deleteBook(button) {
-    let row = button.closest('tr');
-    let title = row.querySelector('td:nth-of-type(1)').textContent;
-    let author = row.querySelector('td:nth-of-type(2)').textContent;
-
-    return findBookID(title, author)
-        .then(bookId => {
-            if (!bookId) {
-                row.remove();
-                return;
-            }
-            return fetch(`http://localhost:3030/jsonstore/collections/books/${bookId}`, {
-                method: 'DELETE'
-            });
-        })
-        .then(response => {
-            if (response && !response.ok) {
-                throw new Error('Failed to delete the book');
-            }
-            row.remove();
-        })
-        .catch(error => {
-            console.error('Error deleting book:', error);
-            throw error;
-        });
-}
-
-function findBookID(title, author) {
-    return fetch('http://localhost:3030/jsonstore/collections/books')
-        .then(response => response.json())
-        .then(books => {
-            for (let id in books) {
-                let book = books[id];
-                if (book.title === title && book.author === author) {
-                    return id;
-                }
-            }
-            return null;
-        })
-        .catch(error => {
-            console.error('Error finding book ID:', error);
-            throw error;
-        });
+function resetForm() {
+    titleInput.value = '';
+    authorInput.value = '';
+    formTitle.textContent = 'FORM';
+    document.getElementById('submitButton').textContent = 'Submit';
 }
 
 attachEvents();
