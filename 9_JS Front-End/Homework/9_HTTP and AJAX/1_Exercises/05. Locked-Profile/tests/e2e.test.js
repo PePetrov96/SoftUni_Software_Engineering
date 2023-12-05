@@ -103,9 +103,9 @@ describe('E2E tests', function () {
 
       await page.click('input[value="unlock"]');
       await page.click('text=Show more');
+
       const post = await page.$$eval(`input[type="email"]`, (t) =>
-        t.map((s) => s.value)
-      );
+        t.map((s) => s.value));
       expect(post[0]).to.equal(data[0].email);
       expect(post[1]).to.equal(`${data[0].age}`);
     });

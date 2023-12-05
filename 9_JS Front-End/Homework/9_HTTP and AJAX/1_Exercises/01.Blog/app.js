@@ -1,24 +1,18 @@
 const POSTS_URL = 'http://localhost:3030/jsonstore/blog/posts';
 const COMMENTS_URL = 'http://localhost:3030/jsonstore/blog/comments';
 
-const loadPostsBtn = document.getElementById('btnLoadPosts');
-const viewBtn = document.getElementById('btnViewPost');
-
 const postsList = document.getElementById('posts');
-
-const postTitle = document.getElementById('post-title');
-const postDescription = document.getElementById('post-body');
 
 const postComments = document.getElementById('post-comments');
 
 function attachEvents() {
-    loadPostsBtn.addEventListener('click', loadPosts);
-    viewBtn.addEventListener('click', setComments);
+    document.getElementById('btnLoadPosts').addEventListener('click', loadPosts);
+    document.getElementById('btnViewPost').addEventListener('click', setComments);
     postsList.addEventListener('change', viewPost);
 }
 
 function loadPosts() {
-    return fetch(POSTS_URL)
+    fetch(POSTS_URL)
         .then(res => res.json())
         .then((data) => {
             let posts = Object.entries(data);
@@ -40,11 +34,11 @@ function loadPosts() {
 }
 
 function viewPost() {
-    return fetch(`${POSTS_URL}/${postsList.value}`)
+    fetch(`${POSTS_URL}/${postsList.value}`)
         .then(res => res.json())
         .then((data) => {
-            postTitle.textContent = data.title.toUpperCase();
-            postDescription.textContent = data.body;
+            document.getElementById('post-title').textContent = data.title.toUpperCase();
+            document.getElementById('post-body').textContent = data.body;
         })
         .catch((error) => {
             console.error('Error: ', error);
