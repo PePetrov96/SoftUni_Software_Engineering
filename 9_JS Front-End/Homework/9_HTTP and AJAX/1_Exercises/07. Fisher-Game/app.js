@@ -1,0 +1,1 @@
+window.onload = (location.href = 'http://localhost:3000/src/login.html');
