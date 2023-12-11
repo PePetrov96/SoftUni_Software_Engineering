@@ -1,7 +1,5 @@
 function solve(input) {
     function explore(astronaut, energyNeeded) {
-        // let astronaut = astronautList.get(name);
-
         if (astronaut.energyReserves >= energyNeeded) {
             console.log(`${astronaut.name} has successfully explored a new area and now has ${astronaut.energyReserves -= energyNeeded} energy!`);
         } else {
@@ -9,8 +7,6 @@ function solve(input) {
         }
     }
     function refuel(astronaut, amount) {
-        // let astronaut = astronautList.get(name);
-
         if (astronaut.energyReserves + amount > 200) {
             let amount1 = 200 - astronaut.energyReserves;
             astronaut.energyReserves = 200;
@@ -21,8 +17,6 @@ function solve(input) {
         }
     }
     function breathe(astronaut, amount) {
-        // let astronaut = astronautList.get(name);
-
         if (astronaut.oxygenLevel + amount > 100) {
             let amount1 = 100 - astronaut.oxygenLevel;
             astronaut.oxygenLevel = 100;
@@ -74,27 +68,3 @@ function solve(input) {
         console.log(`Astronaut: ${astronaut.name}, Oxygen: ${astronaut.oxygenLevel}, Energy: ${astronaut.energyReserves}`);
     }
 }
-
-
-solve([  '3',
-    'John 50 120',
-    'Kate 80 180',
-    'Rob 70 150',
-    'Explore - John - 50',
-    'Refuel - Kate - 30',
-    'Breathe - Rob - 20',
-    'End']);
-
-solve([    '4',
-    'Alice 60 100',
-    'Bob 40 80',
-    'Charlie 70 150',
-    'Dave 80 180',
-    'Explore - Bob - 60',
-    'Refuel - Alice - 30',
-    'Breathe - Charlie - 50',
-    'Refuel - Dave - 40',
-    'Explore - Bob - 40',
-    'Breathe - Charlie - 30',
-    'Explore - Alice - 40',
-    'End']);

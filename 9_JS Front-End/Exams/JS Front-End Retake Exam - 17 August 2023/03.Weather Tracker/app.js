@@ -2,195 +2,156 @@ const BASE_URL = 'http://localhost:3030/jsonstore/tasks';
 
 const endpoints = {
     update: (id) => `${BASE_URL}/${id}`,
-    delete: (id) => `${BASE_URL}/${id}`,
-};
-
-const locationInput = document.getElementById("location");
-const dateInput = document.getElementById("date");
-const temperatureInput = document.getElementById("temperature");
-
-const list = document.getElementById('list');
-
-const addBtn = document.getElementById("add-weather");
-const editBtn = document.getElementById("edit-weather");
-const loadBtn = document.getElementById("load-history");
-
-let selectedTaskId = null;
-
-function attachEvents() {
-    loadBtn.addEventListener('click', loadBoardEventHandler);
-    addBtn.addEventListener('click', createTaskEventHandler);
-    editBtn.addEventListener('click', editTaskEventHandler);
+    delete: (id) => `${BASE_URL}/${id}`
 }
 
-function getIdByLocation(task) {
-    return fetch(BASE_URL)
-        .then(res => res.json())
-        .then(res => Object.entries(res).find(e => e[1].location == task)[1]._id);
-}
+let currentTaskId = '';
 
-async function loadBoardEventHandler() {
-    clearAllSections();
-    try {
-        const res = await fetch(BASE_URL);
-        const allTasks = await res.json();
-        Object.values(allTasks).forEach((task) => {
-            const container = document.createElement('div');
-            container.className = 'container';
+const locationInput = document.getElementById('location');
+const dateInput = document.getElementById('date');
+const temperatureInput = document.getElementById('temperature');
 
-            const locationElement = document.createElement('h2');
-            locationElement.textContent = task.location;
+const loadHistoryBtn = document.getElementById('load-history');
+const addWeatherBtn = document.getElementById('add-weather');
+const editWeatherBtn = document.getElementById('edit-weather');
 
-            const dateElement = document.createElement('h3');
-            dateElement.textContent = task.date;
-
-            const temperatureElement = document.createElement('h3');
-            temperatureElement.textContent = task.temperature;
-            temperatureElement.setAttribute('id', 'celsius')
-
-            const buttonsContainer = document.createElement('div'); // Create the new div for buttons
-            buttonsContainer.className = 'buttons-container';
-
-            const changeBtn = document.createElement('button');
-            changeBtn.className = 'change-btn';
-            changeBtn.textContent = 'Change';
-
-            const doneBtn = document.createElement('button');
-            doneBtn.className = 'delete-btn';
-            doneBtn.textContent = 'Done';
-
-            buttonsContainer.appendChild(changeBtn); // Append buttons to the new div
-            buttonsContainer.appendChild(doneBtn);
-
-            container.appendChild(locationElement);
-            container.appendChild(dateElement);
-            container.appendChild(temperatureElement);
-            container.appendChild(buttonsContainer); // Append the new div to the container
-
-            list.appendChild(container);
-        });
-        attachEventListeners();
-    } catch (err) {
-        console.error(err);
-    }
-}
+const weatherList = document.getElementById('list');
 
 function attachEventListeners() {
-    const changeButtons = document.querySelectorAll('.change-btn');
-    const doneButtons = document.querySelectorAll('.delete-btn');
-
-    changeButtons.forEach((changeButton) => {
-        changeButton.addEventListener('click', (event) => {
-            const taskElement = event.target.closest('.container');
-
-            const location = taskElement.querySelector('h2').textContent;
-            const date = taskElement.querySelector('h3:nth-child(2)').textContent;
-            const temperature = taskElement.querySelector('h3:nth-child(3)').textContent;
-            editTask(location, date, temperature);
-            enableEditBtn();
-        });
-    });
-
-
-    doneButtons.forEach((doneButton) => {
-        doneButton.addEventListener('click', (event) => {
-            const taskElement = event.target.closest('.container');
-            const location = taskElement.querySelector('h2').textContent;
-            deleteTask(location);
-        });
-    });
-
+    loadHistoryBtn.addEventListener('click', loadHistoryEventHandler);
+    addWeatherBtn.addEventListener('click', addWeatherEventHandler);
+    editWeatherBtn.addEventListener('click', editWeatherEventHandler);
 }
 
-async function editTask(taskLocation, taskDate, taskTemperature) {
-    selectedTaskId = await getIdByLocation(taskLocation);
-    locationInput.value = taskLocation;
-    dateInput.value = taskDate;
-    temperatureInput.value = taskTemperature;
-}
-
-
-function createTaskEventHandler(ev) {
-    ev.preventDefault();
-    if (locationInput.value !== '' && temperatureInput.value !== '' && dateInput.value !== '') {
-        const headers = {
-            method: 'POST',
-            body: JSON.stringify({
-                location: locationInput.value,
-                temperature: temperatureInput.value,
-                date: dateInput.value,
-            }),
-        };
-
-        fetch(BASE_URL, headers)
-            .then(loadBoardEventHandler)
-            .catch(console.error);
-
-        clearAllInputs();
-    }
-}
-
-function editTaskEventHandler(ev) {
-    ev.preventDefault();
+async function editWeatherEventHandler() {
+    if (currentTaskId === '') return;
 
     const data = {
         location: locationInput.value,
         temperature: temperatureInput.value,
-        date: dateInput.value,
-        _id: selectedTaskId,
-    };
+        date: dateInput.value
+    }
 
-    fetch(endpoints.update(data._id), {
+    await fetch(endpoints.update(currentTaskId), {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data),
-    })
-        .then(() => {
-            clearAllInputs();
-            loadBoardEventHandler();
-            selectedTaskId = null;
-            enableAddBtn();
+        body: JSON.stringify(data)
+    });
+
+    clearFields();
+    await loadHistoryEventHandler();
+    enableAddBtn();
+}
+
+async function addWeatherEventHandler() {
+    let location = locationInput.value;
+    let date = dateInput.value;
+    let temperature = temperatureInput.value;
+
+    if (location === '' || date === '' || temperature === '') {
+        return;
+    }
+
+    await fetch(BASE_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            location: location,
+            temperature: temperature,
+            date: date
         })
-        .catch(console.error);
+    });
+
+    clearFields();
+    await loadHistoryEventHandler();
 }
 
-function deleteTask(taskLoacation) {
-    getIdByLocation(taskLoacation)
-        .then((id) =>
-            fetch(endpoints.delete(id), {
-                method: 'DELETE',
-                headers: { 'Content-Type': 'application/json' },
-            })
-        )
-        .then(() => {
-            clearAllSections();
-            loadBoardEventHandler();
-            selectedTaskId = null;
-            enableAddBtn();
-        })
-        .catch(console.error);
+async function loadHistoryEventHandler() {
+    clearList();
+
+    try {
+        let res = await fetch(BASE_URL);
+        let data = await res.json();
+
+        let entries = Object.entries(data);
+
+        for (const [key, entry] of entries) {
+            let container = document.createElement('div');
+            container.className = 'container';
+
+            container.innerHTML += `
+                                        <h2>${entry.location}</h2>
+                                        <h3>${entry.date}</h3>
+                                        <h3 id="celsius">${entry.temperature}</h3>
+                                        <div id="buttons-container">  
+                                            <button class="change-btn">Change</button>
+                                            <button class="delete-btn">Delete</button>
+                                        </div>`;
+
+            container
+                .querySelector('.change-btn')
+                .addEventListener('click', (event) => changeTask(event, entry._id));
+
+            container
+                .querySelector('.delete-btn')
+                .addEventListener('click', (event) => deleteTask(event, entry._id));
+
+            weatherList.appendChild(container);
+        }
+    } catch (error) {
+        console.error('Error: ', error);
+        throw error;
+    }
 }
 
+function changeTask(event, taskID) {
+    event.preventDefault();
+    enableEditBtn();
 
-function enableEditBtn() {
-    addBtn.disabled = true;
-    editBtn.disabled = false;
+    const task = event.target.parentElement.parentElement;
+    const [location, date, temperature] = Array.from(task.children);
+
+    locationInput.value = location.textContent;
+    dateInput.value = date.textContent;
+    temperatureInput.value = temperature.textContent;
+
+    currentTaskId = taskID;
+
+    task.style.display = 'none'; // !! CAUTION !! TODO
 }
 
-function enableAddBtn() {
-    addBtn.disabled = false;
-    editBtn.disabled = true;
-}
-function clearAllSections() {
-    list.innerHTML = '';
+async function deleteTask(event, taskID) {
+    event.preventDefault();
+
+    await fetch(endpoints.delete(taskID), {
+        method: 'DELETE'
+    });
+
+    await loadHistoryEventHandler();
 }
 
-function clearAllInputs() {
+function clearList() {
+    weatherList.innerHTML = '';
+}
+
+function clearFields() {
     locationInput.value = '';
     temperatureInput.value = '';
     dateInput.value = '';
 }
 
-attachEvents();
+function enableEditBtn() {
+    editWeatherBtn.disabled = false;
+    addWeatherBtn.disabled = true;
+}
+
+function enableAddBtn() {
+    editWeatherBtn.disabled = true;
+    addWeatherBtn.disabled = false;
+}
+
+attachEventListeners();
