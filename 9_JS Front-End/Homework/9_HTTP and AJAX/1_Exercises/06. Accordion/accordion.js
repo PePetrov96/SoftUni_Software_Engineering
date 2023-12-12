@@ -1,86 +1,96 @@
-const BASE_URL = 'http://localhost:3030/jsonstore/advanced/articles';
+const LIST_URL = 'http://localhost:3030/jsonstore/advanced/articles/list';
+const DETAILS_URL = 'http://localhost:3030/jsonstore/advanced/articles/details';
 
-const container = document.getElementById('main');
+const main = document.getElementById('main');
+function solution() {
+    loadEventBoard();
+}
 
-async function solution() {
+async function loadEventBoard() {
     try {
-        const response = await fetch(`${BASE_URL}/list`);
-        const data = await response.json();
+        let res = await fetch(LIST_URL);
+        let data = await res.json();
 
-        for (const article of data) {
-            const articleElement = await createArticle(article); // Await the creation of the article
-            container.appendChild(articleElement);
+        let entries = Object.entries(data);
+
+        for (const [key, entry] of entries) {
+            let mainDiv = document.createElement('div');
+            mainDiv.className = 'accordion';
+
+            let innerDiv1 = document.createElement('div');
+            innerDiv1.className = 'head';
+
+            let span = document.createElement('span');
+            span.innerText = `${entry.title}`;
+            innerDiv1.appendChild(span);
+
+            let button = document.createElement('button');
+            button.innerText = 'More';
+            button.className = 'button';
+            button.id = `${entry._id}`;
+            button.addEventListener('click', event => showMoreBtnEventHandler(event));
+            innerDiv1.appendChild(button);
+
+            let innerDiv2 = document.createElement('div');
+            innerDiv2.className = 'extra';
+
+            let p = document.createElement('p');
+            // p.textContent = await appendDetails(entry._id);
+
+            innerDiv2.appendChild(p);
+
+            mainDiv.appendChild(innerDiv1);
+            mainDiv.appendChild(innerDiv2);
+
+            main.appendChild(mainDiv);
         }
+        await appendDetails();
     } catch (error) {
-        console.error('Error: ', error);
+        console.error('Error:', error);
+        throw error;
     }
 }
 
-async function createArticle(article) {
-    let accordion = document.createElement('div');
-    accordion.className = 'accordion';
+async function appendDetails() {
+        try {
+            let res = await fetch(DETAILS_URL);
+            let data = await res.json();
 
-    let head = document.createElement('div');
-    head.className = 'head';
+            let entries = Object.entries(data);
+            let buttons = document.querySelectorAll('.button');
 
-    let span = document.createElement('span');
-    span.textContent = `${article.title}`;
+            for (const button of buttons) {
+                let buttonId = button.id;
+                let hiddenText = button.parentElement.parentElement.querySelector('.extra p');
 
-    let button = document.createElement('button');
-    button.className = 'button';
-    button.id = `${article._id}`;
-    button.textContent = 'MORE';
-    button.addEventListener('click', () => {
-        showMoreButton(button);
-    });
+                for (const [key, entry] of entries) {
+                    if (entry._id === buttonId) {
+                        hiddenText.textContent = entry.content;
+                    }
+                }
+            }
 
-    head.appendChild(span);
-    head.appendChild(button);
-
-    let extra = document.createElement('div');
-    extra.className = 'extra';
-
-    let p = document.createElement('p');
-    p.textContent = await getDescription(article.title);
-
-    extra.appendChild(p);
-
-    accordion.appendChild(head);
-    accordion.appendChild(extra);
-
-    return accordion;
-}
-
-function showMoreButton(button) {
-    let hiddenFields = button.parentElement.parentElement.querySelector('.extra');
-
-    if (button.textContent === 'MORE') {
-        hiddenFields.style.display = 'block';
-        button.textContent = 'LESS';
-    } else if (button.textContent === 'LESS') {
-        hiddenFields.style.display = 'none';
-        button.textContent = 'MORE';
-    }
-}
-
-function getDescription(article) {
-    return getIdByLocation(article).then(id =>
-    fetch(`${BASE_URL}/details/${id}`))
-        .then(res => res.json())
-        .then(data => {
-            return data.content;
-        })
-        .catch(error => {
+        } catch (error) {
             console.error('Error:', error);
             throw error;
-        });
-
+        }
 }
 
-function getIdByLocation(task) {
-    return fetch(BASE_URL + '/details')
-        .then(res => res.json())
-        .then(res => Object.entries(res).find(e => e[1].title === task)[1]._id);
+async function showMoreBtnEventHandler(event) {
+    let hiddenFields = event.target.parentElement.parentElement.querySelector('.extra');
+    let button = event.target;
+    let text = button.innerText;
+
+    switch (text) {
+        case 'MORE':
+            hiddenFields.style.display = 'block';
+            button.innerText = 'LESS';
+            break;
+        case 'LESS':
+            hiddenFields.style.display = 'none';
+            button.innerText = 'MORE';
+            break;
+    }
 }
 
-window.onload = solution();
+solution();

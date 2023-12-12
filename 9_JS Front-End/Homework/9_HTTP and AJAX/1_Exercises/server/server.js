@@ -71,11 +71,6 @@
 
     function createHandler(plugins, services) {
         return async function handler(req, res) {
-            res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
-            res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
-            res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-
-
             const method = req.method;
             console.info(`<< ${req.method} ${req.url}`);
 
@@ -728,8 +723,6 @@
     /*
      * This service requires storage and auth plugins
      */
-
-
 
     const dataService$1 = new Service_1();
     dataService$1.get(':collection', crud.get);
