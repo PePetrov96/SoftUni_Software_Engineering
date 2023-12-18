@@ -1,7 +1,7 @@
 # JS Front-End
 Judge Contest can be found here: <a href="https://judge.softuni.org/Contests#!/List/ByCategory/380/JS-Front-End-Exercise">JS Front-End</a>
 
-Certificate can be found here: <a href="XXXXXX">JS Front-End Certificate</a>
+Certificate can be found here: <a href="https://softuni.bg/certificates/details/199086/9a35a9ae">JS Front-End Certificate</a>
 
 <br/>
 
