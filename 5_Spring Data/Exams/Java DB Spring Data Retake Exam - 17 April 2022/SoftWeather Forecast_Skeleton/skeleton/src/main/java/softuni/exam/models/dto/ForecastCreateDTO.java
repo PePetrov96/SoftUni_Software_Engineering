@@ -13,7 +13,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import java.time.LocalTime;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -21,7 +21,6 @@ import java.time.LocalTime;
 @XmlRootElement(name = "forecast")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ForecastCreateDTO {
-
     @NotNull
     @XmlElement(name = "day_of_week")
     private DayOfWeek dayOfWeek;
