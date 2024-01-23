@@ -1,49 +1,30 @@
 package springdatalab.models.service;
 
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
+@Getter
+@Setter
+@NoArgsConstructor
 public class ShopServiceModel {
-
-    private String name;
-    private String address;
-    private String town;
-
-    public ShopServiceModel() {
-    }
-
     @NotNull
     @NotEmpty
     @Length(min = 2, message = "Name length must be more than two characters!")
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    private String name;
 
     @NotNull
     @NotEmpty
     @Length(min = 2, message = "Address length must be more than two characters!")
-    public String getAddress() {
-        return address;
-    }
+    private String address;
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
     @NotNull
     @NotEmpty
     @Length(min = 2, message = "Town name length must be more than two characters!")
-    public String getTown() {
-        return town;
-    }
-
-    public void setTown(String town) {
-        this.town = town;
-    }
+    private String town;
 }

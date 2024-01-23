@@ -1,77 +1,37 @@
 package springdatalab.models.entities;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@Getter
+@Setter
+@NoArgsConstructor
 @Entity
 @Table(name = "products")
 public class Product extends BaseEntity{
-
-    private String name;
-    private BigDecimal price;
-    private String description;
-    private LocalDate bestBefore;
-    private Category category;
-    private Set<Shop> shops;
-
-    public Product() {
-    }
-
     @Column(name = "name", nullable = false)
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    private String name;
 
     @Column(name = "price", nullable = false)
-    public BigDecimal getPrice() {
-        return price;
-    }
-
-    public void setPrice(BigDecimal price) {
-        this.price = price;
-    }
+    private BigDecimal price;
 
     @Column(name = "description",  columnDefinition = "TEXT")
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    private String description;
 
     @Column(name = "best_before")
-    public LocalDate getBestBefore() {
-        return bestBefore;
-    }
-
-    public void setBestBefore(LocalDate bestBefore) {
-        this.bestBefore = bestBefore;
-    }
+    private LocalDate bestBefore;
 
     @ManyToOne
-    public Category getCategory() {
-        return category;
-    }
-
-    public void setCategory(Category category) {
-        this.category = category;
-    }
-
+    private Category category;
 
     @ManyToMany(fetch = FetchType.EAGER)
-    public Set<Shop> getShops() {
-        return shops;
-    }
-
-    public void setShops(Set<Shop> shops) {
-        this.shops = shops;
-    }
+    private Set<Shop> shops = new HashSet<>();
 }

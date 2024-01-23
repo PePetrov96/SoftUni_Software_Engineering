@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Camry",
+    "category": "Car",
+    "imageUrl": "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/110233/camry-exterior-right-front-three-quarter-3.jpeg?isig=0&q=80&q=80",
+    "startYear": "2010",
+    "endYear": "2012",
+    "created": "01/01/2013",
+    "modified": "31/12/2014",
+    "brand": "Toyota"
+  },
+  {
+    "name": "RAV4",
+    "category": "Car",
+    "imageUrl": "https://media.ed.edmunds-media.com/toyota/rav4-hybrid/2024/oem/2024_toyota_rav4-hybrid_4dr-suv_se_fq_oem_1_1280.jpg",
+    "startYear": "2005",
+    "endYear": "2008",
+    "created": "01/01/2009",
+    "modified": "31/12/2009",
+    "brand": "Toyota"
+  },
+  {
+    "name": "F-150",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2002",
+    "endYear": "2004",
+    "created": "01/01/2005",
+    "modified": "31/12/2006",
+    "brand": "Ford"
+  },
+  {
+    "name": "Mustang",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2015",
+    "endYear": "2018",
+    "created": "01/01/2019",
+    "modified": "31/12/2019",
+    "brand": "Ford"
+  },
+  {
+    "name": "Ridgeline",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2008",
+    "endYear": "2011",
+    "created": "01/01/2012",
+    "modified": "31/12/2012",
+    "brand": "Honda"
+  },
+  {
+    "name": "CR-V",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2001",
+    "endYear": "2003",
+    "created": "01/01/2004",
+    "modified": "31/12/2005",
+    "brand": "Honda"
+  },
+  {
+    "name": "Altima",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2019",
+    "endYear": "2022",
+    "created": "01/01/2023",
+    "modified": "31/12/2023",
+    "brand": "Nissan"
+  },
+  {
+    "name": "Rogue",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2007",
+    "endYear": "2010",
+    "created": "01/01/2011",
+    "modified": "31/12/2011",
+    "brand": "Nissan"
+  },
+  {
+    "name": "Silverado",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2004",
+    "endYear": "2006",
+    "created": "01/01/2007",
+    "modified": "31/12/2008",
+    "brand": "Chevrolet"
+  },
+  {
+    "name": "Equinox",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2013",
+    "endYear": "2016",
+    "created": "01/01/2017",
+    "modified": "31/12/2017",
+    "brand": "Chevrolet"
+  },
+  {
+    "name": "Sonata",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2006",
+    "endYear": "2009",
+    "created": "01/01/2010",
+    "modified": "31/12/2010",
+    "brand": "Hyundai"
+  },
+  {
+    "name": "Tucson",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2010",
+    "endYear": "2013",
+    "created": "01/01/2014",
+    "modified": "31/12/2015",
+    "brand": "Hyundai"
+  },
+  {
+    "name": "Optima",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2018",
+    "endYear": "2020",
+    "created": "01/01/2021",
+    "modified": "31/12/2021",
+    "brand": "Kia"
+  },
+  {
+    "name": "Sportage",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2002",
+    "endYear": "2005",
+    "created": "01/01/2006",
+    "modified": "31/12/2007",
+    "brand": "Kia"
+  },
+  {
+    "name": "Outback",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2012",
+    "endYear": "2015",
+    "created": "01/01/2016",
+    "modified": "31/12/2016",
+    "brand": "Subaru"
+  },
+  {
+    "name": "Forester",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2014",
+    "endYear": "2017",
+    "created": "01/01/2018",
+    "modified": "31/12/2019",
+    "brand": "Subaru"
+  },
+  {
+    "name": "Fuso",
+    "category": "Truck",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2000",
+    "endYear": "2003",
+    "created": "01/01/2004",
+    "modified": "31/12/2004",
+    "brand": "Mitsubishi"
+  },
+  {
+    "name": "Eclipse Cross",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2016",
+    "endYear": "2019",
+    "created": "01/01/2020",
+    "modified": "31/12/2021",
+    "brand": "Mitsubishi"
+  },
+  {
+    "name": "Hayabusa",
+    "category": "Motorcycle",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2009",
+    "endYear": "2012",
+    "created": "01/01/2013",
+    "modified": "31/12/2014",
+    "brand": "Suzuki"
+  },
+  {
+    "name": "Ninja",
+    "category": "Motorcycle",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2015",
+    "endYear": "2018",
+    "created": "01/01/2019",
+    "modified": "31/12/2019",
+    "brand": "Suzuki"
+  },
+  {
+    "name": "F-PACE",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2008",
+    "endYear": "2011",
+    "created": "01/01/2012",
+    "modified": "31/12/2013",
+    "brand": "Jaguar"
+  },
+  {
+    "name": "XE",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2001",
+    "endYear": "2004",
+    "created": "01/01/2005",
+    "modified": "31/12/2005",
+    "brand": "Jaguar"
+  },
+  {
+    "name": "Range Rover",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2019",
+    "endYear": "2022",
+    "created": "01/01/2023",
+    "modified": "31/12/2024",
+    "brand": "Land Rover"
+  },
+  {
+    "name": "Discovery",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2007",
+    "endYear": "2010",
+    "created": "01/01/2011",
+    "modified": "31/12/2011",
+    "brand": "Land Rover"
+  },
+  {
+    "name": "RX",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2004",
+    "endYear": "2007",
+    "created": "01/01/2008",
+    "modified": "31/12/2009",
+    "brand": "Lexus"
+  },
+  {
+    "name": "ES",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2013",
+    "endYear": "2016",
+    "created": "01/01/2017",
+    "modified": "31/12/2018",
+    "brand": "Lexus"
+  },
+  {
+    "name": "Wrangler",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2006",
+    "endYear": "2009",
+    "created": "01/01/2010",
+    "modified": "31/12/2010",
+    "brand": "Jeep"
+  },
+  {
+    "name": "Grand Cherokee",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2010",
+    "endYear": "2013",
+    "created": "01/01/2014",
+    "modified": "31/12/2015",
+    "brand": "Jeep"
+  },
+  {
+    "name": "A4",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2018",
+    "endYear": "2021",
+    "created": "01/01/2022",
+    "modified": "31/12/2022",
+    "brand": "Audi"
+  },
+  {
+    "name": "Q5",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2002",
+    "endYear": "2005",
+    "created": "01/01/2006",
+    "modified": "31/12/2007",
+    "brand": "Audi"
+  },
+  {
+    "name": "C-Class",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2012",
+    "endYear": "2015",
+    "created": "01/01/2016",
+    "modified": "31/12/2016",
+    "brand": "Mercedes"
+  },
+  {
+    "name": "GLC",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2014",
+    "endYear": "2017",
+    "created": "01/01/2018",
+    "modified": "31/12/2019",
+    "brand": "Mercedes"
+  },
+  {
+    "name": "3 Series",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2000",
+    "endYear": "2003",
+    "created": "01/01/2004",
+    "modified": "31/12/2004",
+    "brand": "BMW"
+  },
+  {
+    "name": "X5",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2016",
+    "endYear": "2019",
+    "created": "01/01/2020",
+    "modified": "31/12/2021",
+    "brand": "BMW"
+  },
+  {
+    "name": "Golf",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2009",
+    "endYear": "2012",
+    "created": "01/01/2013",
+    "modified": "31/12/2014",
+    "brand": "Volkswagen"
+  },
+  {
+    "name": "Tiguan",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2015",
+    "endYear": "2018",
+    "created": "01/01/2019",
+    "modified": "31/12/2019",
+    "brand": "Volkswagen"
+  },
+  {
+    "name": "Corsa",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2008",
+    "endYear": "2011",
+    "created": "01/01/2012",
+    "modified": "31/12/2013",
+    "brand": "Opel"
+  },
+  {
+    "name": "Astra",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2001",
+    "endYear": "2004",
+    "created": "01/01/2005",
+    "modified": "31/12/2005",
+    "brand": "Opel"
+  },
+  {
+    "name": "Uno",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2019",
+    "endYear": "2022",
+    "created": "01/01/2023",
+    "modified": "31/12/2024",
+    "brand": "Fiat"
+  },
+  {
+    "name": "Panda",
+    "category": "Car",
+    "imageUrl": "https://t4.ftcdn.net/jpg/00/89/55/15/360_F_89551596_LdHAZRwz3i4EM4J0NHNHy2hEUYDfXc0j.jpg",
+    "startYear": "2007",
+    "endYear": "2010",
+    "created": "01/01/2011",
+    "modified": "31/12/2011",
+    "brand": "Fiat"
+  }
+]
