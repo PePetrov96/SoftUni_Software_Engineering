@@ -47,36 +47,57 @@ public class ModelServiceImpl implements ModelService {
     }
 
     @Override
-    public void importModels() {
-        ModelDTO[] modelDTOs = this.gson.fromJson(readModelFileContent(), ModelDTO[].class);
+    public boolean isInitialized() {
+        return this.modelRepository.count() > 0;
+    }
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    @Override
+    public void importModels() {
+        if (isInitialized()) {return;}
+
+        ModelDTO[] modelDTOs = this.gson.fromJson(readModelFileContent(), ModelDTO[].class);
 
         for (ModelDTO modelDTO : modelDTOs) {
             boolean isValid = this.validator.isValid(modelDTO);
             Optional<Brand> brand = this.brandRepository.findBrandByName(modelDTO.getBrand());
 
             if (!isValid || brand.isEmpty()) { // if the model is invalid
-                System.out.printf("Model %s is invalid\n", modelDTO.getName());
+                System.out.println(message(1, modelDTO.getName()));
                 continue;
             }
 
             if (this.modelRepository.findModelByName(modelDTO.getName()).isPresent()) { // if the model already exists
-                System.out.printf("Model %s exists!\n", modelDTO.getName());
+                System.out.println(message(2, modelDTO.getName()));
                 continue;
             }
 
-            Model model = this.mapper.map(modelDTO, Model.class);
-            model.setCreated(LocalDateTime.now());
-            model.setModified(LocalDateTime.now());
-            model.setBrand(brand.get());
+
 
             try {
-                this.modelRepository.saveAndFlush(model);
-                System.out.printf("Model %s has been added\n", model.getName());
+                this.modelRepository.saveAndFlush(mapModel(modelDTO, brand.get()));
+                System.out.println(message(3, modelDTO.getName()));
             } catch (Exception e) {
-                System.out.println("Something went wrong! - " + e.getLocalizedMessage());
+                System.out.println(message(4, e.getLocalizedMessage()));
             }
         }
+    }
+
+    private Model mapModel(ModelDTO modelDTO, Brand brand) {
+        Model model = this.mapper.map(modelDTO, Model.class);
+        model.setCreated(LocalDateTime.now());
+        model.setModified(LocalDateTime.now());
+        model.setBrand(brand);
+
+        return model;
+    }
+
+    private String message(int code, String text) {
+        return switch (code) {
+            case 1 -> String.format("Model %s is invalid", text);
+            case 2 -> String.format("Model %s exists!", text);
+            case 3 -> String.format("Model %s has been added", text);
+            case 4 -> String.format("Something went wrong! - " + text);
+            default -> null;
+        };
     }
 }

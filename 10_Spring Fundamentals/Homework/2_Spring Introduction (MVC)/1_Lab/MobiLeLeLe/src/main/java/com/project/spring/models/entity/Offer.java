@@ -40,12 +40,6 @@ public class Offer extends BaseEntity {
     @Column(name = "year", nullable = false)
     private Integer year;
 
-    @Column(name = "created", nullable = false)
-    private LocalDateTime created;
-
-    @Column(name = "modified", nullable = false)
-    private LocalDateTime modified;
-
     @ManyToOne
     @JoinColumn(name = "model_id")
     private Model model;

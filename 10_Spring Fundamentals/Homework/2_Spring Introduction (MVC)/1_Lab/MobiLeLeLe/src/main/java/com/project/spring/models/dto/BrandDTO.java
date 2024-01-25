@@ -21,10 +21,4 @@ public class BrandDTO extends BaseDTO {
     @Expose
     @Size(min = 2, message = "Name must be minimum two characters!")
     private String name;
-
-    @Expose
-    private String created;
-
-    @Expose
-    private String modified;
 }

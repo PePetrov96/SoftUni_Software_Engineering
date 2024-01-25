@@ -35,11 +35,5 @@ public class ModelDTO extends BaseDTO {
     private Integer endYear;
 
     @Expose
-    private String created;
-
-    @Expose
-    private String modified;
-
-    @Expose
     private String brand;
 }

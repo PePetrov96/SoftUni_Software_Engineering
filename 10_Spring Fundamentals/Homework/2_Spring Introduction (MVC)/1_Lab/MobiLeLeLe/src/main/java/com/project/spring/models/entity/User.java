@@ -1,12 +1,11 @@
 package com.project.spring.models.entity;
 
+import com.project.spring.models.entity.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -30,16 +29,10 @@ public class User extends BaseEntity {
     @Column(name = "is_active", nullable = false)
     private boolean isActive;
 
-    @ManyToOne
-    @JoinColumn(name = "role_id")
+    @Enumerated(EnumType.STRING)
+    @Column(name = "role", nullable = false)
     private UserRole role;
 
-    @Column(name = "image_url", nullable = false)
+    @Column(name = "image_url")
     private String imageUrl;
-
-    @Column(name = "created", nullable = false)
-    private LocalDateTime created;
-
-    @Column(name = "modified", nullable = false)
-    private LocalDateTime modified;
 }

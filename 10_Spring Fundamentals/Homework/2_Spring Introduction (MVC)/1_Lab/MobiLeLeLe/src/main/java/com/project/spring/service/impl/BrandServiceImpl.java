@@ -15,7 +15,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 @Service
 public class BrandServiceImpl implements BrandService {
@@ -42,10 +44,16 @@ public class BrandServiceImpl implements BrandService {
     }
 
     @Override
-    public void importBrands() {
-        BrandDTO[] brandDTOs = this.gson.fromJson(readBrandFileContent(), BrandDTO[].class);
+    public boolean isInitializes() {
+        return this.brandRepository.count() > 0;
+    }
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+    @Override
+    public void importBrands() {
+        if (isInitializes()) {return;}
+
+        BrandDTO[] brandDTOs = this.gson.fromJson(readBrandFileContent(), BrandDTO[].class);
 
         for (BrandDTO brandDTO : brandDTOs) {
             boolean isValid = this.validator.isValid(brandDTO);
@@ -60,22 +68,40 @@ public class BrandServiceImpl implements BrandService {
             }
 
             if (this.brandRepository.findBrandByName(brandDTO.getName()).isPresent()) { // if the brand already exists
-                System.out.printf("Brand %s exists!\n", brandDTO.getName());
+                System.out.println(message(1, brandDTO.getName()));
                 continue;
             }
 
-            try { //try creating a brand and save it to the DB
-                Brand brand = this.mapper.map(brandDTO, Brand.class);
-                brand.setCreated(LocalDate.parse(brandDTO.getCreated(), formatter));
-                brand.setModified(LocalDate.parse(brandDTO.getCreated(), formatter));
+            try {
+                this.brandRepository.saveAndFlush(mapBrand(brandDTO));
 
-                this.brandRepository.saveAndFlush(brand);
-
-                System.out.printf("Brand %s has been added\n", brandDTO.getName());
+                System.out.println(message(2, brandDTO.getName()));
 
             } catch (Exception e) {
-                System.out.println("Something went wrong! - " + e.getLocalizedMessage());
+                System.out.println(message(3, e.getLocalizedMessage()));
             }
         }
+    }
+
+    @Override
+    public List<Brand> postBrands() {
+        return this.brandRepository.findAll();
+    }
+
+    private Brand mapBrand(BrandDTO brandDTO) {
+        Brand brand = this.mapper.map(brandDTO, Brand.class);
+        brand.setCreated(LocalDateTime.now());
+        brand.setModified(LocalDateTime.now());
+
+        return brand;
+    }
+
+    private String message(int code, String text) {
+        return switch (code) {
+            case 1 -> String.format("Brand %s exists!", text);
+            case 2 -> String.format("Brand %s has been added", text);
+            case 3 -> String.format("Something went wrong! - " + text);
+            default -> null;
+        };
     }
 }

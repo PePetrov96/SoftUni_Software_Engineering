@@ -1,5 +1,5 @@
 package com.project.spring.models.entity.enums;
 
-public enum UserRoleName {
+public enum UserRole {
     User, Admin
 }

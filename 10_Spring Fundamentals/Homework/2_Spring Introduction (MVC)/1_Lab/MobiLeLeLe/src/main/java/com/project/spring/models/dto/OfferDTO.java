@@ -46,14 +46,6 @@ public class OfferDTO extends BaseDTO{
 
     @NotNull
     @NotEmpty
-    private LocalDateTime created;
-
-    @NotNull
-    @NotEmpty
-    private LocalDateTime modified;
-
-    @NotNull
-    @NotEmpty
     private ModelDTO model;
 
     @NotNull

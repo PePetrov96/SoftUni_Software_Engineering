@@ -32,12 +32,6 @@ public class Model extends BaseEntity {
     @Column(name = "end_year", nullable = false)
     private Integer endYear;
 
-    @Column(name = "created", nullable = false)
-    private LocalDateTime created;
-
-    @Column(name = "modified", nullable = false)
-    private LocalDateTime modified;
-
     @ManyToOne
     @JoinColumn(name = "brand_id")
     private Brand brand;

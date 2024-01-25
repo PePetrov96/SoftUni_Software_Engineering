@@ -1,10 +1,17 @@
-package com.project.spring;
+package com.project.spring.web;
 
 import com.project.spring.service.BrandService;
 import com.project.spring.service.ModelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import java.net.Inet6Address;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.net.SocketException;
+import java.util.Collections;
+import java.util.Enumeration;
 
 @Component
 public class DataInitializer implements CommandLineRunner {
@@ -30,4 +37,5 @@ public class DataInitializer implements CommandLineRunner {
     private void initializeModels() {
         this.modelService.importModels();
     }
+
 }
