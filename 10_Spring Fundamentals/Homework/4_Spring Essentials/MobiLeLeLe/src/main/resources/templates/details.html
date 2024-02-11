@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:insert="~{fragments/head :: site-head}"></head>
+
+<body>
+    <div th:insert="~{fragments/navigation :: site-navigation}"></div>
+
+    <div class="container-fluid">
+        <h2 class="text-center text-white mt-5">Details</h2>
+        <div class="offers row mx-auto d-flex flex-row justify-content-center">
+            <div class="offer card col-sm-2 col-md-3  col-lg-4 m-1 p-0" >
+
+                <div class="card-body pb-1">
+                    <h5 th:text="${offer?.model?.brand?.name + ' ' + offer?.model?.name + ' - ' + offer?.year}"
+                        class="card-title">
+                        Offer year Brand name Model name</h5>
+                </div>
+                <ul class="offer-details list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div th:text="${'Mileage - ' + offer.mileage}"
+                             class="card-text"><span>• Mileage</span></div>
+
+                        <div th:text="${'Price - ' + offer.price}"
+                             class="card-text"><span>• Price</span></div>
+
+                        <div th:text="${'Engine - ' + offer.engine}"
+                             class="card-text"><span>• Engine type</span></div>
+
+                        <div th:text="${'Transmission type - ' + offer.transmission}"
+                             class="card-text"><span>• Transmission type</span></div>
+
+                        <div th:text="${'Offer created - ' + offer.created}"
+                             class="card-text"><span>• Offer created</span></div>
+                        <div th:text="${'Offer modified - ' + offer.modified}"
+                             class="card-text"><span>• Offer modified</span></div>
+
+                        <div th:text="${'Seller - ' + offer.seller.firstName + ' ' + offer.seller.lastName}"
+                             class="card-text"><span>• Seller - First and Last name</span></div>
+                    </li>
+                </ul>
+                <div class="card-body">
+                    <a class="card-link" th:href="@{/offers/update/{id}(id=${offer.id})}">Update</a>
+                    <a class="card-link" th:href="@{/offers/delete/{id}(id=${offer.id})}">Delete</a>
+                </div>
+            </div>
+            <div class="offer card col-sm-2 col-md-3  col-lg-4 m-1 p-0">
+                <img th:src="${offer.imageUrl}" class="card-img-top"  alt="Car image">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <footer></footer>
+    </div>
+</body>
+</html>

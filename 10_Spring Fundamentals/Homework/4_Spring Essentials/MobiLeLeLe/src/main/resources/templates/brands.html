@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+
+<head th:insert="~{fragments/head :: site-head}"></head>
+
+<body>
+    <div th:insert="~{fragments/navigation :: site-navigation}"></div>
+
+    <div class="container">
+        <h2 class="text-center text-white m-3">All Brands</h2>
+
+        <div class='row mb-4 d-flex justify-content-around'>
+            <div th:each="brand : ${brands}"
+                 th:action="@{/brands/all}"
+                 th:method="post"
+                 class="brand-section col-md-5 mr-auto d-flex flex-column">
+
+                <h2>Car brand:
+                    <span th:text="${brand.name}"></span>
+                </h2>
+
+                <div>Models:
+                    <table>
+                        <tr>
+                            <th>No</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Start Year</th>
+                            <th>End Year</th>
+                            <th>Picture</th>
+                        </tr>
+                        <tr th:each="model : ${brand.models}">
+                            <td>No</td>
+                            <td th:text="${model.name}" >Model Name</td>
+                            <td th:text="${model.category}">Model Category</td>
+                            <td th:text="${model.startYear}">Model Start Year</td>
+                            <td th:text="${model.endYear}">Model End Year</td>
+                            <td>
+                                <img alt="image" th:src="${model.imageUrl}" class="img-thumbnail rounded">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <footer>
+
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
