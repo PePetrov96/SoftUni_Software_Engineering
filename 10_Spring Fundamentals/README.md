@@ -5,7 +5,7 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
 
 ---
 
-## <a href="XXXXX">01. Lecture
+## <a href="XXXXX">01. Spring Boot Introduction
 <table>
   <thead>
     <tr>
@@ -15,33 +15,6 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-    </tr>
-  </tbody>
-  <thead>
-    <tr>
-      <th colspan="10" style="text-align:center;">Exercise</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>01.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
       <td><a href="XXXXX">Task</a></td>
     </tr>
   </tbody>
@@ -50,7 +23,7 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
 
 ---
 
-## <a href="XXXXX">02. Lecture
+## <a href="XXXXX">02. Spring Introduction (MVC)
 <table>
   <thead>
     <tr>
@@ -60,33 +33,6 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-    </tr>
-  </tbody>
-  <thead>
-    <tr>
-      <th colspan="10" style="text-align:center;">Exercise</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>01.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
       <td><a href="XXXXX">Task</a></td>
     </tr>
   </tbody>
@@ -95,7 +41,7 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
 
 ---
 
-## <a href="XXXXX">03. Lecture
+## <a href="XXXXX">03. Workshop 1
 <table>
   <thead>
     <tr>
@@ -105,33 +51,6 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
   <tbody>
     <tr>
       <td><b>01.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-    </tr>
-  </tbody>
-  <thead>
-    <tr>
-      <th colspan="10" style="text-align:center;">Exercise</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>01.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
       <td><a href="XXXXX">Task</a></td>
     </tr>
   </tbody>
@@ -140,7 +59,7 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
 
 ---
 
-## <a href="XXXXX">04. Lecture
+## <a href="XXXXX">04. Spring Essentials
 <table>
   <thead>
     <tr>
@@ -151,34 +70,45 @@ Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
     <tr>
       <td><b>01.</b></td>
       <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
-      <td><a href="XXXXX">Task</a></td>
     </tr>
   </tbody>
+</table>
+<br/>
+
+---
+
+## <a href="XXXXX">05. Workshop 2
+<table>
   <thead>
     <tr>
-      <th colspan="10" style="text-align:center;">Exercise</th>
+      <th colspan="10" style="text-align:center;">Lab</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b>01.</b></td>
       <td><a href="XXXXX">Task</a></td>
-      <td><b>02.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>03.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>04.</b></td>
-      <td><a href="XXXXX">Task</a></td>
-      <td><b>05.</b></td>
+    </tr>
+  </tbody>
+</table>
+<br/>
+
+---
+
+## <a href="XXXXX">06. Thymeleaf and Validations
+<table>
+  <thead>
+    <tr>
+      <th colspan="10" style="text-align:center;">Lab</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>01.</b></td>
       <td><a href="XXXXX">Task</a></td>
     </tr>
   </tbody>
 </table>
 <br/>
+
+---
