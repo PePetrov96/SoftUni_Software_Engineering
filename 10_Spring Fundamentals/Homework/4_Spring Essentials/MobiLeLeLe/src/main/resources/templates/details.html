@@ -13,9 +13,11 @@
 
                 <div class="card-body pb-1">
                     <h5 th:text="${offer?.model?.brand?.name + ' ' + offer?.model?.name + ' - ' + offer?.year}"
+
                         class="card-title">
                         Offer year Brand name Model name</h5>
                 </div>
+
                 <ul class="offer-details list-group list-group-flush">
                     <li class="list-group-item">
                         <div th:text="${'Mileage - ' + offer.mileage}"

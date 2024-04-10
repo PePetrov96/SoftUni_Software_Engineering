@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:insert="~{fragments/head :: site-head}">
+
+</head>
+
+<body>
+    <header th:insert="~{fragments/navigation :: site-navigation}"></header>
+
+    <main>
+        <div class="container">
+            <h2 class="text-center text-dark bg-light rounded-circle mt-5">All employees</h2>
+            <hr style="width: 50%"/>
+            <div class='row mb-4 d-flex justify-content-around'>
+
+                    <div th:each="employee : ${employees}"
+                         th:action="@{/employees/all}"
+                         class="col-md-4 d-flex flex-column bg-text mb-3 rounded">
+
+                        <h2 th:text="${'Full name: ' + employee.firstName + ' ' + employee.lastName}">Full name: {firstName} {lastName}</h2>
+                        <h4 th:text="${'Job title: ' + employee.jobTitle}">Job title: {jobTitle}</h4>
+                        <h4 th:text="${'Birth Date: ' + employee.birthdate}">Birth Date: {birthDate}</h4>
+
+                        <h4>
+                            <a class="btn-block" th:href="@{/employees/details/{id}(id=${employee.id})}">Detail info</a>
+                        </h4>
+                    </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container-fluid bg-transparent rounded">
+            <div class="text-white p-2 text-center">&copy; Spring Team 2020. All rights reserved.</div>
+        </div>
+    </footer>
+</body>
+</html>

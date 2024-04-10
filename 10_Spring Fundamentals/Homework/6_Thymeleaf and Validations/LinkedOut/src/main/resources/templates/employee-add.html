@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:insert="~{fragments/head :: site-head}">
+
+</head>
+
+<body>
+    <header th:insert="~{fragments/navigation :: site-navigation}"></header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <main class="jumbotron text-center rounded col-md-12 align-self-center">
+                <div class="justify-content-center">
+                    <h1>Add Employee</h1>
+                </div>
+                <form th:method="post"
+                      th:action="@{/employees/add}"
+                      th:object="${bindingModel}"
+                      class="m-md-auto w-50 text-center">
+
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+
+                        <input th:field="*{firstName}"
+                               th:errorclass="bg-danger"
+                               type="text"
+                               class="form-control text-center"
+                               id="firstName"
+                               aria-describedby="firstName"/>
+
+                        <small th:if="${#fields.hasErrors('firstName')}"
+                               th:errors="*{firstName}"
+                               class="text-danger">
+                            Error message
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+
+                        <input th:field="*{lastName}"
+                               th:errorclass="bg-danger"
+                               type="text"
+                               class="form-control text-center"
+                               id="lastName"
+                               aria-describedby="lastName"/>
+
+                        <small th:if="${#fields.hasErrors('lastName')}"
+                               th:errors="*{lastName}"
+                               class="text-danger">
+                            Error message
+                        </small>
+                    </div>
+
+                    <fieldset class="form-group">
+                        <legend>Choose Education Level</legend>
+                        <div class="form-check" th:field="*{educationLevel}">
+                            <label class="form-check-label">
+                                <input th:value="'Master'"
+                                       th:errorclass="bg-danger"
+                                       type="radio"
+                                       class="form-check-input"
+                                       name="educationLevel"/>
+                                <span>Master</span>
+                            </label>
+                        </div>
+
+                        <div class="form-check disabled">
+                            <label class="form-check-label">
+                                <input th:value="'Bachelor'"
+                                       th:errorclass="bg-danger"
+                                       type="radio"
+                                       class="form-check-input"
+                                       name="educationLevel"/>
+                                <span>Bachelor</span>
+                            </label>
+                        </div>
+
+                        <div class="form-check disabled">
+                            <label class="form-check-label">
+                                <input th:value="'Secondary'"
+                                       th:errorclass="bg-danger"
+                                       type="radio"
+                                       class="form-check-input"
+                                       name="educationLevel" />
+                                <span>Secondary</span>
+                            </label>
+                        </div>
+
+                        <small th:if="${#fields.hasErrors('educationLevel')}"
+                               th:errors="*{educationLevel}"
+                               class="text-danger">
+                            Error message
+                        </small>
+                    </fieldset>
+
+                    <div class="form-group">
+                        <label for="company">
+                            <h5>All available companies</h5>
+                        </label>
+
+                        <select th:field="*{company}"
+                                class="form-control text-center"
+                                id="company"
+                                name="company">
+
+                            <option th:each="company : ${companies}"
+                                    th:value="${company.id}"
+                                    th:text="${company.name}">
+                                Company name
+                            </option>
+                        </select>
+                        <small th:if="${#fields.hasErrors('company')}"
+                               th:errors="*{company}"
+                               class="text-danger">Error message</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jobTitle">Job Title</label>
+
+                        <input th:field="*{jobTitle}"
+                               th:errorclass="bg-danger"
+                               type="text"
+                               class="form-control text-center"
+                               id="jobTitle"
+                               aria-describedby="jobTitle"
+                               name="jobTitle" />
+
+                        <small th:if="${#fields.hasErrors('jobTitle')}"
+                               th:errors="*{jobTitle}"
+                               class="text-danger">
+                            Error message
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="birthdate">Birth Date</label>
+                        <input th:field="*{birthdate}"
+                               th:errorclass="bg-danger"
+                               type="date"
+                               class="form-control text-center"
+                               id="birthdate"
+                               aria-describedby="birthdate"
+                               name="birthdate"/>
+
+                        <small th:if="${#fields.hasErrors('birthdate')}"
+                               th:errors="*{birthdate}"
+                               class="text-danger">
+                            Error message
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="salary">Salary</label>
+
+                        <input th:field="*{salary}"
+                               th:errorclass="bg-danger"
+                               type="number"
+                               min="0"
+                               class="form-control text-center"
+                               id="salary"
+                               aria-describedby="salary"
+                               name="salary"/>
+
+                        <small th:if="${#fields.hasErrors('salary')}"
+                               th:errors="*{salary}"
+                               class="text-danger">
+                            Error message
+                        </small>
+                    </div>
+
+                    <button type="submit" class="btn btn-secondary">Add Employee</button>
+                </form>
+            </main>
+        </div>
+    </div>
+    </body>
+    <footer id="footer">
+        <div class="container-fluid bg-transparent rounded">
+            <div class="text-white p-2 text-center">&copy; Spring Team 2020. All rights reserved.</div>
+        </div>
+    </footer>
+</html>
