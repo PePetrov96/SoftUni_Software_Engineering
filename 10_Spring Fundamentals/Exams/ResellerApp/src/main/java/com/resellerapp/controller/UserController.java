@@ -46,8 +46,7 @@ public class UserController {
     }
 
     @PostMapping("/user/login")
-    public String loginUser(@Valid UserLoginDTO userLoginDTO, BindingResult bindingResult,
-                            HttpSession session) {
+    public String loginUser(@Valid UserLoginDTO userLoginDTO, BindingResult bindingResult, HttpSession session) {
         if (bindingResult.hasErrors()) {
             return "login";
         }
