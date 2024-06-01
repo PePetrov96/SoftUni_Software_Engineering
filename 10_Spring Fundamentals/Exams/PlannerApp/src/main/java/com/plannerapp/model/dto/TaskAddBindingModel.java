@@ -18,7 +18,7 @@ public class TaskAddBindingModel {
     private String description;
 
     @NotNull
-    @FutureDateOnly(message = "Due date must be in the future!")
+    @FutureDateOnly
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dueDate;
 
