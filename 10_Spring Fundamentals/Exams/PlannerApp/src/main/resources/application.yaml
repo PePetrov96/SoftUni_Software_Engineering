@@ -16,6 +16,7 @@ spring:
     username: root
     password: BEEGYxFjQjxV-[Ih
     url: jdbc:mysql://localhost:3306/planner?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true&serverTimezone=UTC
+
 logging:
   level:
     org:
@@ -25,5 +26,6 @@ logging:
         SQL: DEBUG
       nodeValue: WARN
     blog: WARN
+
 server:
   port: 8080
