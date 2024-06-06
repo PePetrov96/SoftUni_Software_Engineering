@@ -1,11 +1,13 @@
 package com.project.spring.models.entity;
 
-import com.project.spring.models.entity.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Setter
@@ -13,7 +15,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Entity
 @Table(name = "users")
-public class User extends BaseEntity {
+public class UserEntity extends BaseEntity {
     @Column(name = "username", nullable = false)
     private String username;
 
@@ -29,10 +31,14 @@ public class User extends BaseEntity {
     @Column(name = "is_active", nullable = false)
     private boolean isActive;
 
-    @Enumerated(EnumType.STRING)
-    @Column(name = "role", nullable = false)
-    private UserRole role;
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "users_roles",
+            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
+    private List<UserRoleEntity> roles = new ArrayList<>();
 
     @Column(name = "image_url")
     private String imageUrl;
+
+
 }
