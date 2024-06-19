@@ -19,7 +19,7 @@ public class SecurityConfiguration {
     public static final String USERS_LOGIN_URL = "/users/login";
     public static final String USERS_LOGOUT_URL = "/users/logout";
     public static final String USERS_REGISTER_URL = "/users/register";
-    public static final String USERS_LOGIN_ERROR_URL = "/users/login";
+    public static final String USERS_LOGIN_ERROR_URL = "/users/login-error";
     public static final String ALL_OFFERS_URL = "/offers/all";
     public static final String ALL_BRANDS_URL = "/brands/all";
     public static final String USERNAME_FIELD = "username";
@@ -35,7 +35,7 @@ public class SecurityConfiguration {
         httpSecurity
                 .authorizeHttpRequests(
                 //Define which URLs are visible by which users
-                authorizeRequest -> authorizeRequest
+                    authorizeRequest -> authorizeRequest
                         // All static resources (js, images, css) are visible to everyone
                         .requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
                         // Index page, Register page, Login page are available to everyone
@@ -57,7 +57,7 @@ public class SecurityConfiguration {
                                     .passwordParameter(PASSWORD_FIELD)
                                     // Redirect to successful and un-successful logins
                                     .defaultSuccessUrl(INDEX_URL)
-                                    .failureUrl(USERS_LOGIN_ERROR_URL);
+                                    .failureForwardUrl(USERS_LOGIN_ERROR_URL);
                         }
                 // LOGOUT logic
                 ).logout(

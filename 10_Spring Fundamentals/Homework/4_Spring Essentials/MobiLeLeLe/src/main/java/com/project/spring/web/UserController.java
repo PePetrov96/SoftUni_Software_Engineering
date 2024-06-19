@@ -23,7 +23,6 @@ public class UserController {
     }
 
     // REGISTER logic below
-
     @GetMapping("/register")
     public String showRegisterForm(Model model) {
         model.addAttribute("userDTO", new UserDTO());
@@ -46,11 +45,18 @@ public class UserController {
     }
 
     // LOG-IN logic below
-
     @GetMapping("/login")
     public String showLoginForm() {
         return "auth-login";
     }
+
+    @PostMapping("/login-error")
+    public String loginError(Model model) {
+        model.addAttribute("loginError", true);
+        return "auth-login";
+    }
+
+    //UNAUTHORIZED page logic below
 
     @GetMapping("/unauthorized")
     public String unauthorized(){

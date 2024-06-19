@@ -1,7 +1,7 @@
-package com.dictionaryapp.validation;
+package com.bonappetit.vallidation;
 
-import jakarta.validation.Constraint;
-import jakarta.validation.Payload;
+import javax.validation.Constraint;
+import javax.validation.Payload;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -9,9 +9,9 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
-@Constraint(validatedBy = PastOrPresentDateValidator.class)
-public @interface PastOrPresentDateOnly {
-    String message() default "The input date must be in the past or present!";
+@Constraint(validatedBy = UniqueUsernameValidator.class)
+public @interface UniqueUsername {
+    String message() default "Username is already taken.";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }
