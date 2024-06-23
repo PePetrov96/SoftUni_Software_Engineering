@@ -1,17 +1,18 @@
 package com.dictionaryapp.validation;
 
-import com.dictionaryapp.model.dto.UserRegisterBindingModel;
+import com.dictionaryapp.model.dto.UserRegisterDTO;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
-public class PasswordMatchesValidator implements ConstraintValidator<PasswordMatches, UserRegisterBindingModel> {
+public class PasswordMatchesValidator implements ConstraintValidator<PasswordMatches, UserRegisterDTO> {
     @Override
     public void initialize(final PasswordMatches constraintAnnotation) {
     }
 
     @Override
-    public boolean isValid(final UserRegisterBindingModel user,
+    public boolean isValid(final UserRegisterDTO user,
                            final ConstraintValidatorContext context) {
+
         // Handle the error here
         if (!user.getPassword().equals(user.getConfirmPassword())) {
             context.disableDefaultConstraintViolation(); // disable the error on the global level.

@@ -1,4 +1,4 @@
-package com.dictionaryapp.validation;
+package com.dictionaryapp.validation.exceptions;
 
 public class IncorrectUsernameOrPasswordException extends RuntimeException {
     public IncorrectUsernameOrPasswordException() {

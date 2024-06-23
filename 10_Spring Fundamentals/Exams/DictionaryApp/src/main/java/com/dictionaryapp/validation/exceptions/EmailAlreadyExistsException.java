@@ -1,4 +1,4 @@
-package com.dictionaryapp.validation;
+package com.dictionaryapp.validation.exceptions;
 
 public class EmailAlreadyExistsException extends RuntimeException {
     public EmailAlreadyExistsException() {
