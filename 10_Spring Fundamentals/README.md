@@ -1,5 +1,5 @@
 # Spring Fundamentals
-Certificate can be found here: <a href="XXXXX">Spring Fundamentals</a>
+Certificate can be found here: <a href="https://softuni.bg/certificates/details/219276/a9c177e5">Spring Fundamentals</a>
 
 <br/>
 
